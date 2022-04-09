@@ -1,2 +1,0 @@
-Dryer: RH16*TN
-Styler: S5MBC/s3*0F

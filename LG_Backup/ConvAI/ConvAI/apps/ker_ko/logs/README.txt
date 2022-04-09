@@ -1,1 +1,0 @@
-folder to save logs of KER server

@@ -1,2 +1,0 @@
-- Copy the "xslt/" folder from the FTP path "/Guest_Share_2021/LGSI_share/20211219_HYBR_P2_2" and keep it here
-- Copy the "com.lge.xslttranformer-0.0.1-SNAPSHOT.jar" from the FTP "/Guest_Share_2021/LGSI_share/20211219_HYBR_P2_2" path and keep it here

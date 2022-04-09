@@ -1,5 +1,0 @@
-textblob
-pandas
-pyopenie
-allennlp==1.0.0
-allennlp-models==1.0.0
