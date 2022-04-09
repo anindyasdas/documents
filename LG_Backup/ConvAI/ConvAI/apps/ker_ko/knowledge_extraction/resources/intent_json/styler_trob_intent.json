@@ -1,0 +1,272 @@
+{
+	"110 v 전원에 연결했나요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"1f": {
+		"prob_value": "1f",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"de": {
+		"prob_value": "de",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"na": {
+		"prob_value": "na",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"nb": {
+		"prob_value": "nb",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"ns": {
+		"prob_value": "ns",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"공유기 비밀번호를 잘못 입력하거나 제품 등록 후 비밀번호가 바뀐 적이 있나요?": {
+		"prob_value": "nb",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"공유기 이름에 5g가 포함되어 있나요?": {
+		"prob_value": "na",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"공유기 이름에 한글이나 특수 문자가 포함되어 있나요?": {
+		"prob_value": "na",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"공유기가 인터넷에 연결되어 있나요?": {
+		"prob_value": "ns",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"공유기의 전원이 꺼져 있거나, 공유기에 너무 많은 제품이 연결되어 있나요?": {
+		"prob_value": "ns",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"급수통에 물이 적거나 급수통이 빠져 있나요?": {
+		"prob_value": "물 보충",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"급수통에 섬유 유연제와 같은 물 이외의 액체를 넣었나요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"급수통을 가득 채우고 한 번 사용했는데 물통에 물이 없어졌어요": {
+		"prob_value": "급수통을 가득 채우고 한 번 사용했는데 물통에 물이 없어졌어요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"누전 차단기가 off로 되어 있나요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"문에 부착된 고무 재질에 찢어진 부분이 있거나, 문 틈에 의류가 끼어있나요?": {
+		"prob_value": "옷이 축축하게 젖어 있어요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"문을 닫고 시작/일시정지 버튼을 눌렀나요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"문이 완전히 닫히지 않은 상태에서 제품이 작동했나요?": {
+		"prob_value": "de",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"물 버림": {
+		"prob_value": "물 버림",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"물 버림에 불이 깜빡거려요": {
+		"prob_value": "물 버림",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"물 보충": {
+		"prob_value": "물 보충",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"물 보충에 불이 깜빡거려요": {
+		"prob_value": "물 보충",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"물을 받거나 끓이고 있는 중인가요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"배수통에 물이 가득 차 있거나 배수통이 빠져 있나요?": {
+		"prob_value": "물 버림",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"버튼 잠금 기능을 설정했나요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"새 제품인가요?": {
+		"prob_value": "옷에서 냄새가 나요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"스타일러를 사용한 지 오래됐거나 급수/배수통에 이물질이 있나요?": {
+		"prob_value": "옷에서 냄새가 나요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"연기가 나와요": {
+		"prob_value": "연기가 나와요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"옷에서 냄새가 나요": {
+		"prob_value": "옷에서 냄새가 나요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"옷이 축축하게 젖어 있어요": {
+		"prob_value": "옷이 축축하게 젖어 있어요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"옷장에 오래 보관된 의류나 찌든 냄새가 나는 물질이 묻은 의류를 사용했나요?": {
+		"prob_value": "옷에서 냄새가 나요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"작동 중 '달그락 달그락' '쿵 쿵' 또는 '탁 탁' 하는 소리가 나나요?": {
+		"prob_value": "작동 중 소리가 나요",
+		"Intent": "HAS_NOISE_PROBLEM",
+		"prob_key": "noise"
+	},
+	"작동 중 '보글보글' 물 끓는 소리와 '쉬~' 하는 소리가 나나요?": {
+		"prob_value": "작동 중 소리가 나요",
+		"Intent": "HAS_NOISE_PROBLEM",
+		"prob_key": "noise"
+	},
+	"작동 중 '우웅~' 하는 소리가 나나요?": {
+		"prob_value": "작동 중 소리가 나요",
+		"Intent": "HAS_NOISE_PROBLEM",
+		"prob_key": "noise"
+	},
+	"작동 중 '윙~' 하는 소리가 나나요?": {
+		"prob_value": "작동 중 소리가 나요",
+		"Intent": "HAS_NOISE_PROBLEM",
+		"prob_key": "noise"
+	},
+	"작동 중 ‘보글보글’ 물 끓는 소리와 ‘쉬~’ 하는 소리가 나나요?": {
+		"prob_value": "작동 중 소리가 나요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"작동 중 물 흐르는 소리가 나나요?": {
+		"prob_value": "작동 중 소리가 나요",
+		"Intent": "HAS_NOISE_PROBLEM",
+		"prob_key": "noise"
+	},
+	"작동 중 소리가 나요": {
+		"prob_value": "작동 중 소리가 나요",
+		"Intent": "HAS_NOISE_PROBLEM",
+		"prob_key": "noise"
+	},
+	"작동 중 소매 부분이 제품에 끼여 있나요?": {
+		"prob_value": "연기가 나와요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"작동 중에 문을 열었나요?": {
+		"prob_value": "연기가 나와요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"작동 초기에 '드르렁' 하는 소리가 나나요?": {
+		"prob_value": "작동 중 소리가 나요",
+		"Intent": "HAS_NOISE_PROBLEM",
+		"prob_key": "noise"
+	},
+	"전원 플러그가 콘센트에서 빠져 있나요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"전원은 커졌는데, 버튼이 반응하지 않나요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"젖은 의류를 넣었나요?": {
+		"prob_value": "제품작동시간이 계속 늘어나요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"제품 wi-fi 아이콘에 불이 켜져 있나요?": {
+		"prob_value": "na",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	},
+	"제품 작동 시간이 계속 늘어나요": {
+		"prob_value": "제품 작동 시간이 계속 늘어나요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"제품을 바닥이 평탄하지 않은 곳에 설치했나요?": {
+		"prob_value": "제품이 좌우로 흔들려요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"제품을 처음 사용했나요?": {
+		"prob_value": "급수통을 가득 채우고 한 번 사용했는데 물통에 물이 없어졌어요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"제품의 전원 버튼을 눌렀나요?": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"제품이 작동하지 않아요": {
+		"prob_value": "제품이 작동하지 않아요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"제품이 좌우로 흔들려요": {
+		"prob_value": "제품이 좌우로 흔들려요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"제품작동시간이 계속 늘어나요": {
+		"prob_value": "제품작동시간이 계속 늘어나요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"필터가 막혀 있나요?": {
+		"prob_value": "옷이 축축하게 젖어 있어요",
+		"Intent": "HAS_PROBLEM",
+		"prob_key": "problem"
+	},
+	"필터가 제자리에 조립되어 있나요?": {
+		"prob_value": "1f",
+		"Intent": "HAS_ERROR_CODE",
+		"prob_key": "error_code"
+	}
+}

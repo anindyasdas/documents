@@ -1,0 +1,14 @@
+{
+  "message": {
+    "generalPurposeCardCarousel": {
+      "layout": {
+        "cardWidth": "MEDIUM_WIDTH"
+      },
+      "content": [
+      ],
+      "messageHeader": "원인은 다음과 같습니다",
+      "messageFooter": "KER LG 매뉴얼 디지털 가이드",
+      "copyAllowed": true
+    }
+  }
+}

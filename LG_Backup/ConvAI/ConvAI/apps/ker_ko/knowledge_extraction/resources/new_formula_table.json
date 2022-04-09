@@ -1,0 +1,89 @@
+{
+  "reference": {
+    "rpm": "rph",
+    "rps": "rph",
+    "centimeter" : "inches",
+    "millimeter" : "inches",
+    "meter" : "inches",
+    "gram" : "kilogram",
+    "pound" : "kilogram",
+    "pascal": "kilopascal",
+    "psi" : "kilopascal",
+    "kg per square centimeter" : "kilopascal",
+    "celsius" : "fahrenheit" ,
+    "liter" : "cubic foot",
+    "cubic foot" : "liter"
+  },
+
+  "invert_op" : {
+    "multiply" : "divide",
+    "add" : "subtract",
+    "divide" : "multiply",
+    "subtract" : "add"
+  },
+
+  "formula": {
+      "rph":{
+            "rpm":{
+			           "value":[60],
+					   "operation":["multiply"]
+			},
+			"rps":{
+			           "value":[3600],
+					   "operation":["multiply"]
+			}
+		},
+      "inches":{
+            "centimeter":{
+			               "value":[2.54],
+						   "operation":["multiply"]
+			},
+			"millimeter":{
+			               "value":[25.4],
+						   "operation":["multiply"]
+			},
+	        "meter": {
+				        "value": [0.0254],
+				        "operation":["multiply"]
+			}
+      },
+      "kilogram":{
+                "gram":{
+				         "value":[1000],
+						 "operation":["multiply"]
+				},
+				"pound":{
+				          "value":[2.205],
+						  "operation":["multiply"]
+				}
+      },"kilopascal":{
+                 "pascal":{
+				           "value":[1000],
+						   "operation":["multiply"]
+				 },
+				 "psi":{
+				          "value":[6.895],
+						  "operation":["divide"]
+				 },
+				 "kg per square centimeter":{
+											"value":[98.066],
+											"operation":["divide"]
+				 }
+      },"fahrenheit": {
+	             "celsius": {
+					      "value":[32,5,9],
+						  "operation":["subtract","multiply","divide"]
+				 }
+      }, "cubic foot": {
+                   "liter": {
+					   "value": [28.317],
+					   "operation": ["multiply"]
+				   },
+	               "cubic inch": {
+					   "value": [1728],
+					   "operation": ["multiply"]
+				   }
+      }
+
+  }
+}

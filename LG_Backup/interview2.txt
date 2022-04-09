@@ -1,0 +1,354 @@
+1) 
+list1 = ['s', 'r', 'a', 's']
+list2 = ['a', 'a', 'n', 'h']
+["".join([i, j]) for i, j in zip(list1, list2)]
+
+or 
+x=map(lambda x,y:x+y, list1, list2))
+ans=list(x)
+
+op : ['sa', 'ra', 'an', 'sh']
+
+2) 
+{(1,2): "a", (5,6): "b", (3,4): "c"}
+sort based on second key
+
+[(1, 'a'), (2,'b'), (3, 'c')]<- iterable of key-value pairs
+dict([(1, 'a'), (2,'b'), (3, 'c')])= {1:'a', 2:'b', 3:'c'}
+The sorted() function sorts the elements of a given iterable in a specific order (ascending or descending)
+ and returns it as a list
+x={(1,2): "a", (5,6): "b", (3,4): "c"}
+sorted(x) --> [(1,2), (3,4), (5,6)]
+sorted(x.items())  -->  [((1, 2), 'a'), ((3, 4), 'c'), ((5, 6), 'b')]
+key (Optional) - A function that serves as a key for the sort comparison.
+sorted(x.items(), key= lambda x_item: x_item[0][1])-->[((1, 2), 'a'), ((3, 4), 'c'), ((5, 6), 'b')]
+dict(sorted(x.items(), key= lambda x_item: x_item[0][1])) -->{(1, 2): 'a', (3, 4): 'c', (5, 6): 'b'}
+
+3) try:
+   except (EnvironmentError, SyntaxError, NameError) as E:
+   except:
+
+4) X = ["01","002","03","04"]    X = ["01","002","03","04.66"]
+   ans:
+   y = list(map(int,X))
+   print(y)
+
+ValueError: invalid literal for int() with base 10: '04.6'
+
+5) Inheritence
+class Dog:
+	def walk(self):
+	        return "*walking*"
+
+	def speak(self):
+		return "Speak"
+	
+class Tommy(Dog)
+:
+	def speak(self):
+		return "tommy speak"
+
+x= Tommy()
+x.walk()
+
+6) s = 'LG soft India'
+   print(s[::2])
+	print(s[::-1])
+	print(s[-1::-1]) #reverse
+
+7) regex
+import re
+
+str = "green@aaa.com yelow@bbb.com brown@ccc.com"
+
+for i in re.finditer('([a-zA-Z]+)@([a-zA-Z]+).(com)', str):
+    print(i.group(2))
+8) Outer Inner
+def outer():
+	def inner(x):
+		return x/2
+	return inner #outer returns a function object
+How to invoke inner function?
+outer()(5)
+
+def exponential(n): #outer function
+	return lambda a: a**n  #returns a function object
+#computer square of 4
+exponential(2)(4) # squarer= exponential(2); squarer(4)
+
+9) 
+k="a b c d e"
+v="1,2,3,4,5"
+d={"a":1, "b":2, "c":3,"d":4,"e":5} 	
+10)
+The special syntax *args in function definitions in python is used to pass a variable number of positional arguments to a function.
+The special syntax **kwargs in function definitions in python is used to pass a variable no of keyword arguments.
+def myFun(arg1, *argv):
+    print ("First argument :", arg1)
+    for arg in argv:
+        print("Next argument through *argv :", arg)
+ 
+myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
+
+def myFun(**kwargs):
+    for key, value in kwargs.items():
+        print ("%s == %s" %(key, value))
+ 
+# Driver code
+myFun(first ='Geeks', mid ='for', last='Geeks')   
+Using *args and **kwargs to call a function
+##############################################
+def myFun(arg1, arg2, arg3):
+    print("arg1:", arg1)
+    print("arg2:", arg2)
+    print("arg3:", arg3)
+     
+# Now we can use *args or **kwargs to
+# pass arguments to this function :
+args = ("Geeks", "for", "Geeks") # args = ["Geeks", "for", "Geeks"]
+myFun(*args)
+ 
+kwargs = {"arg1" : "Geeks", "arg2" : "for", "arg3" : "Geeks"}
+myFun(**kwargs)
+11)
+Immutable vs Mutable object
+There are two types of objects in python i.e. Mutable and Immutable objects. 
+mutable objects can change their state or contents and immutable objects can’t change their state or content.
+These are of in-built types like int, float, bool, string, unicode, tuple.
+tuple1 = (0, 1, 2, 3) 
+tuple1[0] = 4 #Error
+message = "Welcome to GeeksforGeeks"
+message[0] = 'p' #Error
+Mutable Objects : These are of type list, dict, set . The instable of the object( differentiated by obj id) can be changed.
+
+Dictionary key can only be immutable, i.e list, dict, set cant be keys of a dictionary
+
+
+d1={(1,2):"hi", (3,4):"hello"} is it a valid dictionary?
+Yes
+
+12)
+d1={1:"HI"}
+d2={2:"Hello"}
+how to merge dict 2 to dict 1
+d1.update(d2)
+
+for key in d2:
+	d1[key]=d2[key]
+
+13) filter function
+The filter() method filters the given sequence into a filetr object with the help of a function (returns True or False)
+ that tests each element in the sequence to be true or not.
+def check_vowel(alphabet):
+	if alphabet in ['a', 'e', 'i', 'o', 'u']:
+		return True
+	else:
+		return False
+
+sequence = ['g', 'e', 'e', 'j', 'k', 's', 'p', 'r']
+list(filter(check_vowel, sequence))
+
+Often used along with lambda function
+
+Find odd numbers
+nums=[1,4,6,2,7,9]
+odd_nums= filter(lambda num: num%2!=0, nums)
+print(list(odd_nums)
+
+14) map function
+map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
+
+input: [1,2,3,4]
+output[2,4,8,16]
+
+sequence= [1,2,3,4]
+def exponential_two(exponent):
+	return 2**exponent
+
+answer=map(exponential_two, sequence)
+print(list(answer))
+
+Often used along with lambda function
+
+answer = map(lambda exp: 2**exp, sequence)
+# Add two lists using map and lambda
+numbers1 = [1, 2, 3]
+numbers2 = [4, 5, 6]
+ans=map(lambda x,y:x+y, numbers1, numbers2)
+list(ans)
+
+15) lambda function
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.
+a>They are generally used when a function is needed temporarily for a short period of time,
+ often to be used inside another function such as filter, map and reduce.
+b>Using lambda function, you can define a function and call it immediately at the end of definition. This can’t be done with def functions.
+c>Lambda functions reduce the number of lines of code when compared to normal python function defined using def keyword. 
+funct =lambda a : a * 2 # funct is a function objext
+funct(5) #10
+funct=lambda a,b: a+b
+funct(1,2) # 3
+
+16) List Comprehension
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+#find even numbers
+seq=[2,4,7,9,4,3]
+print([item for item in seq if item%2==0])
+ [x for x in range(10) if x < 5]
+['hello' for x in seq]
+#Items in list is True
+[True if item%2==0 else False for item in seq] #ternary with list comprehenshion
+17) Ternary operator in python
+[On True] if expression else [On_False]
+
+a=10, b=15, 
+
+x="A is greater than B " if b>a else "B is greater than A"
+it can be nested as well
+
+17) Exception handling
+try:
+	expression_1
+except:
+	if_exception_occurs_do this
+
+eg.
+a=1;b=0
+try:
+	x=a/b
+except:
+	print("exception")
+
+Specific Exception
+
+try:
+    # statement(s)
+except IndexError:
+    # statement(s)
+except ValueError:
+    # statement(s)
+except:
+    #execute if any other error occurs
+else:
+# execute if no exception
+
+finally:
+    # Some code .....(always executed)
+
+print exception
+try:
+	something
+except Exception as e:
+	logger.exception(e) #print(e)
+
+Raise an error and stop the program if x is lower than 0:
+
+x = -1
+
+if x < 0:
+  raise Exception("Sorry, no numbers below zero")
+
+x = "hello"
+
+if not type(x) is int:
+  raise TypeError("Only integers are allowed")
+17)
+Write a regex to extract indian phone number and email id from text
+text=" My name name is Alex, my phone numbers are +91-1234567890, +49-9876543210, my email id is abc_123@xyz.org, I work at xyz"
+match= re.search("\+91\-\d{10}",text) #text[match.start() :match.end()]
+ph_no=re.findall("\+91\-\d{10}",text)
+email=re.findall("\w+@\w+\.\w+", text)
+
+Match with "F21*DD"
+
+re.serach("^F21[A-Za-z0-9]{1}DD$", text)
+
+18)class MyClass:
+  a = None
+  def __init__(self,a):
+    MyClass.a = a
+  def foo():
+    return print
+  def between(self,a,b):
+    MyClass.foo()(a<self.a<b)
+
+obj1 = MyClass(2)
+MyClass.a
+obj1.between(1,3)
+obj2 = MyClass(0)
+obj1.between(1,3)
+
+19)a = 1,2
+b = 1,2,
+a == b # Output of this
+1,2 == 1,2, # Output of this
+20)4. ---1 == False, ---1 == True # Output
+--1->1
+1==True # True
+0==False= #True
+
+21)Scope resolution in python
+
+#####
+For those appearing for LSET, hope you know to use these. Just a recap, 
+1. "dir", "help" functions to know the function names in a class. Even if they block internet help.
+>dir(str)
+[ 'capitalize', ...., 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>help(str.capitalize)
+    S.capitalize() -> str    
+    Return a capitalized version of S, i.e. make the first character have upper case and the rest lower case.
+
+2. bisect: fast method to search a near by number in sorted list (binary search)
+
+3. dict, defaultdict, counter, set: to search an exact match
+
+4. heapq: fast insert and remove element in sorted order. (priority queue)
+
+5. map: do same operation over a list
+str_numbers = "1 2 3 4"
+int_numbers = map(int, str_numbers.split())  # (1, 2, 3, 4)
+
+6. readline: reads one line at a time
+str_numbers = sys.stdin.readline().rstrip()  # "1 2 3 4\n"
+int_numbers = map(int, str_numbers.split())  # (1, 2, 3, 4)
+
+
+	
+print({ 1} & {1, 3, 2})
+print({ 1} | {1, 3, 2})
+print({ 1,4} ^ {1, 3, 2}) #Symmytric diff/ A.union(B).difference(A.intersection(B))
+
+print({1, 2, 3} - {1, 4})
+
+
+h = lambda a: a*2
+f = [[1,2],[1,3]]
+print([h(i) for i in f])
+[[1,2,1,2],[1,3,1,3]]
+
+
+list_tup = [(1,2),(2,3),(1,1)]
+print(sorted(list_tup, reverse=True))
+#tuple comparison first element, if equal compare second elements and so on
+print(list(max(list_tup)))
+print(list(filter(lambda x: max(x)>1, list_tup)))
+[(1,2),(2,3)]
+
+list_tup = [(1,2),(2,3),(1,1)]
+print(sorted(list_tup, reverse=True))
+print(list(max(list_tup)))
+print(list(filter(lambda x: max(x)>1, list_tup)))
+
+print(list(map(lambda *a: a, (1, 2, 3, 4), 'abc')))
+[(1, 'a'), (2, 'b'), (3, 'c')]
+*a for multiple inputs
+
+sum(interable, initial)
+p = [[10,45],[100,23],[3,2]]
+print(sum(p,[]))
+[10,45,100,23,3,2]+[]=[10,45,100,23,3,2]
+
+
+debugging with vs code
+fetch vs pull
+docker 

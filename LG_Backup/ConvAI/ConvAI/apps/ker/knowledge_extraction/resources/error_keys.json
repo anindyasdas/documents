@@ -1,0 +1,30 @@
+{
+  "error_codes":{
+    "IE": "(\\bie\\b|\\binlet)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "UE": "(\\bue\\b|\\bunbalance)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "dE": "(\\bde\\b|\\bde1|\\bde2|\\bdez|\\bde4|\\bdoor\\s*open|\\blid)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "OE": "(\\boe\\b|\\bwater\\s*outlet)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "tE": "(\\bte\\b|\\btemperature\\s*sensor)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "FE": "(\\bfe\\b|\\boverflow)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "PE": "(\\bpe\\b|\\bpressure\\s*sensor)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "LE": "(\\ble\\b|\\bmotor\\s*locked)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "svd": "(\\bsvd\\b|\\boversudsing\\s*detection)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "PF": "(\\bpf\\b|\\bwater\\s*level\\s*sensor)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "FF": "(\\bff\\b|\\bfrozen)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "CL": "(\\bcl\\b|\\bcontrol\\s*lock\\s*|\\bcontrol\\s*lock\\s*function)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "tcL": "(\\btcL\\b|\\btub\\s*clean\\*|\\btub\\s*clean\\s*alarm)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "E d1": "(\\bed1\\b|\\be\\s*d1|\\bezDispense\\s*1)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "E d2": "(\\bed2\\b|\\be\\s*d2|\\bezDispense\\s*2)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "E d3": "(\\bed3\\b|\\be\\s*d3|\\bezDispense\\s*3)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "E d4": "(\\bed4\\b|\\be\\s*d4|\\bezDispense\\s*4)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "E d5": "(\\bed5\\b|\\be\\s*d5|\\bezDispense\\s*5)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "O PN": "(\\bopn\\b|\\bo\\s*pn|\\bezDispense\\s*open)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "dr": "(\\bdr\\b|\\bdrain\\s*feature)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "dL": "(\\bdl\\b|\\blid\\s*lock\\s*|\\blid\\s*lock\\s*function)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "LE1": "(\\ble1\\b|\\ble\\s*1|\\bforeign\\s*object)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "ub": "(\\bub\\b|\\bunbalance\\s*detection)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "Eb": "(\\beb\\b|\\bclutch)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "v5": "(\\bv5\\b|\\bv\\s*5|\\bvibration\\s*sensor)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*",
+    "dHE": "(\\bdhe\\b|\\bdry)\\s*(|error\\s*code\\b|error\\b|problem\\b)\\w*"
+  }
+}

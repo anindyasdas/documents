@@ -1,0 +1,90 @@
+Create a pod
+kubectl apply -f jupyter-anindya2.yaml
+exec
+kubectl exec -it jupyter-anindya2-7b8999bcff-4828k -- bash
+Run
+kubectl run anindya-shell --rm -it --image nvcr.io/nvidia/pytorch:21.02-py3 -- bash
+#How to delete a pod
+kubectl delete pods pod_name #if restart policy =Always a new pod will be restarted
+To delete forcefully
+kubectl delete -f jupyter-anindya2.yaml
+
+
+To use jupyter and command prompt while mounting the path to container:
+
+1. Create jupyter-anindya.yaml file
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jupyter-anindya2
+  labels:
+    k8s-app: jupyter-anindya2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: jupyter-anindya2
+  template:
+    metadata:
+      labels:
+        k8s-app: jupyter-anindya2
+    spec:
+      containers:
+      - name: jupyter-anindya2-container
+        image: nvcr.io/nvidia/pytorch:21.02-py3 
+        imagePullPolicy: IfNotPresent
+        workingDir: /home01/anindya06.das
+        ports:
+        - containerPort: 8888
+        volumeMounts:
+        - mountPath: /dev/shm
+          name: dshm
+        - mountPath: /home01/anindya06.das
+          name: anindyahome
+        resources:
+          limits:
+            nvidia.com/gpu: 1
+        command: ["jupyter-notebook", "--ip=0.0.0.0",  "--port=8888", "--allow-root"]
+      volumes:
+      - name: dshm
+        emptyDir:
+          medium: Memory
+      - name: anindyahome
+        hostPath:
+        # directory location on host
+          path: /home01/anindya06.das
+          # this field is optional
+          type: Directory
+             
+      restartPolicy: Always   
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    k8s-app: jupyter-anindya2
+  name: jupyter-anindya2
+spec:
+  selector:
+    k8s-app: jupyter-anindya2
+  type: NodePort
+  ports:
+  - port: 8888
+    nodePort: 30997
+
+
+2. change host path, working directory path
+3. kubectl create -f .\jupyter_anindya2.yaml
+4.kubectl exec -it deploy/jupyter-anindya2 -- /bin/bash , to run in shell
+
+kubectl delete pods <podid>
+kubectl describe pod <podname>
+to delete the entire pod
+kubectl delete -f config.yaml
+
+It will reserve GPUs for the user even if the process is not running. so nvidia-smi will show available pods, but reserve pods may not be available
+to see how many pods have been allocated
+go in side pod using exec do an nvidia-smi, it will show allocated gpus
+to come out of the pod use ctrl+d or exit command
+

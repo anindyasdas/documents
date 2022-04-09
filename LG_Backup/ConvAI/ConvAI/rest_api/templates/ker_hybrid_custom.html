@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q&A Test Interface</title>
+</head>
+<style type="text/css">
+	table,th,td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+	  
+	  td {
+		text-align: left;
+	  }
+	  
+	  a {
+		text-decoration:underline;
+		color:blue;
+	  }
+	  a:hover{
+		cursor:pointer;
+	  }
+	  
+	  li{
+		text-align: left;
+	  }
+
+	  p {
+		text-align: left;
+	  }
+</style>
+<script>
+
+
+	var query_response = null;
+	//variable to enable or disable viewing of accuracy
+	var hide_score = true;
+
+	function get_keys(){
+		var xhr = new XMLHttpRequest();
+		var url = "/user_query/";
+		var model_no = validate_get_model_no();
+		var message = document.getElementById("user_input").value;
+		console.log('User question:' + message);
+		var data = JSON.stringify({
+		"request_type": "asking_question",
+		"query": {
+				"model_no" : model_no,
+				"question":message,
+				"selected_option":"",
+				"ker_context": {},
+				"request_id":1
+			}
+		});
+		console.log("json : " + data);
+		xhr.open("POST", url, true);
+		xhr.setRequestHeader("Content-Type", "application/json");
+		xhr.onreadystatechange = function() {
+			if(xhr.readyState == 4 && xhr.status == 200) {
+				console.log('###responseText:' + xhr.responseText);
+				try {} catch(err) {
+					console.log(err.message + " in " + xhr.responseText);
+					return;
+				}
+				var json = this.responseText;
+				query_response = json;
+				if (hide_score)
+					frame_response_based_on_section(json);
+				else
+					frame_response_best_matches(json);
+				modelno_changed = false;
+			} else {
+				console.log('responseText:' + xhr.responseText);
+			}
+		};
+		if (model_no != null){
+			document.getElementById("display").innerHTML = "Processing........";
+			xhr.send(data);
+		} else {
+			alert("Enter model number");
+		}
+	}
+
+	function validate_get_model_no(){
+		var model_no = document.getElementById("user_input_model_no").value;
+
+		if(model_no.trim().length > 0){
+			return model_no.trim().toUpperCase();
+		}
+		return null;
+	}
+
+	function send_satisfied_with_result(question, section, key, approach){
+		console.log("question : "+question+"\n section : "+section+"\nkey : "+key+"\n approach : "+approach);
+		var xhr = new XMLHttpRequest();
+		var model_no = validate_get_model_no();
+		var url = "/user_query/";
+		var message = document.getElementById("user_input").value;
+		console.log('User question:' + message);
+		var data = JSON.stringify({
+		"request_type": "satisfied_with_results",
+		"query": {
+					"model_no" : model_no,
+					"question":question,
+					"selected_option":{
+					 "section":section,
+					 "key" : key,
+					 "approach": approach
+				},
+				"ker_context": {},
+				"request_id":1}
+		});
+		console.log("json : " + data);
+		document.getElementById("display").innerHTML = "Fetching Result........";
+		xhr.open("POST", url, true);
+		xhr.setRequestHeader("Content-Type", "application/json");
+		xhr.onreadystatechange = function() {
+			if(xhr.readyState == 4 && xhr.status == 200) {
+				console.log('###responseText:' + xhr.responseText);
+				try {} catch(err) {
+					console.log(err.message + " in " + xhr.responseText);
+					return;
+				}
+				var json = this.responseText;
+				frame_final_resp_to_iframe(json);					
+				modelno_changed = false;
+			} else {
+				console.log('responseText:' + xhr.responseText);
+			}
+		};
+		xhr.send(data);
+	}
+
+
+	function get_final_response(json_response){
+		json_obj = JSON.parse(json_response);
+
+		if (json_obj.query.response_code == 0){
+			console.log("title : "+json_obj.query.answer.title);
+			var title_html = "<html><h2>"+json_obj.query.answer.title+"</h2></html>";
+			var html_response = json_obj.query.answer.content[0];
+			return title_html+html_response.solution;
+		} else {
+			return json_obj.query.response_message;
+		}
+	}
+	
+	function frame_final_resp_to_iframe(json_response){
+		json_obj = JSON.parse(json_response);
+
+		console.log("json_obj : "+json_obj)
+		if (json_obj.query.response_code == 0){
+			document.getElementById("display").innerHTML = ""
+			console.log("title : "+json_obj.query.answer.title);
+
+			var html_response = ""
+			if (json_obj.query.answer.content.length > 0){
+
+				for(var i = 0; i < json_obj.query.answer.content.length; i++){
+					html_response += json_obj.query.answer.content[i].solution
+				}
+			} else {
+				html_response = json_obj.query.answer.content[0].solution;
+			}
+
+			var iframe = document.createElement('iframe');
+			document.getElementById("display").appendChild(iframe);
+			iframe.width = 1000;
+			iframe.height = 1000;
+			iframe.contentWindow.document.open();
+			iframe.contentWindow.document.write(html_response);
+			iframe.contentWindow.document.close();
+		} else {
+			document.getElementById("display").innerHTML = json_obj.query.response_message;
+		}
+	}
+
+
+	function frame_response_based_on_section(json_response){
+		var table = document.createElement('table');
+		console.log("json_obj : "+json_response);
+		json_obj = JSON.parse(json_response)
+		if (json_obj.query.response_code == 0){
+
+			console.log("json_obj.answer : "+json_obj.query.answer);
+			answer_json_obj = json_obj.query.answer;
+			question = json_obj.query.question;
+			
+			document.getElementById("display").innerHTML = "";
+			
+			//if disabled accuracy viewing hide checkbox to show accuracy sorted keys
+			if (!hide_score)
+				add_checkbox(true);
+			add_checkbox(true);
+			var question_element = document.createElement('p');
+			question_element.innerHTML = "<b>Question :</b>"+document.getElementById("user_input").value;
+			document.getElementById("display").appendChild(question_element);
+
+			var thead = document.createElement('thead');   
+			var tr = document.createElement('tr');   
+			var td1 = document.createElement('td');
+			var td2 = document.createElement('td');
+			var td3 = document.createElement('td');
+			var text1 = document.createTextNode("Key");
+			var text2 = document.createTextNode("Section");
+			var text3 = document.createTextNode("Approach");
+			//var text3 = document.createTextNode("Score");
+			td1.appendChild(text1);
+			td2.appendChild(text2);
+			td3.appendChild(text3);
+			tr.appendChild(td1);
+			tr.appendChild(td2);
+			tr.appendChild(td3);
+			thead.appendChild(tr);
+			table.appendChild(thead);
+
+			for(let section_key in answer_json_obj){
+				for(let key in answer_json_obj[section_key]){
+					let approach = answer_json_obj[section_key][key];
+					console.log("question : "+question+"\n section_key : "+section_key+"\nkey : "+key+"\napproach : "+approach);
+					var tr = document.createElement('tr');   
+					var td1 = document.createElement('td');
+					var td2 = document.createElement('td');
+					var td3 = document.createElement('td');
+					var approach_txt_ele = document.createTextNode(approach);
+					var section_txt_ele = document.createTextNode(section_key);
+					var key_anchor_tag = document.createElement("a");
+					key_anchor_tag.innerHTML = "<p id=\""+key+"_"+section_key+"_"+approach+"\">"+key+"</p>";
+					
+					td1.appendChild(key_anchor_tag);
+					td2.appendChild(section_txt_ele);
+					td3.appendChild(approach_txt_ele);
+					tr.appendChild(td1);
+					tr.appendChild(td2);
+					tr.appendChild(td3);
+					table.appendChild(tr);
+				}
+			}
+			//document.getElementById("display").innerHTML = "";
+			document.getElementById("display").appendChild(table);
+
+			for(let section_key in answer_json_obj){
+				for(let key in answer_json_obj[section_key]){
+					let approach = answer_json_obj[section_key][key];
+					document.getElementById(key+"_"+section_key+"_"+approach).addEventListener("click", function(){ send_satisfied_with_result(question, section_key, key, approach); });
+				}
+			}
+		} else {
+			//Display error response message
+			document.getElementById("display").innerHTML = json_obj.query.response_message;
+		}
+		
+	}
+	
+	function frame_response_best_matches(json_response){
+		html_response = "";
+		var table = document.createElement('table');
+		console.log("json_obj : "+json_response);
+		json_obj = JSON.parse(json_response)
+		if (json_obj.query.response_code == 0){
+			console.log("json_obj.answer : "+json_obj.query.best_matches);
+			best_matches_list = json_obj.query.best_matches;
+			question = json_obj.query.question;
+			
+			document.getElementById("display").innerHTML = "";
+			
+			add_checkbox(false);
+			var question_element = document.createElement('p');
+			question_element.innerHTML = "<b>Question :</b>"+document.getElementById("user_input").value;
+			document.getElementById("display").appendChild(question_element);
+
+			var thead = document.createElement('thead');   
+			var tr = document.createElement('tr');   
+			var td1 = document.createElement('td');
+			var td2 = document.createElement('td');
+			var td3 = document.createElement('td');
+			var td4 = document.createElement('td');
+			var text1 = document.createTextNode("Key");
+			var text2 = document.createTextNode("Section");
+			var text3 = document.createTextNode("Approach");
+			var text4 = document.createTextNode("Score");
+			td1.appendChild(text1);
+			td2.appendChild(text2);
+			td3.appendChild(text3);
+			td4.appendChild(text4);
+			tr.appendChild(td1);
+			tr.appendChild(td2);
+			tr.appendChild(td3);
+			tr.appendChild(td4);
+			thead.appendChild(tr);
+			table.appendChild(thead);
+			for(var i=0; i < best_matches_list.length; i++){
+				var int_json_obj = best_matches_list[i];
+				var tr = document.createElement('tr');   
+				var td1 = document.createElement('td');
+				var td2 = document.createElement('td');
+				var td3 = document.createElement('td');
+				var td4 = document.createElement('td');
+				var approach = document.createTextNode(int_json_obj.approach);
+				var section_element = document.createTextNode(int_json_obj.section);
+				var score = document.createTextNode(int_json_obj.score);
+				var key_anchor_tag = document.createElement("a");
+				key_anchor_tag.innerHTML = "<p id=\""+int_json_obj.key+"_"+int_json_obj.section
+				+"_"+int_json_obj.approach+"\">"+int_json_obj.key+"</p>";
+				td1.appendChild(key_anchor_tag);
+				td2.appendChild(section_element);
+				td3.appendChild(approach);
+				td4.appendChild(score);
+				tr.appendChild(td1);
+				tr.appendChild(td2);
+				tr.appendChild(td3);
+				tr.appendChild(td4);
+				table.appendChild(tr);
+			}
+
+			document.getElementById("display").appendChild(table);
+			
+			for(var i=0; i < best_matches_list.length; i++){
+				let json_obj = best_matches_list[i];
+				let section_key = json_obj.section;
+				let key = json_obj.key;
+				let approach = json_obj.approach;
+				document.getElementById(key+"_"+section_key+"_"+approach).addEventListener("click", function(){ send_satisfied_with_result(question, section_key, key, approach); });
+			}
+		} else {
+			//Display error response message
+			document.getElementById("display").innerHTML = json_obj.query.response_message;
+		}
+	}
+
+	function checkbox_function(){
+		var check_box_element = document.getElementById("check_box_id");
+		
+		if(check_box_element.checked == true){
+			frame_response_based_on_section(query_response);
+		} else {
+			frame_response_best_matches(query_response);
+		}
+	}
+
+	function add_checkbox(check_sts){
+
+		var checkbox = document.createElement('input');
+		checkbox.type = "checkbox";
+		checkbox.name = "name";
+		checkbox.value = "value";
+		checkbox.id = "check_box_id";
+		checkbox.checked = check_sts;
+		//checkbox.onclick = checkbox_function();
+
+		var label = document.createElement('label');
+		label.htmlFor = "id";
+		label.appendChild(document.createTextNode('sort section wise'));
+		document.getElementById("display").appendChild(checkbox);
+		document.getElementById("display").appendChild(label);
+		
+		document.getElementById("check_box_id").addEventListener("click", function(){ checkbox_function();});
+	}
+</script>
+<body style="text-align: center;">
+
+	<h1 style="font-size:150%;color:black;">LGSI India SW Lab - Q&A Test Interface</h1>
+
+
+	<div style="margin-right:100px;margin-left:10px;margin-top:5px;float:left;" style="vertical-align:">
+
+		<form id="form1">
+				<label><font size="4">Enter the Model No:</font></label>
+				<textarea cols="40" id="user_input_model_no" name="message" rows="5" style='width:100px;height:30px;font-size:18px;'> </textarea>
+				<br>
+				<br>																																																		   
+				<label><font size="4">Enter the question</font></label>
+				<br>
+				<br>
+				<textarea cols="40" id="user_input" name="message" rows="5" style='width:600px;height:50px;font-size:18px;'> </textarea>
+				<br>
+				<br>
+				<br> </form>
+		<input name="question" onclick="get_keys()" style="font-family: Arial;height:40px;width:200px;margin-left:250px" type="Submit" value="Ask Question">
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id='display'></div>
+	</div>
+
+</body>
+</html>

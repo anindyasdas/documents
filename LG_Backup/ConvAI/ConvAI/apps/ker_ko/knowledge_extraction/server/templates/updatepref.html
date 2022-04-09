@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+    .split {
+		height: 100%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		overflow-x: hidden;
+		padding-top: 20px;
+	}
+	/* Control the left side */
+
+	.left {
+		left: 0;
+		width: 55%;
+	}
+	/* Control the right side */
+
+	.right {
+		right: 0;
+		width: 45%;
+	}
+</style>
+<script>
+var washing_machine_models = [];
+var refrigerator_models = []
+var ac_models = []
+var vacuum_models = []
+var oven_models = []
+var dishwasher = []
+var models_response = JSON.parse({{ models | tojson }}) ;
+console.log("models_response from flask"+models_response);
+getModels(models_response);
+
+function getModels(responseText) {
+    console.log("##getModels called:"+responseText);
+    console.log("**resp type:"+typeof(responseText));
+    var response = JSON.parse(responseText);
+    console.log("**resp type:"+typeof(response));
+    var resp_code = response["response_code"];
+    console.log("get_models response code "+resp_code);
+    if (resp_code == 200){
+        var resp_data = response["response_data"];
+        washing_machine_models = resp_data["washing machine"];
+        refrigerator_models = resp_data["refrigerator"];
+        ac_models = resp_data["air conditioner"];
+        vacuum_models = resp_data["vacuum cleaner"];
+        oven_models = resp_data["microwave oven"];
+        dishwasher = resp_data["dish washer"];
+        console.log("* washing_machine_models"+washing_machine_models);
+        console.log("* refrigerator_models"+refrigerator_models);
+        console.log("* ac_models"+ac_models);
+        console.log("* vacuum_models"+vacuum_models);
+        console.log("* oven_models"+oven_models);
+        console.log("* dishwasher"+dishwasher);
+    }else{
+       console.log("Resp code is not success")
+    }
+}
+
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+   		var xhr = new XMLHttpRequest();
+		var url = "/update_pref";
+        var prefs_json = {}
+        var products = []
+        var model = []
+        if(document.getElementById('washing_machine_prefs').checked) {
+
+            var e = document.getElementById("type_no_1_model");
+            var value = e.options[e.selectedIndex].value;
+            var text = e.options[e.selectedIndex].text;
+            if(!text){
+                alert("Update failed, Please give some model!!");
+                return 0;
+            }
+            //prefs_json = {"washing machine": text}
+            products.push("washing machine");
+            model.push(String(text))
+        } else if(document.getElementById('dishwasher_prefs').checked) {
+
+            var e = document.getElementById("type_no_1_model");
+            var value = e.options[e.selectedIndex].value;
+            var text = e.options[e.selectedIndex].text;
+            if(!text){
+                alert("Update failed, Please give some model!!");
+                return 0;
+            }
+            //prefs_json = {"washing machine": text}
+            products.push("Dish washer");
+            model.push(String(text))
+        }else {
+
+            //For type _1
+            var key_pref = document.getElementById("type_no_1");
+            var key_pref_value = key_pref.options[key_pref.selectedIndex].value;
+            var key_pref_text = key_pref.options[key_pref.selectedIndex].text;
+            if (key_pref_text){
+                var value_pref = document.getElementById("type_no_1_model");
+                var value = value_pref.options[value_pref.selectedIndex].value;
+                var text = value_pref.options[value_pref.selectedIndex].text;
+                if(!text){
+                    alert("Update failed, Please give some model!!");
+                    return 0;
+                }
+                //prefs_json[key_pref_text] = text;
+                products.push(String(key_pref_text));
+                model.push(String(text))
+            }
+
+            //For type _2
+            var key_pref = document.getElementById("type_no_2");
+            var key_pref_value = key_pref.options[key_pref.selectedIndex].value;
+            var key_pref_text = key_pref.options[key_pref.selectedIndex].text;
+            if (key_pref_text){
+                var value_pref = document.getElementById("type_no_2_model");
+                var value = value_pref.options[value_pref.selectedIndex].value;
+                var text = value_pref.options[value_pref.selectedIndex].text;
+                if(!text){
+                    alert("Update failed, Please give some model!!");
+                    return 0;
+                }
+                //prefs_json[key_pref_text] = text;
+                products.push(String(key_pref_text));
+                model.push(String(text))
+            }
+
+            //For type _3
+            var key_pref = document.getElementById("type_no_3");
+            var key_pref_value = key_pref.options[key_pref.selectedIndex].value;
+            var key_pref_text = key_pref.options[key_pref.selectedIndex].text;
+            if (key_pref_text){
+                var value_pref = document.getElementById("type_no_3_model");
+                var value = value_pref.options[value_pref.selectedIndex].value;
+                var text = value_pref.options[value_pref.selectedIndex].text;
+                if(!text){
+                    alert("Update failed, Please give some model!!");
+                    return 0;
+                }
+                //prefs_json[key_pref_text] = text;
+                products.push(String(key_pref_text));
+                model.push(String(text))
+            }
+
+
+        }
+        prefs_json["Products"] = products;
+        prefs_json["model"] = model;
+
+        console.log(prefs_json);
+		var data = JSON.stringify(prefs_json);
+        console.log(data);
+		xhr.open("POST", url, true);
+		xhr.setRequestHeader("Content-Type", "application/json");
+
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == 4 && xhr.status == 200){
+				console.log('###responseText:' + xhr.responseText);
+				try {
+				} catch(err) {
+						console.log(err.message + " in " + xhr.responseText);
+						return;
+				}
+				var json = this.responseText;
+                document.getElementById("display").innerHTML = json ;
+				getThinQsettngs();
+			}else{
+				console.log('responseText:' + xhr.responseText);
+			}
+		};
+		xhr.send(data);
+
+
+       //document.getElementById("myForm").style.display = "none";
+
+}
+
+function check_refs_radio_btn(value){
+
+   		//To  Update model numbers in update preferences
+		document.getElementById("type_no_1_model").options.length = 0;
+		var type_no_1_elements = document.getElementById("type_no_1_model");
+		document.getElementById("type_no_2_model").options.length = 0;
+		var type_no_2_elements = document.getElementById("type_no_2_model");
+		document.getElementById("type_no_3_model").options.length = 0;
+		var type_no_3_elements = document.getElementById("type_no_3_model");
+
+        document.getElementById("type_no_1").options.length = 0;
+		var type_no_1 = document.getElementById("type_no_1");
+		document.getElementById("type_no_2").options.length = 0;
+		var type_no_2 = document.getElementById("type_no_2");
+		document.getElementById("type_no_3").options.length = 0;
+		var type_no_3 = document.getElementById("type_no_3");
+
+		switch(value){
+			case 1:
+				console.log("Washing machine models");
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_1_elements.add(empty);
+
+			    for(model of washing_machine_models){
+					// Adding them to preferences
+					var option1 = document.createElement("option");
+					option1.text = model;
+					type_no_1_elements.add(option1);
+				}
+				//Remove the other types in update prefs
+                document.getElementById("extra_types").style.display = "none";
+
+                //Add model types in prefs
+               	model_option = document.createElement("option");
+				model_option.text = "washing machine";
+				type_no_1.add(model_option);
+
+				break;
+
+			case 2:
+				console.log("Refrigerator models");
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_1_elements.add(empty);
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_2_elements.add(empty);
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_3_elements.add(empty);
+			    for(model of refrigerator_models){
+					// Adding them to preferences
+					var option1 = document.createElement("option");
+					option1.text = model;
+					type_no_1_elements.add(option1);
+
+					var option2 = document.createElement("option");
+					option2.text = model;
+					type_no_2_elements.add(option2);
+
+					var option3 = document.createElement("option");
+					option3.text = model;
+					type_no_3_elements.add(option3);
+
+				}
+				// Show other types in prefs
+                document.getElementById("extra_types").style.display = "block";
+
+                //Add model types in prefs
+                for(model_type of ["","Dinning refrigerator","hall refrigerator","kitchen refrigerator"]){
+               	model_option1 = document.createElement("option");
+				model_option1.text = model_type;
+				type_no_1.add(model_option1);
+
+				model_option2 = document.createElement("option");
+				model_option2.text = model_type;
+				type_no_2.add(model_option2);
+
+				model_option3 = document.createElement("option");
+				model_option3.text = model_type;
+				type_no_3.add(model_option3);
+				}
+				break;
+			case 3:
+				console.log("air conditioner models");
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_1_elements.add(empty);
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_2_elements.add(empty);
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_3_elements.add(empty);
+			    for(model of ac_models){
+					// Adding them to preferences
+					var option1 = document.createElement("option");
+					option1.text = model;
+					type_no_1_elements.add(option1);
+
+					var option2 = document.createElement("option");
+					option2.text = model;
+					type_no_2_elements.add(option2);
+
+					var option3 = document.createElement("option");
+					option3.text = model;
+					type_no_3_elements.add(option3);
+
+				}
+				// Show other types in prefs
+                document.getElementById("extra_types").style.display = "block";
+
+                //Add model types in prefs
+                for(model_type of ["","Dinning air conditioner","hall air conditioner","kitchen air conditioner"]){
+               	model_option1 = document.createElement("option");
+				model_option1.text = model_type;
+				type_no_1.add(model_option1);
+
+				model_option2 = document.createElement("option");
+				model_option2.text = model_type;
+				type_no_2.add(model_option2);
+
+				model_option3 = document.createElement("option");
+				model_option3.text = model_type;
+				type_no_3.add(model_option3);
+				}
+				break;
+			case 4:
+				console.log("vacuum cleaner models");
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_1_elements.add(empty);
+
+			    for(model of vacuum_models){
+					// Adding them to preferences
+					var option1 = document.createElement("option");
+					option1.text = model;
+					type_no_1_elements.add(option1);
+				}
+				//Remove the other types in update prefs
+                document.getElementById("extra_types").style.display = "none";
+
+                //Add model types in prefs
+               	model_option = document.createElement("option");
+				model_option.text = "vacuum cleaner";
+				type_no_1.add(model_option);
+
+				break;
+			case 5:
+				console.log("oven models");
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_1_elements.add(empty);
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_2_elements.add(empty);
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_3_elements.add(empty);
+			    for(model of oven_models){
+					// Adding them to preferences
+					var option1 = document.createElement("option");
+					option1.text = model;
+					type_no_1_elements.add(option1);
+
+					var option2 = document.createElement("option");
+					option2.text = model;
+					type_no_2_elements.add(option2);
+
+					var option3 = document.createElement("option");
+					option3.text = model;
+					type_no_3_elements.add(option3);
+
+				}
+				// Show other types in prefs
+                document.getElementById("extra_types").style.display = "block";
+
+                //Add model types in prefs
+                for(model_type of ["","Dinning oven","hall oven","kitchen oven"]){
+               	model_option1 = document.createElement("option");
+				model_option1.text = model_type;
+				type_no_1.add(model_option1);
+
+				model_option2 = document.createElement("option");
+				model_option2.text = model_type;
+				type_no_2.add(model_option2);
+
+				model_option3 = document.createElement("option");
+				model_option3.text = model_type;
+				type_no_3.add(model_option3);
+				}
+				break;
+
+			case 6:
+				console.log("dishwasher models");
+				var empty = document.createElement("option");
+				empty.text = "";
+				type_no_1_elements.add(empty);
+
+			    for(model of dishwasher){
+					// Adding them to preferences
+					var option1 = document.createElement("option");
+					option1.text = model;
+					type_no_1_elements.add(option1);
+				}
+				//Remove the other types in update prefs
+                document.getElementById("extra_types").style.display = "none";
+
+                //Add model types in prefs
+               	model_option = document.createElement("option");
+				model_option.text = "dishwasher";
+				type_no_1.add(model_option);
+
+				break;
+        }
+}
+
+
+function getThinQsettings() {
+	console.log('Ask called:');
+	var xhr = new XMLHttpRequest();
+	var url = "/ker_updated_thinq";
+	var data = JSON.stringify({
+		"command": "reset"
+	});
+	console.log("json : " + data);
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.onreadystatechange = function() {
+		if(xhr.readyState == 4 && xhr.status == 200) {
+			console.log('###responseText:' + xhr.responseText);
+			try {} catch(err) {
+				console.log(err.message + " in " + xhr.responseText);
+				return;
+			}
+			var json = this.responseText;
+			document.getElementById("update_pref_display").innerHTML = json;
+		} else {
+			console.log('responseText:' + xhr.responseText);
+		}
+	};
+	xhr.send(data);
+}
+
+function clearThinQsettings() {
+	console.log('Ask called:');
+	var xhr = new XMLHttpRequest();
+	var url = "/ker_clear_thinq";
+	var data = JSON.stringify({
+		"command": "reset"
+	});
+	console.log("json : " + data);
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.onreadystatechange = function() {
+		if(xhr.readyState == 4 && xhr.status == 200) {
+			console.log('###responseText:' + xhr.responseText);
+			try {} catch(err) {
+				console.log(err.message + " in " + xhr.responseText);
+				return;
+			}
+			var json = this.responseText;
+			document.getElementById("update_pref_display").innerHTML = json;
+		} else {
+			console.log('responseText:' + xhr.responseText);
+		}
+	};
+	xhr.send(data);
+}
+
+
+</script>
+<body onload="getThinQsettings()">
+<!-- UPDATE PREFERENCES -->
+<div class="form-popup split left" id="myForm" style="font-family: Arial">
+    <p style="margin-left:10px;width=100%"><font size="5"><b>LGSI India SW Lab - Q&A Test Interface</b> </font></p>
+    <br>
+    <p style="margin-left:10px;width=100%"><font size="3"><b>UPDATE PREFERENCES</b></font></p>
+    <br>
+    <div style="font-family: Arial;">
+        <input id="washing_machine_prefs" name="product_type_refs" onclick="check_refs_radio_btn(1)" type="radio"
+               value="1">
+        <label for="washing_machine_prefs">Washing Machine</label>
+
+        <input id="refrigerator_prefs" name="product_type_refs" onclick="check_refs_radio_btn(2)" required type="radio"
+               value="2">
+        <label for="refrigerator_prefs">Refrigerator</label>
+        <input id="airconditioner_prefs" name="product_type_refs" onclick="check_refs_radio_btn(3)" required type="radio"
+               value="3">
+        <label for="airconditioner_prefs">Air Conditioner</label>
+        <input id="vacuumcleaner_prefs" name="product_type_refs" onclick="check_refs_radio_btn(4)" required type="radio"
+               value="4">
+        <label for="vacuumcleaner_prefs">Vacuum Cleaner</label>
+        <input id="oven_prefs" name="product_type_refs" onclick="check_refs_radio_btn(5)" required type="radio"
+               value="5">
+        <label for="oven_prefs">Microwave Oven</label>
+        <input id="dishwasher_prefs" name="product_type_refs" onclick="check_refs_radio_btn(6)" required type="radio"
+               value="6">
+        <label for="dishwasher_prefs">Dishwasher</label>
+        <br><br><br>
+        <select id="type_no_1" onchange="" style="width: 200px;height:30px;">
+        </select>
+        &nbsp;&nbsp;&nbsp;
+        <select id="type_no_1_model" onchange="" style="width: 200px;height:30px;">
+        </select>
+        <div id="extra_types">
+            <br><br>
+            <select id="type_no_2" onchange="" style="width: 200px;height:30px;">
+            </select>
+            &nbsp;&nbsp;&nbsp;
+            <select id="type_no_2_model" onchange="" style="width: 200px;height:30px;">
+            </select>
+            <br><br><br>
+            <select id="type_no_3" onchange="" style="width: 200px;height:30px;">
+            </select>
+            &nbsp;&nbsp;&nbsp;
+            <select id="type_no_3_model" onchange="" style="width: 200px;height:30px;">
+            </select>
+        </div>
+    </div>
+    <br>
+    <br> <br> <br>
+        <button class="btn cancel" style="font-family: Arial;height:40px;width:200px;margin-left:120px" onclick="closeForm(); getThinQsettings();" type="button">Update</button>
+		<button class="btn cancel" style="font-family: Arial;height:40px;width:200px;margin-left:120px" onclick="closeForm(); clearThinQsettings();" type="button">Reset</button>
+</div>
+<div class="split right">
+   <div class="updated_thinq_settings" id="update_pref_display"></div>
+</div>
+<br>
+<br>
+<p style="color:#000000;font-size:18px;font-family: Arial;"><span id='display'></span></p>
+</body>
+<!-- UPDATE PREFERENCES -->
+
+</body>
+</html>

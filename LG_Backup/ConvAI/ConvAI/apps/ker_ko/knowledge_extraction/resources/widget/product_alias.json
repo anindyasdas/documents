@@ -1,0 +1,15 @@
+{
+  "message": {
+    "generalPurposeCard": {
+      "layout": {
+        "cardOrientation": "VERTICAL"
+      },
+      "content": {
+        "title": "",
+        "description": "별칭을 선택하거나 별칭을 정하세요",
+        "suggestions": [
+        ]
+      }
+    }
+  }
+}

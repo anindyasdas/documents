@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+var category_flag = "L1";
+var category_value = 1;
+var washing_machine_models = ["", "WM4500H*A"];
+var refrigerator_models = ["", "LRFDS3006*", "LRFVS3006*", "LRFVC2406*", "LRFXC2406*", "LRFDS3016*", "LRFXC2416*",
+							"LRFDC2406*", "SRFVC2406*"]
+var product_type = null;
+var prev_modelno = null;
+var modelno_changed = false;
+
+function draw() {
+	console.log('Ask called:');
+	var xhr = new XMLHttpRequest();
+	var url = "/ker";
+	var message = document.getElementById("user_input").value;
+	console.log('User question:' + message);
+	var data = JSON.stringify({
+		"question": message,
+		"model": null,
+		"product_type": null,
+		"ques_topic": 'Specification',
+		"use_info": "1",
+		"question_level": null,
+		"model_change": false
+	});
+	console.log("json : " + data);
+	document.getElementById("display").innerHTML = "Processing........";
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.onreadystatechange = function() {
+		if(xhr.readyState == 4 && xhr.status == 200) {
+			console.log('###responseText:' + xhr.responseText);
+			try {} catch(err) {
+				console.log(err.message + " in " + xhr.responseText);
+				return;
+			}
+			var json = this.responseText;
+			document.getElementById("display").innerHTML = json;
+			modelno_changed = false;
+		} else {
+			console.log('responseText:' + xhr.responseText);
+		}
+	};
+	xhr.send(message);
+}
+
+function getContext() {
+	console.log('Ask called:');
+	var xhr = new XMLHttpRequest();
+	var url = "/get_pref";
+	var data = JSON.stringify({
+		"command": "reset"
+	});
+	console.log("json : " + data);
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.onreadystatechange = function() {
+		if(xhr.readyState == 4 && xhr.status == 200) {
+			console.log('###responseText:' + xhr.responseText);
+			try {} catch(err) {
+				console.log(err.message + " in " + xhr.responseText);
+				return;
+			}
+			var json = this.responseText;
+			document.getElementById("context_display").innerHTML = json;
+		} else {
+			console.log('responseText:' + xhr.responseText);
+		}
+	};
+	xhr.send(data);
+}
+
+function reset_preferences() {
+	console.log('Ask called:');
+	var xhr = new XMLHttpRequest();
+	var url = "/reset_pref";
+	var data = JSON.stringify({
+		"command": "reset"
+	});
+	console.log("json : " + data);
+	document.getElementById("display").innerHTML = "<p>Processing........</p>";
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.onreadystatechange = function() {
+		if(xhr.readyState == 4 && xhr.status == 200) {
+			console.log('###responseText:' + xhr.responseText);
+			try {} catch(err) {
+				console.log(err.message + " in " + xhr.responseText);
+				return;
+			}
+			var json = this.responseText;
+			document.getElementById("display").innerHTML = json;
+			// Call the get context to show the preferences
+			getContext();
+		} else {
+			console.log('responseText:' + xhr.responseText);
+		}
+	};
+	xhr.send(data);
+}
+
+
+
+function validate_flags() {
+	console.log("validating checkbox")
+	var info_extract_flag = document.getElementById('L1').checked;
+	var txt_similarity_flag = document.getElementById('L2').checked;
+	console.log("validating checkbox : " + info_extract_flag + " : " + txt_similarity_flag);
+	if(info_extract_flag | txt_similarity_flag) {
+		if(info_extract_flag) {
+			return document.getElementById('info_extract').value;
+		} else if(txt_similarity_flag) {
+			return document.getElementById('txt_similarity').value;
+		} else {
+			return 0;
+		}
+	} else if((info_extract_flag == false) && (txt_similarity_flag == false)) {
+		return 0;
+	} else {}
+}
+
+function inflate_options(category, product_value) {
+	console.log("inflate_options : " + category);
+	var select_element = document.getElementById("question_dropmenu");
+
+	// Adding the questions all at once (For Updated Demo)
+	var opt_option = document.createElement("optgroup");
+	opt_option.label = "Washing Machine";
+	select_element.add(opt_option);
+        console.log("Washer questions");
+        console.log("TS L2 questions");
+        for(question of q_washer) {
+            var option = document.createElement("option");
+            option.text = question;
+            opt_option.appendChild(option);
+        }
+}
+
+
+function modelno_changealert() {
+	var model_no = document.getElementById('select_model_no').value;
+	if(prev_modelno == null) {
+		console.log("prev_modelno is null");
+	} else {
+		console.log("prev_modelno not null/empty" + prev_modelno);
+		if(prev_modelno != model_no) {
+			modelno_changed = true;
+			console.log("prev_modelno" + prev_modelno);
+			//alert("Model no has changed");
+			prev_modelno = model_no;
+			console.log("modelno_changed " + modelno_changed);
+			return false;
+		}
+	}
+	console.log("modelno_changed " + modelno_changed);
+	prev_modelno = model_no;
+}
+
+</script>
+
+<body style="font-family: Arial;" onload="inflate_options(1,1);">
+	<style type="text/css">
+	.blink_me {
+		animation: blinker 1s linear infinite;
+	}
+
+	@keyframes blinker {
+		50% {
+			opacity: 0;
+		}
+	}
+
+	select {
+		width: 600px;
+		height: 30px;
+		padding: 5px 5px;
+		font-size: 12px;
+	}
+	/* Split the screen in half */
+
+	.split {
+		height: 100%;	
+		z-index: 1;
+		top: 0;
+		overflow-x: hidden;
+		padding-top: 20px;
+	}
+	/* Control the left side */
+
+	.left {
+		left: 0;
+		width: 55%;
+	}
+	/* Control the right side */
+
+	.right {
+		right: 0;
+		width: 35%;
+	}
+	</style>
+	<br>
+	<p style="margin-left:10px;width=100%"><font size="5"><b>LGSI India SW Lab - Q&A Test Interface </b></font></p>
+	<div style="margin-right:100px;margin-left:10px;margin-top:1px;float:left;" style="vertical-align: baseline;">
+    <form id="uploadfile" enctype="multipart/form-data" method="post" action="/file_input">
+        <label><font  size="4">To Support multiple Q&A,Select file to upload:</font></label>
+        <input type="file" name="myFile" id="myFile" style="height:30px" accept=".csv,.xlsx"/>
+        <input type="submit" value="Upload File" name="submit" style="height:30px"/>
+    </form>
+
+	<br><br>
+    {% if filename %}
+	<label style="text-align:center;"><font  size="4">You can download the tested file here: </font></label>
+    <a style="text-align:center;" href="{{ url_for('.download_file') }}" class="blink_me"  onClick=style=""><font size="5"><b> {{filename}}</b></font></a>
+	<br><br><br>
+    {% endif %}
+	</div >
+	<br>
+	<br> </body>
+
+</html>

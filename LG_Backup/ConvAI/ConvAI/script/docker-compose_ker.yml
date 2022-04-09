@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  neo4j_ker:
+    image: neo4j:4.1.1
+    hostname: neo4j_ker
+    container_name: neo4j_ker
+    restart: always
+    ports:
+      - "8042:7474"
+      - "7682:7687"
+    volumes:
+      - ./neo4j/data:/data
+      - ./neo4j/plugins:/plugins
+      - ./neo4j/logs:/logs
+      - .:/knowledge-management-system/
+      - log:/knowledge-management-system/log
+
+    environment:
+      NEO4J_AUTH: neo4j/test
+      NEO4J_dbms_logs_debug_level: DEBUG
+      NEO4J_dbms_security_auth__enabled: "false"
+      NEO4J_dbms_security_allow__csv__import__from__file__urls: "true"
+      NEO4J_dbms_directories_import: /
+      NEO4J_dbms_tx__log_preallocate: "false"
+      NEO4J_dbms_tx__log_rotation_retention__policy: "false"
+    extra_hosts:
+      host.docker.internal: 172.17.0.1
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:7474/ || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+
+  kms_ker:
+    image: kms_ker
+    hostname: kms_ker
+    container_name: kms_ker
+    ports:
+      - "8082:8082"
+      - "8007:8007"
+    build:
+      context: .
+      dockerfile: Dockerfile_ker
+    volumes:
+      - .:/knowledge-management-system
+    extra_hosts:
+      host.docker.internal: 172.17.0.1
+    depends_on:
+      - neo4j_ker
+    links:
+      - neo4j_ker
+
+volumes:
+  log: {}
+

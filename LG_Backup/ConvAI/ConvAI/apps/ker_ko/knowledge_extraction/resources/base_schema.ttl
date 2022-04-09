@@ -1,0 +1,519 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.com/#> .
+
+ex:Model
+    rdf:type rdfs:Class ;
+	rdfs:comment "Class for Model" ;
+	rdfs:label "Model" .
+
+# For the component Charger Adaptor (Used in Vacuum Cleaner)
+ex:ChargerAdaptor
+    rdf:type rdfs:Class ;
+	rdfs:comment "Class for Charger Adaptor" ;
+	rdfs:label "ChargerAdaptor".
+
+ex:Product
+    rdf:type rdfs:Class ;
+	rdfs:comment "Class for Product" ;
+	rdfs:label "Product" ;
+	ex:prop "sub_product_type".
+
+ex:PartNumber
+    rdf:type rdfs:Class ;
+	rdfs:comment "Class for PartNumber" ;
+	rdfs:label "PartNumber" .
+
+ex:Value
+	rdf:type rdfs:Class ;
+	rdfs:comment "The class for Value." ;
+	rdfs:label "Value" .
+
+ex:Range
+	rdf:type rdfs:Class ;
+	rdfs:comment "The class for Range." ;
+	rdfs:label "Range" ;
+	ex:prop "min";
+	ex:prop "max";
+	ex:prop "unit".
+
+# properties 
+ex:prop
+	rdf:type rdfs:literal ;
+	rdfs:label "property" ;
+	rdfs:comment "Property for Nodes and relationships".
+
+# class
+ex:Dimension
+	rdf:type rdfs:Class ;
+	rdfs:comment "The class for Value." ;
+	rdfs:label "Dimensions" ;
+	ex:prop "height";
+	ex:prop "width";
+	ex:prop "depth";
+	ex:prop "height_lidopen";
+	ex:prop "depth_dooropen";
+	ex:prop "unit".
+
+ex:Weight
+	rdf:type rdfs:Class ;
+	rdfs:comment "The class for Range." ;
+	rdfs:label "Range" ;
+	ex:prop "weight";
+	ex:prop "unit".
+
+ex:Capacity
+	rdf:type rdfs:Class ;
+	rdfs:comment "The class for Range." ;
+	rdfs:label "Range" ;
+	ex:prop "drylinen_capacity";
+	ex:prop "washer";
+	ex:prop "dryer";
+	ex:prop "unit".
+
+# relationship
+ex:RelTypeOf
+	rdf:type rdf:Property ;
+	rdfs:label "TypeOf" ;
+	rdfs:comment "RelTypeOf" ;
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:Product.
+
+ex:HAS_PART_NUMBER
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_PART_NUMBER" ;
+	rdfs:comment "The part number for a model number.";
+	rdfs:domain ex:Model;
+	rdfs:range ex:PartNumber.
+
+ex:RelDimension
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_DIMENSION" ;
+	rdfs:comment "The Dimension of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Dimension;
+	ex:prop "part_number".
+
+ex:RelOvenCavityDimension
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_OVEN_CAVITY_DIMENSION" ;
+	rdfs:comment "The Oven Cavity Dimension of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Dimension;
+	ex:prop "part_number".
+
+ex:RelWaterPressure
+	rdf:type rdf:Property ;
+	rdfs:label "REQUIRED_WATER_PRESSURE" ;
+	rdfs:comment "Required Water pressure of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Range;
+	ex:prop "part_number".
+
+ex:RelTemperature
+	rdf:type rdf:Property ;
+	rdfs:label "REQUIRED_TEMPERATURE" ;
+	rdfs:comment "Required Water temperature of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Range;
+	ex:prop "part_number".
+
+ex:RelWeight
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_WEIGHT" ;
+	rdfs:comment "Net weight of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Weight;
+	ex:prop "part_number".
+
+ex:RelSpinSpeed
+	rdf:type rdf:Property ;
+	rdfs:label "MAX_SPIN_SPEED" ;
+	rdfs:comment "Max spin speed of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Range;
+	ex:prop "part_number".
+
+# Gas Requirements
+ex:RelGasRequirements
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_GAS_REQUIREMENTS" ;
+	rdfs:comment "Gas Requirements of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Range;
+	ex:prop "gas_type";
+	ex:prop "part_number".
+
+ex:RelCapacity
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_CAPACITY" ;
+	rdfs:comment "The capacity of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Capacity;
+	ex:prop "part_number".
+
+ex:RelPower
+	rdf:type rdf:Property ;
+	rdfs:label "MAX_POWER" ;
+	rdfs:comment "Max Power of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Value;
+	ex:prop "part_number".
+
+ex:RelDescription
+	rdf:type rdf:Property ;
+	rdfs:label "DESCRIBED_AS" ;
+	rdfs:comment "The description of a given model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Value;
+	ex:prop "part_number".
+
+ex:RelVoltage
+	rdf:type rdf:Property ;
+	rdfs:label "REQUIRED_VOLTAGE" ;
+	rdfs:comment "Required voltage of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Value;
+	ex:prop "part_number".
+
+ex:RelCurrent
+	rdf:type rdf:Property ;
+	rdfs:label "REQUIRED_CURRENT" ;
+	rdfs:comment "Required current of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Value;
+	ex:prop "part_number".
+
+ex:RelOutput
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_OUTPUT_VOLTAGE" ;
+	rdfs:comment "Output voltage of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Value;
+	ex:prop "part_number".
+
+ex:RelFrequency
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_FREQUENCY";
+	rdfs:comment "Frequency of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Value;
+	ex:prop "part_number".
+
+# Power Consumption (Used in Vacuum Cleaner)
+# Has property mode which can take values "Turbo" or "Power" or "Normal"
+ex:RelPowerConsumption
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_POWER_CONSUMPTION" ;
+	rdfs:comment "Power consumption of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Range;
+	ex:prop "mode";
+	ex:prop "part_number".
+
+# Battery Run Time (Used in Vacuum Cleaner)
+# Has three properties no_of_batteries, usage and mode
+ex:RelBatteryRunTime
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_BATTERY_RUNTIME" ;
+	rdfs:comment "Battery Run Time of a model." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Value;
+	ex:prop "no_of_batteries";
+	ex:prop "usage";
+	ex:prop "mode";
+	ex:prop "part_number".
+
+# Component Charger Adaptor
+ex:RelHasComponent
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_COMPONENT" ;
+	rdfs:comment "Model has a component." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:ChargerAdaptor;
+	ex:prop "part_number".
+
+# To Handle data which are not explicitly handled as a part of RDF
+ex:RelHasSpecification
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_SPECIFICATION" ;
+	rdfs:comment "Relation to capture unknown properties." ;
+	rdfs:domain ex:Model;
+	rdfs:range ex:Value;
+    ex:prop "relation_name";
+    ex:prop "part_number".
+
+
+# TROUBLESHOOTING -----------------
+ex:Cause
+	rdf:type rdf:Class ;
+	rdfs:label "Cause" ;
+	rdfs:comment "Class for Cause." ;
+	ex:prop "entity";
+	ex:prop "predicate";
+	ex:prop "cause";
+	ex:prop "temporal";
+	ex:prop "purpose".
+
+ex:Solution
+	rdf:type rdf:Class ;
+	rdfs:label "Solution" ;
+        rdfs:comment "Class for Solution." .
+
+ex:HAS_ERROR_CODE
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_ERROR_CODE" ;
+	rdfs:comment "Errors of washing machine." ;
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:Cause;
+	ex:prop "error_code";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	ex:issue_type "issue_type".
+
+ex:HAS_NOISE_PROBLEM
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_NOISE_PROBLEM" ;
+	rdfs:comment "Noises of washing machine." ;
+        rdfs:domain ex:PartNumber;
+	rdfs:range ex:Cause;
+	ex:prop "noise";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	ex:issue_type "issue_type".
+
+ex:HAS_SOLUTION
+	rdf:type rdf:Property ;
+        rdfs:label "HAS_SOLUTION" ;
+	rdfs:comment "Relationship between cause and solutions.";
+	rdfs:domain ex:Cause;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	rdfs:range ex:Solution.
+
+ex:HAS_PROBLEM
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_PROBLEM" ;
+	rdfs:comment "Relationship between cause and solutions.";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:Cause;
+	ex:prop "problem";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	ex:issue_type "issue_type".
+
+ex:HAS_TROUBLESHOOTING_PROBLEM
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_TROUBLESHOOTING_PROBLEM" ;
+	rdfs:comment "Relationship between cause and solutions.";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:Cause;
+	ex:prop "problem";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	ex:issue_type "issue_type".
+	
+ex:HAS_COOLING_PROBLEM
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_COOLING_PROBLEM" ;
+	rdfs:comment "Relationship for cooling problem - cause and solutions.";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:Cause;
+	ex:prop "problem";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	ex:issue_type "issue_type".
+	
+ex:HAS_ICE_PROBLEM
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_ICE_PROBLEM" ;
+	rdfs:comment "Relationship for ice problem - cause and solutions.";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:Cause;
+	ex:prop "problem";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	ex:issue_type "issue_type".
+
+ex:HAS_WIFI_PROBLEM
+	rdf:type rdf:Property ;
+	rdfs:label "HAS_WIFI_PROBLEM" ;
+	rdfs:comment "Relationship for WiFi problem - cause and solutions.";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:Cause;
+	ex:prop "problem";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	ex:issue_type "issue_type".
+
+ex:Question
+	rdf:type rdf:Class ;
+	rdfs:label "Question" ;
+    rdfs:comment "Class for Question.".
+
+ex:HAS_QUESTION
+        rdf:type rdf:Property ;
+	rdfs:label "HAS_QUESTION" ;
+	rdfs:comment "Relationship between question and solution.";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:Question;
+	ex:issue_type "issue_type".
+
+ex:HAS_ANSWER
+        rdf:type rdf:Property ;
+	rdfs:label "HAS_ANSWER" ;
+	rdfs:comment "Relationship between question and answer.";
+	rdfs:domain ex:Question;
+	rdfs:range ex:Solution.
+
+# To handle Diagnosing a fault in troubleshooting
+
+ex:DiagnoseFault
+	rdf:type rdf:Class ;
+	rdfs:label "DiagnoseFault" ;
+	ex:prop "desc";
+    rdfs:comment "Class for Diagnosing a Fault." .
+
+ex:DIAGNOSE_WITH_LG_THINQ
+	rdf:type rdf:Property ;
+	rdfs:label "DIAGNOSE_WITH_LG_THINQ" ;
+	rdfs:comment "Relationship for Diagnosing faults with LG ThinQ";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:DiagnoseFault;
+	ex:issue_type "issue_type";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+ex:DIAGNOSE_WITH_BEEP
+	rdf:type rdf:Property ;
+	rdfs:label "DIAGNOSE_WITH_BEEP" ;
+	rdfs:comment "Relationship for Diagnosing a fault with a beep";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:DiagnoseFault;
+	ex:issue_type "issue_type";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+ex:DIAGNOSE_WITH_WIFI
+	rdf:type rdf:Property ;
+	rdfs:label "DIAGNOSE_WITH_WIFI" ;
+	rdfs:comment "Relationship for Diagnosing a fault with a WiFi";
+	rdfs:domain ex:PartNumber;
+	rdfs:range ex:DiagnoseFault;
+	ex:issue_type "issue_type";
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+# OPERATION SECTION
+## To Support Caution and Notes - Relationships
+# Part Number will be included in all the relationships for deletion and uni
+
+ex:HAS_CAUTION
+    rdf:type rdf:Property ;
+	rdfs:label "HAS_CAUTION" ;
+	rdfs:comment "Caution statements.";
+	rdfs:domain ex:Value, ex:OperationSection, ex:OperationSubSection, ex:Feature, ex:Procedure;
+	rdfs:range ex:Value;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+ex:HAS_NOTE
+    rdf:type rdf:Property ;
+	rdfs:label "HAS_NOTE";
+	rdfs:comment "Note statements.";
+	rdfs:domain ex:Value, ex:OperationSection, ex:OperationSubSection, ex:Feature, ex:Procedure;
+	rdfs:range ex:Value;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+ex:HAS_WARNING
+    rdf:type rdf:Property ;
+	rdfs:label "HAS_WARNING";
+	rdfs:comment "Warning statements.";
+	rdfs:domain ex:Value, ex:OperationSection, ex:OperationSubSection, ex:Feature, ex:Procedure;
+	rdfs:range ex:Value;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+# This will be a generic feature for Operation Sections
+
+ex:Feature
+	rdf:type rdf:Class ;
+	rdfs:label "Feature" ;
+	rdfs:comment "Feature for Operation Section";
+	ex:prop "desc".
+
+ex:HAS_FEATURE
+    rdf:type rdf:Property ;
+	rdfs:label "HAS_FEATURE" ;
+	rdfs:comment "A feature of a model.";
+	rdfs:domain ex:Model, ex:OperationSection, ex:OperationSubSection;
+	rdfs:range ex:Feature;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+# Procedure to support procedures
+ex:Procedure
+	rdf:type rdf:Class ;
+	rdfs:label "Procedure" ;
+	rdfs:comment "Node to store the procedure information of a component";
+	ex:prop "desc";
+	ex:prop "step_no".
+
+ex:HAS_PROCEDURE
+    rdf:type rdf:Property ;
+	rdfs:label "HAS_PROCEDURE" ;
+	rdfs:comment "Procedure information for a Usage node (Procedure Steps).";
+	rdfs:domain ex:OperationSection, ex:OperationSubSection, ex:DiagnoseFault;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number";
+	rdfs:range ex:Procedure.
+
+# To Handle Images
+ex:Image
+	rdf:type rdf:Class ;
+	rdfs:label "Image" ;
+	rdfs:comment "Node to store the information of an image";
+	ex:prop "file_path";
+	ex:prop "size";
+	ex:prop "file_type".
+
+ex:HAS_IMAGE
+    rdf:type rdf:Property ;
+	rdfs:label "HAS_IMAGE" ;
+	rdfs:comment "Relationship for the image.";
+	rdfs:domain ex:Value,ex:OperationSection, ex:OperationSubSection, ex:Feature, ex:Procedure;
+	rdfs:range ex:Image;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+# New Data model for Operation
+ex:OperationSection
+	rdf:type rdf:Class ;
+	rdfs:label "OperationSection" ;
+	rdfs:comment "Node to store the Operation Section information";
+	ex:prop "desc".
+
+ex:OperationSubSection
+	rdf:type rdf:Class ;
+	rdfs:label "OperationSubSection" ;
+	rdfs:comment "Node to store the Operation Sub Section information";
+	ex:prop "desc".
+
+ex:HAS_OPERATION_SECTION
+    rdf:type rdf:Property ;
+	rdfs:label "HAS_OPERATION_SECTION" ;
+	rdfs:comment "Relationship for the main Operation Section.";
+	rdfs:domain ex:Model;
+	rdfs:range ex:OperationSection;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".
+
+ex:HAS_SUB_SECTION
+    rdf:type rdf:Property ;
+	rdfs:label "HAS_SUB_SECTION" ;
+	rdfs:comment "Relationship for the Operation Sub Section.";
+	rdfs:domain ex:OperationSection, ex:OperationSubSection;
+	rdfs:range ex:OperationSubSection;
+	ex:prop "entity_prd_type";
+	ex:prop "part_number".

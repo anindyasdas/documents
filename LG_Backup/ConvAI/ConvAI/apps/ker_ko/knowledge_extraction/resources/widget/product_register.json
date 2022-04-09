@@ -1,0 +1,23 @@
+{
+  "message": {
+    "generalPurposeCard": {
+      "layout": {
+        "cardOrientation": "VERTICAL"
+      },
+      "content": {
+        "title": "Model details not found",
+        "description": "아래 버튼을 클릭하여 제품 등록하거나 질문 자체에 모델 번호를 추가합니다",
+        "suggestions": [
+		{
+         "reply":{
+            "displayText":"제품 등록",
+            "postback":{
+               "data":"new_bot_user_initiation"
+            }
+         }
+		}
+        ]
+      }
+    }
+  }
+}

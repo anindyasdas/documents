@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Q&A Test Interface</title>
+	</head>
+	<body style="text-align: center;">
+		<h1 style="font-size:150%;color:black;">LGSI India SW Lab - Q&A Test Interface</h1>
+		<form action="/ker_hybrid" method="post" style="display: inline-block;">
+			<br>
+			<label><b>Select a question: </b></label>
+			<select name="sample_questions" onchange="changeText(this);" style="width:700px;height:27px;">
+				<!-- To display the user questions -->
+				{% for key, value in sample_questions.items() %}
+				<option value="{{ value }}">{{ value }}</option>
+				{% endfor %}
+			</select>
+			<br>
+			<br>
+			<label style="font-size:100%;color:black;"><b>Please input your text or choose one from the dropdown and click on
+			submit</b></label><br>
+			<textarea cols="40" id="user_question" name="user_question" rows="5"
+				style="width:850px;height:50px;">{{textarea_value}}</textarea>
+			<br>
+			<input style="font-family:Arial;font-size:14px;font-weight:bold;
+				padding:9px 20px;border-style:solid;border-width:1px;
+				overflow:hidden;word-break:normal;border-color:#93a1a1;color:#fdf6e3;background-color:#657b83;" type="submit"
+				value="SUBMIT">
+			<br>
+			<br>
+			<br>
+		</form>
+		<!-- To put the user question into the Text box if chosen from dropdown -->
+		<script>
+			function changeText(el) {
+			    document.getElementById('user_question').value = el.value;
+			}
+		</script>
+		<style type="text/css">
+			.tg  {border-collapse:collapse;border-spacing:0;border-color:#93a1a1;}
+			.tg td{font-family:Arial, sans-serif;font-size:14px;padding:9px 20px;border-style:solid;border-width:1px;overflow:hidden;
+			word-break:normal;border-color:#93a1a1;color:#002b36;background-color:#fdf6e3;}
+			.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+			padding:9px 20px;border-style:solid;border-width:1px;
+			overflow:hidden;word-break:normal;border-color:#93a1a1;color:#fdf6e3;background-color:#657b83;}
+			.tg .tg-alz1{background-color:#eee8d5;text-align:left;vertical-align:top}
+			.tg .tg-obh7{font-weight:bold;font-family:"Arial Black", Gadget, sans-serif !important;;text-align:left;vertical-align:top}
+			.tg .tg-0lax{text-align:left;vertical-align:top}
+		</style>
+		<br>
+		<!-- To display final response from Graph KG or document based approach-->
+		{% if html_resp is not none and html_resp|length>0 %}
+		<div align="center">
+			{{ html_resp | safe }}
+		</div>
+		{% endif %}
+		<!-- To display the mapped keys and scores from Graph KG approach -->
+		{% if mapped_keys_and_scores_gqa is not none and mapped_keys_and_scores_gqa|length>0 %}
+		<table align="center" class="tg">
+			<label style="font-size:100%;color:black;"><b>Results from KG (Graph QA)</b></label><br>
+			<label>( Supported Sections: Troubleshooting, Specification & Operation )</label>
+			<br>
+			<tr>
+				<th class="tg-obh7">MATCHES</th>
+				<th class="tg-obh7">SCORES</th>
+			</tr>
+			{% for key, value in mapped_keys_and_scores_gqa.items() %}
+			<tr>
+				<td class="tg-0lax">
+					<!-- To send the clicked keys and scores from Graph KG approach -->
+					<a href={{url_for('ker_engine_for_hybrid_approach', matched_result=key, score=value, approach='graph_based')}}>
+					{{key}}
+					</a>
+				</td>
+				<td class="tg-alz1">{{value}}</td>
+			</tr>
+			{%endfor%}
+		</table>
+		{% endif %}
+		<!-- To display the mapped keys and scores from document based approach -->
+		{% if mapped_keys_and_scores_ea is not none and mapped_keys_and_scores_ea|length>0 %}
+		<br><br>
+		<table align="center" class="tg">
+			<label style="font-size:100%;color:black;"><b>Results from Document Based approach</b></label><br>
+			<label>( Supported Sections: Operation ) </label>
+			<br>
+			<tr>
+				<th class="tg-obh7">MATCHES</th>
+				<th class="tg-obh7">SCORES</th>
+			</tr>
+			{% for key, value in mapped_keys_and_scores_ea.items() %}
+			<tr>
+				<td class="tg-0lax">
+					<!-- To send the clicked key and scores from document based approach -->
+					<a href={{url_for('ker_engine_for_hybrid_approach', matched_result=key, score=value, approach='doc_based')}}>
+					{{key}}
+					</a>
+				</td>
+				<td class="tg-alz1">{{value}}</td>
+			</tr>
+			{%endfor%}
+		</table>
+		{% endif %}
+	</body>
+</html>

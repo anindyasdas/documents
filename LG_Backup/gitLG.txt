@@ -1,0 +1,79 @@
+Please find the clone command instead of repo command, send me the list of Integrator user list.
+
+New Project  has been created & please find the Joining Guide.
+
+Registering Public key
+                1.  $ ssh-keygen -t rsa  (If you already have a pub key, do not run this command)
+                2.  $ cat ~/.ssh/id_rsa.pub  (copy contents)
+                3. log on to gerrit site   http://lgsigit.lge.com:8512/ConvAI
+                4. Settings -> SSH Keys -> Add Key -> Paste your publick key -> Add
+
+Registering User Information(once)
+                $ git config --global user.name Your AD Account
+                $ git config --global user.email Your E-mail
+                $ git config --global merge.tool kdiff3
+
+Public Key Check
+                $ ssh -p 29512 lgsigit.lge.com -o "StrictHostKeyChecking no"
+                ( "XXXX closed."  is OK result. )
+
+
+Gererating Workspace folder
+                $ mkdir  test
+
+Getting Workspace information from remote server.
+                $ cd test
+
+                $git clone ssh://youruserid@lgsigit.lge.com:29512/ConvAI
+                $ (modifry your code)
+                $ git add .
+                $ git commit –m “comments”
+                $ git push origin HEAD:refs/for/master
+
+If other branch 
+git push origin HEAD:refs/for/develop
+
+
+
+############################delete changes############
+git clean -f -d
+
+##### 
+
+git new branch
+##############################
+	git branch anixml
+#Enter new branch##############################
+####################################################
+ 1673  git checkout anixml
+##############################
+ 1674  git branch
+shows the branch
+#####################################################
+ 1675  git fetch ssh://anindya06.das@lgsigit.lge.com:29512/ConvAI refs/changes/93/493/1 && git cherry-pick FETCH_HEAD
+#########################################################
+ 1676  git status
+###########################
+ 1677  git log
+my changes should be at the top
+##################################
+do not copy the folder just add the files
+###################################
+ 1678  ls
+ 1679  cd components
+ 1680  ls
+ 1681  cd lg
+ 1682  ls
+ 1683  cd Xml_to_Json/
+ 1684  ls
+ 1685  git status
+ 1686  git add -A .
+ 1687  cd ..
+ 1688  cd..
+ 1689  cd ..
+ 1690  ls
+ 1691  git status
+ 1692  git commit --amend
+ 1693  git push origin HEAD:refs/changes/93/493
+ 1694  history
+

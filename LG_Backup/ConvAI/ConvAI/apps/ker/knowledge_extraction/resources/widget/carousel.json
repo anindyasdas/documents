@@ -1,0 +1,14 @@
+{
+  "message": {
+    "generalPurposeCardCarousel": {
+      "layout": {
+        "cardWidth": "MEDIUM_WIDTH"
+      },
+      "content": [
+      ],
+      "messageHeader": "Following are the possible causes",
+      "messageFooter": "KER LG MANUAL DIGITAL GUIDE",
+      "copyAllowed": true
+    }
+  }
+}

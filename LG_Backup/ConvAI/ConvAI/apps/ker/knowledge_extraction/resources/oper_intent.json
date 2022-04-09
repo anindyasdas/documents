@@ -1,0 +1,1127 @@
+{
+	"assembling the auto-lift device": {
+		"prob_value": "Auto-lift Device",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"assembling the crisper drawers": {
+		"prob_value": "Crisper Drawers",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"assembling the in-door ice bin": {
+		"prob_value": "ice compartment",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"auto-lift device": {
+		"prob_value": "Auto-lift Device",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"automatic opening door": {
+		"prob_value": "Automatic Opening Door",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"before use": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"before using the freezer icemaker": {
+		"prob_value": "automatic icemaker",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "extra_info"
+	},
+	"before using the in-door icemaker": {
+		"prob_value": "automatic icemaker",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "extra_info"
+	},
+	"before using the water dispenser": {
+		"prob_value": "Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "extra_info"
+	},
+	"changing the craft ice mode": {
+		"prob_value": "Control Panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"clean the refrigerator": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"cleaning the dispenser": {
+		"prob_value": "Cleaning the Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"cleaning the dispenser outlet": {
+		"prob_value": "Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"cleaning the dispenser tray": {
+		"prob_value": "Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"cleaning the dispenser. cleaning the ice and water outlet": {
+		"prob_value": " Ice and Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"cleaning the ice and water outlet": {
+		"prob_value": "Cleaning the Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"cleaning the water tank": {
+		"prob_value": "Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"connect the power supply": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"control panel": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"control panel 2: inside the freezer": {
+		"prob_value": "Control Panel 2: Inside the Freezer",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"crisper drawers": {
+		"prob_value": "Crisper Drawers",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"dairy bin": {
+		"prob_value": "Dairy Bin",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"demo mode (for store use only)": {
+		"prob_value": "Control Panel 1: Inside the refrigerator",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "extra_info"
+	},
+	"detaching the in-door ice bin": {
+		"prob_value": "ice compartment",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"detaching/assembling the full width shelf": {
+		"prob_value": "Refrigerator Shelves",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "extra_info"
+	},
+	"detaching/assembling the half width shelf": {
+		"prob_value": "refrigerator shelves",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"detaching/refitting the door bin": {
+		"prob_value": "door bins",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"door-in-door": {
+		"prob_value": "door-in-door",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"door-in-door bin": {
+		"prob_value": "door-in-door",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"door-in-door case": {
+		"prob_value": "door-in-door",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"door-in-door compartment": {
+		"prob_value": "door-in-door",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"express frz": {
+		"prob_value": "Control Panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"filter exchange": {
+		"prob_value": "Control Panel 1: Inside the refrigerator",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"food storage tips": {
+		"prob_value": "storing food",
+		"Intent": "STORING_FOOD",
+		"prob_key": "direct"
+	},
+	"freezer": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"fresh air filter": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"full-convert drawer": {
+		"prob_value": "Full-Convert drawer",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"glide'n'serve": {
+		"prob_value": "Glide'N'Serve",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"humidity controlled crispers": {
+		"prob_value": "humidity controlled crispers",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"ice and water dispenser": {
+		"prob_value": "ice and water dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "extra_info"
+	},
+	"ice compartment": {
+		"prob_value": "ice compartment",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"ice plus": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"ice tray": {
+		"prob_value": "Ice Tray",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"in-door ice bin": {
+		"prob_value": "in-door ice bin",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"instaview": {
+		"prob_value": "InstaView",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"instaview door-in-door": {
+		"prob_value": "door-in-door",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"instaview door-in-door compartment": {
+		"prob_value": "door-in-door",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"lock": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"locking the ice and water dispenser": {
+		"prob_value": "ice and water dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"measured fill": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"open refrigerator doors and freezer drawers to ventilate the interior": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"pantry drawer": {
+		"prob_value": "Pantry Drawer",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"preparing for vacation": {
+		"prob_value": "automatic icemaker",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "extra_info"
+	},
+	"refrigerator": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"refrigerator shelves": {
+		"prob_value": "refrigerator shelves",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"removing the auto-lift device": {
+		"prob_value": "Auto-lift Device",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"removing the crisper drawers": {
+		"prob_value": "Crisper Drawers",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "extra info"
+	},
+	"removing/assembling champagne drawer": {
+		"prob_value": "Storage Racks",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"removing/assembling red wine racks": {
+		"prob_value": "Storage Racks",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"removing/assembling the dairy bin": {
+		"prob_value": "Dairy Bin",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"removing/assembling the humidity controlled crispers": {
+		"prob_value": "humidity controlled crispers",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"removing/assembling the pantry drawer": {
+		"prob_value": "Pantry Drawer",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"removing/assembling white wine rack": {
+		"prob_value": "Storage Racks",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"sabbath mode": {
+		"prob_value": "sabbath mode",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"serving temperature": {
+		"prob_value": "Storing Wine",
+		"Intent": "STORING_FOOD",
+		"prob_key": "direct"
+	},
+	"setting auto lift": {
+		"prob_value": "Auto-lift Device",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"setting the fridge temperature": {
+		"prob_value": "Temperature Controller",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"settings": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"smart grid": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"storage capacity": {
+		"prob_value": "Storing Wine",
+		"Intent": "STORING_FOOD",
+		"prob_key": "direct"
+	},
+	"storage racks": {
+		"prob_value": "Storage Racks",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"storing champagne": {
+		"prob_value": "Storing Wine",
+		"Intent": "STORING_FOOD",
+		"prob_key": "direct"
+	},
+	"storing frozen food": {
+		"prob_value": "storing food",
+		"Intent": "STORING_FOOD",
+		"prob_key": "direct"
+	},
+	"storing red wine": {
+		"prob_value": "Storing Wine",
+		"Intent": "STORING_FOOD",
+		"prob_key": "direct"
+	},
+	"storing white wine": {
+		"prob_value": "Storing Wine",
+		"Intent": "STORING_FOOD",
+		"prob_key": "direct"
+	},
+	"storing wine": {
+		"prob_value": "Storing Wine",
+		"Intent": "STORING_FOOD",
+		"prob_key": "direct"
+	},
+	"temperature adjust": {
+		"prob_value": "Control Panel 1: Inside the refrigerator",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"temperature controller": {
+		"prob_value": "Temperature Controller",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"the refrigerator makes a loud noise after initial operation": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"to remove the crisper cover": {
+		"prob_value": "Humidity Controlled Crispers",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"to remove the crisper glass": {
+		"prob_value": "Humidity Controlled Crispers",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"turn off the icemaker": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "extra_info"
+	},
+	"turning the icemaker on/off": {
+		"prob_value": "automatic icemaker",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using auto lift": {
+		"prob_value": "Auto-lift Device",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the automatic opening door": {
+		"prob_value": "Automatic Opening Door",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the dispenser": {
+		"prob_value": "Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the durabase": {
+		"prob_value": "durabase",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the folding shelf": {
+		"prob_value": "refrigerator shelves",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the full drawer": {
+		"prob_value": "Full-Convert drawer",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the glide'n'serve": {
+		"prob_value": "Glide'N'Serve",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the humidity controlled crispers": {
+		"prob_value": "humidity controlled crispers",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the ice and water dispenser": {
+		"prob_value": "ice and water dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the ice tray": {
+		"prob_value": "Ice Tray",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the instaview door": {
+		"prob_value": "InstaView",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the measured fill": {
+		"prob_value": "ice and water dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the sabbath mode": {
+		"prob_value": "Sabbath Mode",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "extra_info"
+	},
+	"using the variable temperature control": {
+		"prob_value": "Glide'N'Serve",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the water dispenser": {
+		"prob_value": "Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"using the water tank the water tank contains the water to be dispensed": {
+		"prob_value": "Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"vacation": {
+		"prob_value": "Control Panel",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"wait for the refrigerator to cool": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"water & ice type": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"water dispenser": {
+		"prob_value": "Water Dispenser",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "direct"
+	},
+	"water filter": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"water filter replace": {
+		"prob_value": "Control Panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"water lock": {
+		"prob_value": "Control Panel 1: Inside the refrigerator",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"wi-fi": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"wireless power transfer specifications": {
+		"prob_value": "Storage Racks",
+		"Intent": "HAS_COMPONENT",
+		"prob_key": "extra_info"
+	},
+	"about modifier buttons": {
+		"prob_value": "cycle modifiers",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"add cleaning products": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"add item": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"adding cleaning products": {
+		"prob_value": "adding cleaning products",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"adjust settings": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "extra_info"
+	},
+	"ai dd indicator": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"allergienetm": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"baby wear": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"bedding": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"before use": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"begin cycle": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "extra_info"
+	},
+	"bright whitestm": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"bulky items": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"changing default dispense amounts": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"changing dispense amounts for a single load": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"check and empty pockets. paper clips, coins, matches, etc.can damage clothing and the washer. close zippers and hooks, and tie drawstrings to prevent snagging or tangling of clothes": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "extra_info"
+	},
+	"close the detergent dispenser drawer slowly before starting the cycle.slamming the detergent dispenser drawer may result in the detergent overflowing into another compartment or pouring into the tub earlier than programmed": {
+		"prob_value": "using the manual dispense function",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"clothing or articles that are waterproof or water resistant must be washed in the waterproof, bedding, bulky/large, or jumbo wash cycle only. (examples include water resistant clothing, mattress covers, outdoor clothes, and plastic mats.) failure to do so may result in personal injury or damage to the washer, clothes, walls, floor, and surrounding objects due to abnormal vibration": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "extra_info"
+	},
+	"cold wash": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"colors": {
+		"prob_value": "sorting laundry",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "extra_info"
+	},
+	"combine large and small items in the drum.load large items first. large items should not be more than half of total load": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "extra_info"
+	},
+	"control lock": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"control lock indicator": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"control panel": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"cycle guide": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"cycle modifier buttons": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"cycle modifiers": {
+		"prob_value": "cycle modifiers",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"cycle selector knob": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"cycle status indicators": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"cycles": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"deep fill / max": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"deep wash": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"delay wash": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"delicates": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"do not place detergent sheets in the manual dispenser": {
+		"prob_value": "using the manual dispense function",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"do not press down on items while stacking them in the drum. load clothes loosely, and do not overfill the drum. clothes need room to circulate in order to get clean": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"do not use more than one single-use detergent pack in the washer. using too much detergent may cause oversudsing and unsatisfactory performance. reduce detergent amount or add an extra rinse if detergent residue is left on fabrics. to add an extra rinse, select the extra rinse option": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"door lock indicator": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"downloaded (rinse+spin)": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"downloaded (small load)": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"drain+spin": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"drum light": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"dry cycles": {
+		"prob_value": "dry cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"end the cycle": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "extra_info"
+	},
+	"estimated time remaining": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"extra rinse": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"ezdispense": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"fabric type": {
+		"prob_value": "sorting laundry",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"for proper wash performance, always measure detergent using the measuring device provided by the detergent manufacturer. for an average load, use less than half of the recommended maximum. use less detergent for soft water, light soil, or smaller loads": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"fresh care": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"fresh care indicator": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"general tips": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"general tips for drying": {
+		"prob_value": "dry cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"general tips for models with an agitator": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"general tips for models with an impeller": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"heavy duty": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"heavy soil": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"if necessary, add additional items to the tub while the add garment light is on": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"lint type": {
+		"prob_value": "sorting laundry",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"liquid bleach compartment": {
+		"prob_value": "adding cleaning products",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"loading the washer": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"locking/unlocking the control panel": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"manual main wash detergent compartment": {
+		"prob_value": "adding cleaning products",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"normal": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"open the detergent dispenser drawer. load the laundry products into the appropriate manual dispenser compartments": {
+		"prob_value": "using the manual dispense function",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"option and extra function buttons": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"options and extra functions": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"perm. press": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"place liquid chlorine bleach only in the compartment at the rear of the manual dispenser": {
+		"prob_value": "using the manual dispense function",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"power on/off button": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"pre wash+normal": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"press the detergent level or softener level button repeatedly to turn off the ezdispense function": {
+		"prob_value": "using the manual dispense function",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"pretreat heavily stained areas for best results": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"pretreat heavily stained areas for best results. brush off heavy soil, dust, and hair from items before washing. excess dirt or sand can abrade other fabrics and lead to poor wash performance": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"remote start": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"remote start indicator": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"rinse+spin": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"sanitary": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"select a cycle": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"signal": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"signal indicator": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"signal on/off": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"small items": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"soak": {
+		"prob_value": "special care features",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"soil": {
+		"prob_value": "cycle modifiers",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"soil level": {
+		"prob_value": "sorting laundry",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"sort laundry and load the washer": {
+		"prob_value": "before use",
+		"Intent": "HAS_CHECKLIST",
+		"prob_key": "direct"
+	},
+	"sorting laundry": {
+		"prob_value": "sorting laundry",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"special care features": {
+		"prob_value": "special care features",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"speed wash": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"spin": {
+		"prob_value": "cycle modifiers",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"spin only": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"sportswear": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"stain care": {
+		"prob_value": "special care features",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"start/pause button": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"steam": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"steam refresh": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"temp": {
+		"prob_value": "cycle modifiers",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"the washer can be fully loaded, but the drum should not be tightly packed with items. the door of the washer must close easily. the washer will not fill or operate with the door open": {
+		"prob_value": "loading the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"time and status display": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"towels": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"tub clean": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"turbo washtm": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"use the main wash detergent compartment at the front of the manual dispenser for powdered or liquid detergent or oxygenbased bleach. do not use it for liquid": {
+		"prob_value": "using the manual dispense function",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"using dry cycles": {
+		"prob_value": "dry cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"using the dispenser": {
+		"prob_value": "adding cleaning products",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"using the ezdispense function": {
+		"prob_value": "adding cleaning products",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"using the manual dispense function": {
+		"prob_value": "using the manual dispense function",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"using the pre-wash option": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"using the special care features": {
+		"prob_value": "special care features",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"using the washer": {
+		"prob_value": "using the washer",
+		"Intent": "HAS_INSTRUCTION",
+		"prob_key": "direct"
+	},
+	"wash cycles": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"wash+dry": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"waterproof": {
+		"prob_value": "wash cycles",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"wi-fi": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	},
+	"wi-fi indicator": {
+		"prob_value": "control panel",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	},
+	"wrinkle care": {
+		"prob_value": "options and extra functions",
+		"Intent": "HAS_FEATURE",
+		"prob_key": "direct"
+	}
+}

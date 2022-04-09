@@ -1,0 +1,177 @@
+Run Powershell as Administrator.
+
+PS C:\Windows\system32>
+Run the command:
+
+Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V
+
+Enable-WindowsOptionalFeature -Online -FeatureName Containers -All
+
+
+# install docker
+
+Try running either of these commands on Powershell or cmd, if docker is installed, you should get a error free response:
+
+docker --version
+OR
+docker-compose --version
+OR
+docker ps
+
+
+
+after restarted , got this error
+
+https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel
+
+
+https://github.com/MicrosoftDocs/Virtualization-Documentation/issues/887#issuecomment-534409715
+
+
+RUNNING STEPS
+==============
+# To list the docker container in the system. It will have all dockers . Please check ker_server in the output
+
+docker ps -a
+
+
+
+# To save a docker container of the name ker_server
+
+docker commit ker_server ker/deploy:v1.1
+
+
+# There should be a image by name ker/deploy:v1.1
+
+docker images
+
+# To kill the running docker
+===========================
+docker kill ker_server
+
+We have given --rm last time . So it was deleted.
+
+Please run below command to start ker docker
+
+#Run ker server
+===============
+docker run --name ker_server --publish=8007:8007 --volume=${PWD}:/ConvAI --detach ker/deploy:v1.0
+
+
+# To check on-going tasks in docker container
+==============================================
+docker logs --follow ker_server
+
+
+--add-host=host.docker.internal:host-gateway
+
+
+We should wait for some time to load all models and modules.
+When system is ready , We can see the prints in console like "Flask 0:0:0:0:8007 ready"
+
+BUILD DOCKER
+=============
+PS D:\WFH\WFH_Vanitha\WFH\Sprint14\ConvAI> docker build -t classifier_lpp .
+
+RUN DOCKER
+============
+docker run --name class_lpp --volume=${PWD}:/ConvAI --rm --detach classifier_lpp
+
+Show both running and stopped containers
+========================================
+docker ps -a
+
+shows only running containers
+=============================
+docker ps
+
+Remove container name
+======================
+ docker rm /redis  #redis container name
+ 
+ shows the sizes of your images
+ ===============================
+ docker image ls
+ 
+ approximate size of a running container
+ ========================================
+ docker container ls -s
+
+Remove all images
+=================
+docker rmi $(docker images -a -q)
+
+Remove specific image
+====================
+docker rmi <image id>
+
+GO INSIDE DOCKER Containers
+===========================
+docker exec -it classifier_lpp bash
+
+RUN Containers with bash
+===========================
+docker run -it -v ${PWD}:/ConvAI classifier_lpp bash
+
+docker run --name ker_server --publish=8007:8007 --add-host=host.docker.internal:172.17.0.1 --volume=${PWD}:/ker --detach kmsmerge
+
+
+neo4j - 
+
+ker - 
+
+kms - 
+
+NEO4J DOCKER
+============
+docker run --name ker_db --publish=8005:7474 --publish=7687:7687 --add-host=host.docker.internal:172.17.0.1 --rm --detach neo4j:3.5.14
+
+docker run --name graphqa_db --publish=8005:7474 --publish=7687:7687 --add-host=host.docker.internal:172.17.0.1 --rm --detach neo4j:4.2.0
+
+docker run --name graphqa_db --publish=8005:7474 --publish=7687:7687 --add-host=host.docker.internal:172.17.0.1 --rm --detach neo4j:4.2.0
+
+docker run --name graphqa_db --publish=8005:7474 --publish=8010:7687 --add-host=host.docker.internal:172.17.0.1 --volume=${PWD}/data:/data --env NEO4J_dbms.allow_upgrade=true --rm --detach neo4j:4.2.0
+
+LPP - BINARY CLASSIFIER
+========================
+classifier_engine.py
+def __get_embedding(self, file_name): - Need to be changed
+
+
+
+Docker Commands
+============================
+
+>docker images 
+
+REPOSITORY      TAG       IMAGE ID       CREATED        SIZE
+graph           latest    c7a6577177ca   2 months ago   699MB
+graphqa_db_v1   latest    a22064ef9629   2 months ago   699MB
+neo4j           4.2.0     08355a4fdf5c   2 months ago   564MB
+ubuntu          20.04     9f514494e8e2   4 months ago   139MB
+ubuntu          <none>    4dd97cefde62   5 months ago   72.9MB
+
+
+
+
+I want to create a docker using image "ubunty:20.04"
+
+run means pull +exc
+>>docker run -d --name ubuntu_bash --rm -i -t "ubuntu:20.04" bash
+
+with bind mount to access system data from container
+>>docker run -v /e/work:/mnt/mydat -d --name ubuntu_bash1 --rm -i -t "ubuntu:20.04" bash
+
+
+starting an interactive shell using the created docker
+
+>>docker exec -it ubuntu_bash bash
+
+
+blind mount
+
+docker run -v /e/work:/mnt/mydata ubuntu_bash
+
+
+remove docker container
+docker rm --force ubuntu_bash

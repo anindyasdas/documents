@@ -1,0 +1,37 @@
+{
+  "generic_key": {
+                  "washing machine":"(washing|washer|laundry)\\s*(machine|instrument|appliance)\\w*",
+                  "refrigerator":"(cooler|ice\\s*box|cold\\s*storage|refrigerator|ice\\s*chest|fridge|frige|freezer)",
+                  "air conditioner":"(air\\s*conditioner|\\bac\\b)",
+                  "vacuum cleaner":"(vacuum\\s*cleaner)",
+                  "microwave oven": "(microwave\\s*oven|oven)",
+                  "dish washer": "(dish\\s*washer)"
+  },
+  "washing machine": {
+                   "washing machine":"(washing|washer|laundry)\\s*(machine|instrument|appliance)\\w*"
+  },
+  "refrigerator": {
+                  "kitchen refrigerator":"kitchen\\s*(cooler|ice\\s*box|cold\\s*storage|refrigerator|ice\\s*chest|fridge|frige|freezer)",
+                  "dinning refrigerator":"dinning\\s*(cooler|ice\\s*box|cold\\s*storage|refrigerator|ice\\s*chest|fridge|frige|freezer)",
+                  "hall refrigerator":"hall\\s*(cooler|ice\\s*box|cold\\s*storage|refrigerator|ice\\s*chest|fridge|frige|freezer)"
+  },
+  "air conditioner": {
+                  "kitchen air conditioner":"kitchen\\s*(air\\s*conditioner|\\bac\\b)",
+                  "dinning air conditioner":"dinning\\s*(air\\s*conditioner|\\bac\\b)",
+                  "hall air conditioner":"hall\\s*(air\\s*conditioner|\\bac\\b)"
+  },
+  "vacuum cleaner": {
+                  "vacuum cleaner":"(vacuum\\s*cleaner)"
+  },
+  "microwave oven": {
+                  "kitchen microwave oven":"kitchen\\s*(microwave\\s*oven|oven)",
+                  "dinning microwave oven":"dinning\\s*(microwave\\s*oven|oven)",
+                  "hall microwave oven":"hall\\s*(microwave\\s*oven|oven)"
+  },
+  "dish washer": {
+                  "kitchen dish washer": "kitchen\\s*(dish\\s*washer)",
+                  "dinning dish washer":"dinning\\s*(dish\\s*washer)",
+                  "hall dish washer":"hall\\s*(dish\\s*washer)",
+                  "dish washer": "(dish\\s*washer)"
+  }
+}

@@ -1,0 +1,25 @@
+server ip: 10.221.35.29
+
+anindya.sundardas
+password: lge!@#$
+
+
+Emp ID: T2159
+Employee No: X1147160
+
+lg@10.221.41.95
+password: LGsoft123
+emp id: SI005880, anindya06.das
+
+OTP app link :http://otpauth.lge.com:8090/selfservice/RegisterToken_POP_m.jsp?userid=pooja.shinde
+change the last
+
+10.221.31.45
+pwd: lge123
+
+10.221.90.120
+pwd: lge12345
+10.221.31.100
+pwd: lge12345
+
+lgsi git: http://lgsigit.lge.com:8512/ConvAI

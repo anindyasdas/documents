@@ -1,0 +1,19 @@
+asgiref==3.2.10
+coverage==5.1
+Django==3.1
+django-cleanup==4.0.0
+djangorestframework==3.11.0
+Pillow==7.0.0
+pytz==2020.1
+sqlparse==0.3.1
+schedule==0.6.0
+neo4j == 4.1.1
+neo4j-driver == 4.1.1
+requests==2.25.1
+beautifulsoup4==4.9.3
+django_neomodel==0.0.6
+rdflib==5.0.0
+rdflib-jsonld==0.5.0
+pandas==1.1.5
+requests==2.25.1
+elastic-apm==6.2.2

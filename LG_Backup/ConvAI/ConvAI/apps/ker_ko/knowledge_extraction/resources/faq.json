@@ -1,0 +1,227 @@
+{
+	"How do I set the refrigerator and freezer temperatures?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "How do I set the refrigerator and freezer temperatures?"
+	},
+	"My refrigerator is powered on and the controls are working, but it\u2019s not cooling and the displayshows \u201cOFF\u201d (see below). What is wrong?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "My refrigerator is powered on and the controls are working, but it\u2019s not cooling and the displayshows \u201cOFF\u201d (see below). What is wrong?"
+	},
+	"What are the best temperature settings for my refrigerator and freezer?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "What are the best temperature settings for my refrigerator and freezer?"
+	},
+	"Why do I hear a buzzing noise from my refrigerator periodically?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why do I hear a buzzing noise from my refrigerator periodically?"
+	},
+	"Why does the icemaker tray look crooked?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why does the ice maker tray look crooked?"
+	},
+	"Can I slide the drawer out while the cycle is running?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Can I slide the drawer out while the cycle is running?"
+	},
+	"Can I use powdered detergent in the ezDispense reservoirs?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Can I use powdered detergent in the ezDispense reservoirs?"
+	},
+	"How do I calculate the correct default amount for my detergent?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "How do I calculate the correct default amount for my detergent?"
+	},
+	"How do I dry out the tub after the cycle is finished?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "How do I dry out the tub after the cycle is finished?"
+	},
+	"How do I keep the tub free from mildew and odors?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "How do I keep the tub free from mildew and odors?"
+	},
+	"How do I use a special detergent for sportswear or hand washables?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "How do I use a special detergent for sportswear or hand washables?"
+	},
+	"What if I want to add an item after I've started the cycle?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "What if I want to add an item after I've started the cycle?"
+	},
+	"When I press a button, why does my washer beep and then nothing happens?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "When I press a button, why does my washer beep and then nothing happens?"
+	},
+	"When should I change the default ezDispense amounts?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "When should I change the default ezDispense amounts?"
+	},
+	"Where should I pour the powdered laundry products when doing my laundry?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Where should I pour the powdered laundry products when doing my laundry?"
+	},
+	"Why is there so little water in my washer? How can it clean the clothes?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why is there so little water in my washer? How can it clean the clothes?"
+	},
+	"why does my washer make loud banging noise while it is filling with water?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why does my washer make loud banging noises while it is filling with water?"
+	},
+	"Can I pop popcorn in my microwave oven?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Can I pop popcorn in my microwave oven?"
+	},
+	"Can I use a rack to cook on two levels at once?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Can I use a rack to cook on two levels at once?"
+	},
+	"Can I use either metal or aluminum pans in my microwave oven?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Can I use either metal or aluminum pans in my microwave oven?"
+	},
+	"Does microwave energy pass through the viewing screen in the door?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Does microwave energy pass through the viewing screen in the door?"
+	},
+	"What's wrong when the oven light will not glow?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"What's wrong when the oven light will not glow?"
+   },
+	"Why do eggs sometimes pop?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why do eggs sometimes pop?"
+	},
+	"Why does steam come out of the air exhaust vent?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why does steam come out of the air exhaust vent?"
+	},
+	"Why does the beep tone sound when a button on the control panel is touched?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Why does the beep tone sound when a button on the control panel is touched?"
+   },
+	"Why does the dish become hot when I microwave food in it?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why does the dish become hot when I microwave food in it?"
+	},
+	"Why does the door of the microwave oven sometimes appear wavy?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why does the door of the microwave oven sometimes appear wavy?"
+	},
+	"Why does the oven make humming noises while operating?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Why does the oven make humming noises while operating?"
+	},
+	"Why does the word 'cool' or remaining cooking time appear in the display with fan noise after microwave cooking is over?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Why does the word 'cool' or remaining cooking time appear in the display with fan noise after microwave cooking is over?"
+   },
+	"Why doesn't my oven always cook as fast as the cooking guide says?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Why doesn't my oven always cook as fast as the cooking guide says?"
+   },
+	"Why is standing time recommended after microwave cooking is over?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Why is standing time recommended after microwave cooking is over?"
+   },
+	"Will the microwave function be damaged if I operate the oven while it is empty?": {
+		"Intent": "HAS_QUESTION",
+		"prob_key": "Question",
+		"prob_value": "Will the microwave function be damaged if I operate the oven while it is empty?"
+	},
+	"what can be done if my dishes have a cloudy, white film on them after a wash?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"What can be done if my dishes have a cloudy, white film on them after a wash?"
+   },
+   "an led is blinking, the machine is chiming, and the dishwasher won't start. what is wrong with the dishwasher?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"An LED is blinking, the machine is chiming, and the dishwasher won't start. What is wrong with the dishwasher?"
+   },
+   "does this dishwasher require a rinse aid to be used?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Does this dishwasher require a rinse aid to be used?"
+   },
+   "what kinds of dishes can be placed in the dishwasher?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"What kinds of dishes can be placed in the dishwasher?"
+   },
+   "can i run a drain only cycle?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Can I run a drain only cycle?"
+   },
+   "what steps can i take to improve drying results?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"What steps can I take to improve drying results?"
+   },
+   "what is control lock and how is it activated?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"What is Control Lock and how is it activated?"
+   },
+   "why does my dishwasher continuously chime if i open the door during a cycle or right after the cycle has finished?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Why does my dishwasher continuously chime if I open the door during a cycle or right after the cycle has finished?"
+   },
+   "how do i remove white film on the tub?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"How do I remove white film on the tub?"
+   },
+   "should i pre-rinse dishes before loading them?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Should I pre-rinse dishes before loading them?"
+   },
+   "why am i hearing a whistling sound from the dishwasher?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Why am I hearing a whistling sound from the dishwasher?"
+   },
+   "what is the hybrid drying system?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"What is the hybrid drying system?"
+   },
+   "can i add an extension to the drain hose?":{
+      "Intent":"HAS_QUESTION",
+      "prob_key":"Question",
+      "prob_value":"Can I add an extension to the drain hose?"
+   }
+}

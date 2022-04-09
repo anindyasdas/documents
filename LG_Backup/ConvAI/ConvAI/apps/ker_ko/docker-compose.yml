@@ -1,0 +1,59 @@
+# created by: senthil.sk@lge.com
+version: "3"
+services:
+
+    neo4j:
+        image: neo4j:4.1.1
+        hostname: neo4j
+        container_name: neo4j
+        restart: always
+        ports:
+            - "8006:7474"
+            - "7687:7687"
+        volumes:
+            - ./neo4j/data:/data
+            - ./neo4j/logs:/logs
+            - .:/ker_ko
+
+        environment:
+            NEO4J_AUTH: neo4j/test
+            NEO4J_dbms_logs_debug_level: DEBUG
+            NEO4J_dbms_security_auth__enabled: "false"
+            NEO4J_dbms_tx__log_preallocate: "false"
+            NEO4J_dbms_tx__log_rotation_retention__policy: "false"
+        extra_hosts:
+            host.docker.internal: 172.17.0.1
+        healthcheck:
+            test: [ "CMD", "curl", "--fail", "http://localhost:7474/", "||", "exit 1" ]
+            interval: 30s
+            timeout: 10s
+            retries: 10
+
+    docsearch:
+        build: ./document_based
+        image: docsearchimg
+        container_name: docsearch
+        volumes:
+            - ./document_based:/docbased
+            - ./tmp/.cache:/root/.cache
+        command: python main.py
+
+    classifier:
+        image: adoptopenjdk/openjdk8
+        container_name: koclassifier
+        volumes:
+            - ./dataset/models/classifier/korean_bert/:/ker_ko
+        command: java -jar ./ker_ko/lgai-mecab-1.0.0.jar
+
+    ker:
+        build: .
+        container_name: ker_container
+        volumes:
+            - .:/ker_ko
+        ports:
+            - "8088:8007"
+        command: python -m knowledge_extraction.server.flask_main
+        depends_on:
+            - docsearch
+            - classifier
+            - neo4j

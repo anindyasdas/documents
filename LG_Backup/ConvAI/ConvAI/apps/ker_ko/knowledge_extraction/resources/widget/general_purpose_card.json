@@ -1,0 +1,15 @@
+{
+  "message": {
+    "generalPurposeCard": {
+      "layout": {
+        "cardOrientation": "VERTICAL"
+      },
+      "content": {
+        "title": "제품 상세 사양은 다음과 같습니다",
+        "description": "",
+        "suggestions": [
+        ]
+      }
+    }
+  }
+}

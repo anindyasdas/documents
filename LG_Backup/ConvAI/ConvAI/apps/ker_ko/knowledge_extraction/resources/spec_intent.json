@@ -1,0 +1,94 @@
+{
+	"capacity": {
+	    "Intent":"HAS_CAPACITY",
+		"response_key": "capacity"
+	},
+	"description": {
+	    "Intent":"DESCRIBED_AS",
+		"response_key": "description"
+	},
+	"dimension": {
+	    "Intent":"HAS_DIMENSION",
+		"response_key": "dimension"
+	},
+	"gas requirements": {
+	    "Intent":"HAS_GAS_REQUIREMENTS",
+		"response_key": "gas requirements"
+	},
+	"model": {
+	    "Intent":"TypeOf",
+		"response_key": "model"
+	},
+	"net weight": {
+	    "Intent":"HAS_WEIGHT",
+		"response_key": "net weight"
+	},
+	"power": {
+	    "Intent":"MAX_POWER",
+		"response_key": "power"
+	},
+	"spin speed": {
+	    "Intent":"MAX_SPIN_SPEED",
+		"response_key": "spin speed"
+	},
+	"temperature": {
+	    "Intent":"REQUIRED_TEMPERATURE",
+		"response_key": "temperature"
+	},
+	"voltage": {
+	    "Intent":"REQUIRED_VOLTAGE",
+		"response_key": "voltage"
+	},
+	"water pressure": {
+	    "Intent":"REQUIRED_WATER_PRESSURE",
+		"response_key": "water pressure"
+	},
+	"battery run time": {
+	    "Intent":"HAS_BATTERY_RUNTIME",
+		"response_key": "battery run time"
+	},
+	"dimensions": {
+	    "Intent":"HAS_DIMENSION",
+		"response_key": "dimensions"
+	},
+	"input": {
+	    "Intent":"REQUIRED_VOLTAGE",
+		"response_key": "input"
+	},
+	"output": {
+	    "Intent":"HAS_OUTPUT_VOLTAGE",
+		"response_key": "output"
+	},
+	"power consumption": {
+	    "Intent": "HAS_POWER_CONSUMPTION",
+		"response_key": "power consumption"
+	},
+	"capacity of oven cavity": {
+	    "Intent":"HAS_CAPACITY",
+		"response_key": "capacity of oven cavity"
+	},
+	"microwave output": {
+	    "Intent":"HAS_OUTPUT_VOLTAGE",
+		"response_key": "microwave output"
+	},
+	"power supply": {
+	    "Intent":"REQUIRED_VOLTAGE",
+		"response_key": "power supply"
+	},
+	"rated current": {
+	    "Intent":"REQUIRED_CURRENT",
+		"response_key": "rated current"
+	},
+	"rated power consumption": {
+	    "Intent": "HAS_POWER_CONSUMPTION",
+		"response_key": "rated power consumption"
+	},
+	"frequency":{
+      "Intent": "HAS_FREQUENCY",
+      "response_key":"Frequency"
+   },
+	"oven cavity dimensions":{
+      "Intent": "HAS_OVEN_CAVITY_DIMENSION",
+      "response_key":"Oven Cavity Dimensions"
+   }
+}

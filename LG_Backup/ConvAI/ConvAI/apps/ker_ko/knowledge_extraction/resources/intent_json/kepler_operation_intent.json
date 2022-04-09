@@ -1,0 +1,152 @@
+{
+	"건조 선반을 사용하여 건조하기": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"건조물 분류하기": {
+		"prob_value": "건조물 분류하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"건조정도": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"건조준비": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"구김방지": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"다운로드 코스/클라우드 코스": {
+		"prob_value": "건조 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"다운로드코스": {
+		"prob_value": "세탁 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"버튼잠금": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"사용하기 전 알아두기": {
+		"prob_value": "알아두면 좋은 정보",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"섬유 유연제 넣고 사용하기": {
+		"prob_value": "세제 또는 섬유 유연제 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"섬유 유연제 사용하기": {
+		"prob_value": "세제 또는 섬유 유연제 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"세제 넣고 사용하기": {
+		"prob_value": "세제 또는 섬유 유연제 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"세제 또는 섬유 유연제 사용하기": {
+		"prob_value": "세제 또는 섬유 유연제 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"세제 사용하기": {
+		"prob_value": "세제 또는 섬유 유연제 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"세탁 코스별 선택 가능 옵션": {
+		"prob_value": "세탁 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"세탁 코스별 용도 알아보기": {
+		"prob_value": "세탁 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"세탁기 문 사용하기": {
+		"prob_value": "알아두면 좋은 정보",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"소량급속": {
+		"prob_value": "건조 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"스팀리프레시": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"스팀살균": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"슬라이드 세탁통 사용하기": {
+		"prob_value": "알아두면 좋은 정보",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"시간건조": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"아기옷": {
+		"prob_value": "세탁 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"알뜰 삶음": {
+		"prob_value": "세탁 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"알아두면 좋은 정보": {
+		"prob_value": "알아두면 좋은 정보",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"액체 세제용 컵 사용하기": {
+		"prob_value": "알아두면 좋은 정보",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"울/섬세": {
+		"prob_value": "건조 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"절약건조": {
+		"prob_value": "옵션 기능 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"침구털기": {
+		"prob_value": "건조 코스 사용하기",
+		"Intent": "HAS_OPERATION_SECTION",
+		"prob_key": "direct"
+	},
+	"표시창 및 안내 표시등": {
+		"prob_value": "기능조작부 사용하기",
+		"Intent": "HAS_CONTROL_PANEL_FEATURE",
+		"prob_key": "direct"
+	}
+}

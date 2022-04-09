@@ -1,0 +1,13 @@
+Docker Help:
+
+For docker,
+
+nstall docker from https://www.docker.com/get-started .
+
+a.       For Windows 10 we can follow this step http://www.abhinavksingh.in/2020/08/how-to-install-docker-desktop-2304-on.html
+
+b.       Some issues are solved with, https://github.com/MicrosoftDocs/Virtualization-Documentation/issues/887#issuecomment-534409715
+
+c.       WSL2 error, follow as in docker suggestions to https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+
+Thanks

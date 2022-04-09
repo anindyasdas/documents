@@ -1,0 +1,21 @@
+{
+ "voltage":"(VAC|WATT)",
+ "net weight":"(kg|kilogram|gram|lb|pound)",
+ "spin speed":"(rotation per hour|rotation per minute|rotation per second|RPM|RPH|RPS)",
+ "max Power":"(VAC|WATT)",
+ "dimension":"(\\bcentimeter\\b|\\bcm\\b|\\bmm\\b|\\bmillimeter\\b|\\binch\\b|\\binches\\b|\\bmeter?\\b|\\bm\\b)",
+ "depth without dooropen":"(centimeter|cm|mm|millimeter|inch|inches|\\bmeter?\\b|\\bm\\b)",
+ "depth":"(centimeter|cm|mm|millimeter|inch|inches|\\bmeter?\\b|\\bm\\b)",
+ "depth with dooropen":"(centimeter|cm|mm|millimeter|inch|inches|\\bmeter?\\b|\\bm\\b)",
+ "height":"(centimeter|cm|mm|millimeter|inch|inches|\\bmeter?\\b|\\bm\\b)",
+ "width":"(\\bcentimeter\\b|\\bcm\\b|\\bmm\\b|\\bmillimeter\\b|\\binch\\b|\\binches\\b|\\bmeter?\\b|\\bm\\b)",
+ "max water pressure":"(kPA|pascal|kg per square centimeter|kilopascal|pascal|psi)",
+ "min water pressure":"(kPA|pascal|kg per square centimeter|kilopascal|pascal|psi)",
+ "water pressure":"(kPA|pascal|kg per square centimeter|kilopascal|psi|pounds per square inch)",
+ "max spin speed":"(rotation per hour|rotation per minute|rotation per second|RPM|RPH|RPS)",
+ "min spin speed":"(rotation per hour|rotation per minute|rotation per second|RPM|RPH|RPS)",
+ "operating temperature range": "(celsius|℃|fahrenheit|℉)",
+ "max temperature": "(celsius|℃|fahrenheit|℉)",
+ "min temperature": "(celsius|℃|fahrenheit|℉)",
+ "wash capacity": "(cu in|cu.in.|cubic inch|liter?|cubic foot|cu.ft)"
+}

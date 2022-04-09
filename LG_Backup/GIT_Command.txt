@@ -1,0 +1,74 @@
+GIT JOINING GUIDE
+=================
+Registering Public key
+                1.  $ ssh-keygen -t rsa  (If you already have a pub key, do not run this command)
+                2.  $ cat ~/.ssh/id_rsa.pub  (copy contents)
+                3. log on to gerrit site   http://lgsigit.lge.com:8512/ConvAI
+                4. Settings -> SSH Keys -> Add Key -> Paste your publick key -> Add   
+ 
+Registering User Information(once)
+                $ git config --global user.name Your AD Account
+                $ git config --global user.email Your E-mail 
+                $ git config --global merge.tool kdiff3
+ 
+Public Key Check
+                $ ssh -p 29512 lgsigit.lge.com -o "StrictHostKeyChecking no"
+                ( "XXXX closed."  is OK result. )
+
+
+Gererating Workspace folder
+                $ mkdir  test
+
+Getting Workspace information from remote server.
+                $ cd test
+
+                $git clone ssh://youruserid@lgsigit.lge.com:29512/ConvAI                  
+
+GIT COMMIT
+===========
+$git status 
+$git add . (git add -u .)  -- git add -u .
+$git status 
+$git commit –m [common][SharedSketch][common] Map is not syncing properly for received sketch.
+[TD: OPERATOR.EURnD]: Defect:18666]
+[MLM]: http://mlm.lge.com/di/browse/RCSAPP-6895 
+[Desc][0] Map was syncing to centre location of the received sketch. Modified to sync with received bound.
+============================
+Committing in Master branch
+$git push origin HEAD:refs/for/master
+OR
+Committing in temp branch
+$git push origin temp:refs/for/LG_apps_master
+
+TAG
+==============
+$ git tag -a LGSharedSketch_5.30.5_20160804 -m "Version 5.305 released"
+$ git tag
+$ git push origin LGSharedSketch_5.30.5_20160804
+git fetch ssh://vanitha.alagarsamy@lgsigit.lge.com:29512/ConvAI refs/changes/41/141/1 && git cherry-pick FETCH_HEAD
+To delete branch
+======================
+$git branch -d temp
+
+
+For PATCH UPDATE:
+====================
+Take commit number from ,
+git fetch ssh://vanitha.alagarsamy@lgsigit.lge.com:29512/ConvAI refs/changes/88/488/1 && git cherry-pick FETCH_HEAD
+
+$git status 
+$git add .
+$git commit --amend
+$git push origin HEAD:refs/changes/97/497
+git fetch http://vanitha.alagarsamy@lgsigit.lge.com:8512/ConvAI/a/ConvAI refs/changes/39/39/1 && git cherry-pick FETCH_HEAD
+git fetch ssh://manish.vatsa@lgapps.lge.com:29427/LG_apps/android/vendor/lge/apps/LGSharedSketch refs/changes/59/663159/1 && git cherry-pick FETCH_HEAD
+
+
+GIT EXTRA COMMANDS
+==================
+1. git merge master
+   Merges master branch to current branch
+
+2. Rename folder
+   $ git mv folder_name temp
+   $ git mv temp changed_name
