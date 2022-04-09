@@ -1,0 +1,11 @@
+2021-05-27 19:47:00,430 - outfile_new - [INFO] - Running outfile_new
+2021-05-27 19:47:00,431 - outfile_new - [INFO] - Reading Triples
+2021-05-27 19:47:00,431 - outfile_new - [INFO] - input_file ./data/manual/manual_test
+2021-05-27 19:47:00,814 - outfile_new - [INFO] - 	Cached triples
+2021-05-27 19:47:00,821 - outfile_new - [INFO] - Side Information Acquisition
+2021-05-27 19:47:04,248 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-27 19:48:47,754 - outfile_new - [INFO] - Running outfile_new
+2021-05-27 19:48:47,754 - outfile_new - [INFO] - Reading Triples
+2021-05-27 19:48:47,754 - outfile_new - [INFO] - 	Loading cached triples
+2021-05-27 19:48:47,783 - outfile_new - [INFO] - Side Information Acquisition
+2021-05-27 19:48:47,929 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997

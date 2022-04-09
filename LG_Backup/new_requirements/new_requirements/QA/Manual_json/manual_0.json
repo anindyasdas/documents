@@ -1,0 +1,1442 @@
+{
+      "buyermodel": [
+            "LFXS26973",
+            "LFXC22526",
+            "LFXS28968",
+            "LMXS28626",
+            "LMXS28636",
+            "LFXS26566",
+            "LFXS28566"
+      ],
+      "REFRIGERATOR": {
+            "OPERATION": {
+                  "Before Use": {
+                        "Checklist": {
+                              "Clean the refrigerator": {
+                                    "description": [
+                                          "Clean the refrigerator thoroughly and wipe off all dust that accumulated during shipping."
+                                    ],
+                                    "caution": [
+                                          "Do not scratch the refrigerator with a sharp object or use a detergent that contains alcohol, a flammable liquid or an abrasive when removing any tape or adhesive from the refrigerator. Remove adhesive residue by wiping it off with your thumb or dish detergent.",
+                                          "Do not peel off the model or serial number label or the technical information on the rear surface of the refrigerator."
+                                    ]
+                              },
+                              "Open refrigerator doors and freezer drawers to ventilate the interior": [
+                                    "The inside of the refrigerator may smell like plastic at first. Remove any adhesive tape from inside the refrigerator and open the refrigerator doors and the freezer drawers for ventilation."
+                              ],
+                              "Connect the power supply": [
+                                    "Check if the power supply is connected before use."
+                              ],
+                              "Turn off the icemaker": {
+                                    "description": [
+                                          "Turn off the icemaker if the refrigerator is not yet connected to the water supply.",
+                                          "The icemaker water valve may buzz if the icemaker is turned on while the refrigerator is not connected to the water supply."
+                                    ]
+                              },
+                              "Wait for the refrigerator to cool": {
+                                    "description": [
+                                          "Allow the refrigerator to run for at least two to three hours before putting food in it. Check the flow of cold air in the freezer compartment to ensure proper cooling."
+                                    ],
+                                    "caution": [
+                                          "Putting food in the refrigerator before it has cooled could cause the food to spoil, or a bad odor to remain inside the refrigerator."
+                                    ]
+                              },
+                              "The refrigerator makes a loud noise after initial operation": [
+                                    "This is normal. The volume will decrease as the temperature decreases."
+                              ]
+                        }
+                  },
+                  "Control Panel": {
+                        "summary": [
+                              "Depending on the model, some of the following functions may not be available.",
+                              "The actual control panel may differ from model to model."
+                        ],
+                        "Control Panel Features": {
+                              "description": [
+                                    "When the refrigerator is in the Power Saving Mode, the display remains off until a door is opened or a button is pressed. Once on, the display remains on for 20 seconds."
+                              ],
+                              "have features": {
+                                    "Ice Plus": [
+                                          "This function increases both ice making and freezing capabilities.",
+                                          "Press the Ice Plus button to illuminate the icon and activate the function for 24 hours. The function automatically shuts off after 24 hours. Stop the function manually by pressing the button once more."
+                                    ],
+                                    "Smart Grid": [
+                                          "Press the Smart Grid button to turn the function On/Off. When the function is on, the icon illuminates. The function automatically turns on when the refrigerator is connected to the WihphFi network.",
+                                          "When the refrigerator is responding to a Demand Response (DR) message from the electric company, the Grid text illuminates."
+                                    ],
+                                    "Freezer": [
+                                          "Indicates the set temperature of the freezer compartment in Celsius (\u00b0C) or Fahrenheit (\u00b0F). The default freezer temperature is 0\u00b0F (hph18 \u00b0C). Press the Freezer button repeatedly to select a new set temperature fromhph6 \u00b0F to 8 \u00b0F (hph21 \u00b0C tohph13 \u00b0C)."
+                                    ],
+                                    "Refrigerator": {
+                                          "description": [
+                                                "Indicates the set temperature of the refrigerator compartment in Celsius (\u00b0C) or Fahrenheit (\u00b0F). The default refrigerator temperature is 37 \u00b0F (3 \u00b0C). Press the Refrigerator button repeatedly to select a new set temperature from 33 \u00b0F to 46 \u00b0F (1 \u00b0C to 8 \u00b0C).",
+                                                "To change the temperature mode from \u00b0F to \u00b0C (or vice versa) press and hold the Refrigerator and Freezer buttons simultaneously for approximately five seconds. The temperature indicator on the display window switches between Celsius and Fahrenheit.",
+                                                "The displayed temperature is the target temperature, and not the actual temperature of the refrigerator. The actual refrigerator temperature depends on the food inside the refrigerator."
+                                          ]
+                                    },
+                                    "Fresh Air Filter": {
+                                          "description": [
+                                                "Replace the air filter when the g icon turns on. After replacing the air filter, press and hold the Fresh Air Filter button for three seconds to turn the icon light off. Replace the air filter approximately every six months.",
+                                                "Refer to the Replacing the Fresh Air Filter section for details.",
+                                                "The Fresh Air Filter helps remove odors from the refrigerator. The Fresh Air Filter has two settings, Auto and Power. In Auto mode, the Fresh Air Filter cycles on and off in increments of ten minutes on and 110 minutes off. If set to the Power mode, the Fresh Air Filter stays on continuously for four hours, cycling on and off in increments of ten minutes on and five minutes off. After four hours, the Fresh Air Filter switches back to Auto mode.",
+                                                "Press the Fresh Air Filter button repeatedly to toggle between Power mode and Auto mode."
+                                          ]
+                                    },
+                                    "Lock": {
+                                          "The lock function disables every other button on the display": [
+                                                "When power is initially connected to the refrigerator, the lock function is off.",
+                                                "To lock the control panel buttons, press and hold the Lock button until the k icon appears in the display and the function is activated.",
+                                                "To disable the function, press and hold the Lock button for approximately three seconds."
+                                          ]
+                                    },
+                                    "Water Filter": [
+                                          "Replace the water filter when the h icon turns on. After replacing the water filter, press and hold the Water Filter button for three seconds to turn the icon light off. Replace the water filter approximately every six months."
+                                    ],
+                                    "WihphFi": [
+                                          "The WihphFi button, when used with the LG ThinQ app, allows the refrigerator to connect to a home WihphFi network. Refer to Smart Functions for information on the initial setup of the application.",
+                                          "The f icon shows the status of the refrigerator's network connection. The icon illuminates when the refrigerator is connected to the WihphFi network.",
+                                          "Press and hold the WihphFi button for 3 seconds to connect to the network. The icon blinks while the connection is being made, then turns on once the connection is successfully made."
+                                    ],
+                                    "Water & Ice Type": [
+                                          "Select the desired dispenser mode from the buttons on the dispenser control panel. Press the dispenser switch with a glass or other container to dispense cubed ice, water or crushed ice."
+                                    ]
+                              },
+                              "Display Mode (For Store Use Only)": {
+                                    "description": [
+                                          "The Display Mode disables all cooling in the refrigerator and freezer sections to conserve energy while on display in a retail store. When activated, OFF is displayed on the control panel and the display remains on for 20 seconds."
+                                    ],
+                                    "deactivate": [
+                                          "With either refrigerator door opened, press and hold the Refrigerator and Ice Plus buttons at the same time for 5 seconds. The control panel beeps and the temperature settings display to confirm that Display Mode is deactivated. Use the same procedure to activate Display Mode."
+                                    ],
+                                    "activate": [
+                                          "With either refrigerator door opened, press and hold the Refrigerator and Ice Plus buttons at the same time for 5 seconds. The control panel beeps and the temperature settings display to confirm that Display Mode is deactivated. Use the same procedure to activate Display Mode."
+                                    ]
+                              }
+                        }
+                  },
+                  "Sabbath Mode": {
+                        "summary": [
+                              "This feature is only available on some models."
+                        ],
+                        "using": {
+                              "description": [
+                                    "Sabbath mode automatically turns off after 96 hours.",
+                                    "Once turned on, Sabbath mode is maintained even after a power outage.",
+                                    "Selecting Sabbath mode automatically turns off the alarm functions.",
+                                    "The dispenser and InstaView are disabled in Sabbath mode, on applicable models."
+                              ],
+                              "Sabbath mode is used on the Jewish Sabbath and holidays": [
+                                    "To turn Sabbath mode on, touch the display to activate it, then press and hold the Freezer and WihphFi buttons for 3 seconds until appears in the display.",
+                                    "To turn Sabbath mode off manually, press and hold the Freezer and WihphFi buttons for 3 seconds."
+                              ]
+                        }
+                  },
+                  "Ice and Water Dispenser": {
+                        "Before Using": {
+                              "description": [
+                                    "The dispenser will not operate when either of the refrigerator doors is open.",
+                                    "If discolored ice is dispensed, check the water filter and water supply. If the problem continues, contact an LG Electronics Customer Information Center. Do not use the water or ice until the problem is corrected.",
+                                    "Dispense ice into a glass before filling it with water or other beverages. Splashing may occur if ice is dispensed into a glass that already contains liquid.",
+                                    "Some dripping may occur after dispensing. Hold the cup beneath the dispenser for a few seconds after dispensing to catch all of the drops.",
+                                    "Keep containers at an appropriate distance from the dispensers. Tall, narrow glasses should be held far enough from the ice outlet to prevent ice from jamming in the ice chute. A container with a very small opening should be held as close to the dispenser as possible to avoid spilling."
+                              ],
+                              "caution": [
+                                    "Keep children away from the dispenser. Children may play with or damage the controls.",
+                                    "Throw away the first bin full of ice (about 140hph160 cubes) after installation. The first ice and water dispensed may include particles or odor from the water supply line or the water tank. This is also necessary if the refrigerator has not been used for a long time.",
+                                    "Dispense and throw away 2.5 gallons of water (flush for approximately 5 minutes) after installation. Do not dispense the entire 2.5 gallon amount continuously. Press and release the dispenser pad for cycles of 30 seconds ON and 60 seconds OFF. This is also necessary if the refrigerator has not been used for a long time.",
+                                    "If ice or water dispenses unexpectedly, turn off the water supply and contact an LG Electronics Customer Information Center.",
+                                    "Never use a glass that is exceptionally narrow or deep. Ice may jam in the ice passage and refrigerator performance may be affected.",
+                                    "When dispensing ice from the dispenser, do not use a fragile container."
+                              ]
+                        },
+                        "using": {
+                              "procedure": {
+                                    "steps": [
+                                          "Press the button for the desired dispenser mode on the dispenser control panel. The LED lights up when the mode is selected.",
+                                          "Press the dispenser paddle a with a glass or other container to dispense cubed ice, water or crushed ice."
+                                    ]
+                              }
+                        },
+                        "locking": [
+                              "Press and hold the Lock button for three seconds to lock the dispenser and all the control panel functions. Follow the same instructions to unlock."
+                        ],
+                        "Cleaning the Dispenser": {
+                              "Dispenser": {
+                                    "cleaning": {
+                                          "Cleaning the Ice and Water Outlet": {
+                                                "Ice and Water Outlet": {
+                                                      "cleaning": {
+                                                            "description": [
+                                                                  "Wipe the water outlet a or ice outlet b frequently with a clean, lint free cloth as it may get dirty easily.",
+                                                                  "Lint from a cloth may adhere to the outlets."
+                                                            ]
+                                                      }
+                                                }
+                                          },
+                                          "Cleaning the Dispenser Tray": {
+                                                "Dispenser Tray": {
+                                                      "cleaning": [
+                                                            "Wipe the entire area with a damp cloth. The dispenser tray may become wet easily due to spilled ice or water."
+                                                      ]
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  },
+                  "Ice Compartment": {
+                        "summary": {
+                              "prerequisites": {
+                                    "description": [
+                                          "Keep the ice compartment door closed tightly. If the ice compartment door is not closed tightly, the cold air in the ice bin will freeze food in the refrigerator compartment. This could also cause the icemaker to stop producing ice."
+                                    ],
+                                    "caution": [
+                                          "Keep hands and tools out of the ice compartment door and dispenser chute. Failure to do so may result in damage or personal injury."
+                                    ]
+                              }
+                        },
+                        "InhphDoor Ice Bin": {
+                              "description": [
+                                    "The icemaker stops producing ice when the indoor ice bin is full. To make room for additional ice, empty the ice bin into the extra ice bin in the freezer compartment. During use, the ice may stack unevenly in the bin, causing the icemaker to misread the number of ice cubes and stop producing ice. Shaking the ice bin to level the ice within it can reduce this problem.",
+                                    "If the icemaker is turned OFF for an extended period of time, the ice compartment will gradually warm up to the temperature of the refrigerator compartment. To prevent ice cubes from melting and leaking from the dispenser, ALWAYS empty the ice bin when the icemaker is turned OFF for more than a few hours.",
+                                    "The ice passage may become blocked with frost if only crushed ice is used. Remove the frost that accumulates by removing the ice bin and clearing the passage with a rubber spatula. Dispensing cubed ice can also help prevent frost buildup."
+                              ],
+                              "caution": [
+                                    "When handling the ice bin, keep hands away from the icemaker tray area to avoid personal injury.",
+                                    "Storing cans or other items in the ice bin will damage the icemaker.",
+                                    "Never use thin crystal glasses or containers to collect ice. Such containers may chip or break resulting in glass fragments in the ice."
+                              ],
+                              "detaching": {
+                                    "caution": [
+                                          "Only qualified service personnel from an LG Electronics service center should disassemble or repair the icemaker."
+                                    ],
+                                    "procedure": {
+                                          "steps": [
+                                                "Gently pull the handle to open the ice compartment.",
+                                                "To remove the inhphdoor ice bin, grip the front handle, slightly lift the bottom, and slowly pull out the bin as shown."
+                                          ]
+                                    }
+                              },
+                              "assembling": {
+                                    "caution": [
+                                          "When handling the ice bin, keep hands away from the icemaker tray area to avoid personal injury.",
+                                          "Avoid touching the auto shutoff (feeler arm) when replacing the ice bin. See the label on the ice compartment door for details."
+                                    ],
+                                    "procedure": {
+                                          "steps": [
+                                                "Carefully insert the inhphdoor ice bin, slanting the top slightly to fit it under the icemaker.",
+                                                "Gently push the handle to close the ice compartment."
+                                          ]
+                                    }
+                              }
+                        }
+                  },
+                  "Automatic Icemaker": {
+                        "summary": {
+                              "prerequisites": {
+                                    "warning": [
+                                          "DO NOT place fingers in the automatic icemaker when the refrigerator is plugged in.",
+                                          "Avoid contact with any moving parts of the ejector mechanism or with the heater that releases the ice cubes."
+                                    ]
+                              }
+                        },
+                        "InhphDoor Icemaker": {
+                              "have features": [
+                                    "Icemaker",
+                                    "Power Switch",
+                                    "Icehphdetecting Sensor",
+                                    "Auto Shutoff (feeler arm)"
+                              ],
+                              "Before Using": {
+                                    "description": [
+                                          "Ice is made in the automatic inhphdoor icemaker and sent to the dispenser. The icemaker produces 70hph182 cubes in a 24hphhour period, depending on freezer compartment temperature, room temperature, number of door openings and other operating conditions.",
+                                          "It takes about 12 to 24 hours for a newly installed refrigerator to begin making ice.",
+                                          "Icehphmaking stops when the inhphdoor ice bin is full. When full, the inhphdoor ice bin holds approximately 6 to 8 (12hph16 oz.) glasses of ice.",
+                                          "Foreign substances or frost on the icehphdetecting sensor can interrupt ice production. Make sure the sensor area is clean at all times for proper operation.",
+                                          "To increase ice production, use the Ice Plus function. The function increases both ice making and freezing capabilities."
+                                    ]
+                              }
+                        },
+                        "Before Using the Freezer Icemaker": {
+                              "Freezer Icemaker": {
+                                    "Before Using": {
+                                          "description": [
+                                                "This feature is only available on some models.",
+                                                "The feature may vary depending on model purchased.",
+                                                "Throw away the first bin full of ice (about 140hph160 cubes) after installation. This is also necessary if the refrigerator has not been used for a long time.",
+                                                "The icemaker begins producing ice approximately 48 hours after the appliance is initially installed.",
+                                                "The sound of ice dropping into the ice bin is normal.",
+                                                "If the ice bin is completely filled with ice, ice production will stop.",
+                                                "The amount and shape of ice may vary according to the environment (ambient temperature around the appliance, frequency of the door being opened, amount of food stored in the appliance, water pressure, etc.).",
+                                                "In the event of a power outage, throw away the ice stored in the ice bin."
+                                          ]
+                                    }
+                              }
+                        },
+                        "Freezer Icemaker (Cubed Ice)": {
+                              "description": [
+                                    "This feature is only available on some models.",
+                                    "This automatic freezer icemaker produces 12 cubes at a time, 50hph110 pieces within a 24 hour period if conditions are favorable. This amount may vary according to the environment (ambient temperature around the appliance, frequency of the door being opened, amount of food stored in the appliance, etc.).",
+                                    "Ice cubes which are stored in the ice bin for a long time may clump together and be difficult to separate. If this happens, empty the ice bin completely and clean it before reinstalling it."
+                              ],
+                              "have features": [
+                                    "Feeler Arm",
+                                    "Power Switch"
+                              ]
+                        },
+                        "Turning the Icemaker On/Off": {
+                              "Icemaker": {
+                                    "Turning On": [
+                                          "To turn the automatic icemaker On/Off, press the power switch on the icemaker to the ON ( | ) or OFF (O) position."
+                                    ],
+                                    "Turning Off": [
+                                          "To turn the automatic icemaker On/Off, press the power switch on the icemaker to the ON ( | ) or OFF (O) position."
+                                    ]
+                              }
+                        },
+                        "Normal Sounds You May Hear": [
+                              "Keeping the power turned on to the icemaker before the water line is connected can damage the icemaker.",
+                              "The icemaker water valve buzzes as the icemaker fills with water. If the icemaker power button is in the ON position, it will buzz even if it has not yet been hooked up to water. To stop the buzzing, press the icemaker power button to turn it off.",
+                              "You will hear the sound of ice dropping into the bin and water running in the pipes as the icemaker refills."
+                        ],
+                        "Preparing for Vacation": {
+                              "description": [
+                                    "Set the icemaker power button to OFF and shut off the water supply to the refrigerator.",
+                                    "If the ambient temperature will drop below freezing, have a qualified technician drain the water supply system to prevent serious property damage due to flooding caused by ruptured water lines or connections.",
+                                    "The ice bin should be emptied any time the icemaker power button is turned to the OFF position."
+                              ]
+                        }
+                  },
+                  "Storing Food": {
+                        "Food": {
+                              "storing": {
+                                    "Food Storage Tips": {
+                                          "description": [
+                                                "Wrap or store food in the refrigerator in airtight and moisturehphproof material unless otherwise noted. This prevents food odor and taste transfer throughout the refrigerator. For dated products, check date code to ensure freshness."
+                                          ],
+                                          "caution": [
+                                                "Do not overfill or pack items too tightly into door bins. Doing so may cause damage to the bin or personal injury if items are removed with excessive force.",
+                                                "Do not store glass containers in the freezer. Contents may expand when frozen, break the container and cause injury."
+                                          ],
+                                          "How to Store Food": {
+                                                "Food": {
+                                                      "storing": {
+                                                            "Butter or Margarine": [
+                                                                  "Keep opened butter in covered dish or closed compartment. When storing an extra supply, wrap in freezer packaging and freeze."
+                                                            ],
+                                                            "Cheese": [
+                                                                  "Store in original wrapping until used. Once opened, rewrap tightly in plastic wrap or aluminum foil."
+                                                            ],
+                                                            "Milk": [
+                                                                  "Wipe milk cartons. For coldest milk, place containers on an interior shelf."
+                                                            ],
+                                                            "Eggs": [
+                                                                  "Store in original carton on interior shelf, not on door shelf."
+                                                            ],
+                                                            "Fruit": [
+                                                                  "Do not wash or hull fruit until it is ready to be used. Sort and keep fruit in original container in a crisper, or store in completely closed paper bag on refrigerator shelf."
+                                                            ],
+                                                            "Leafy Vegetables": [
+                                                                  "Remove store wrapping, trim or tear off bruised and discolored areas, wash in cold water, and drain. Place in plastic bag or plastic container and store in crisper."
+                                                            ],
+                                                            "Vegetables with skins (carrots, peppers)": [
+                                                                  "Place in plastic bags or plastic container and store in crisper."
+                                                            ],
+                                                            "Fish": [
+                                                                  "Freeze fresh fish and shellfish if they are not being eaten the same day purchased. Eating fresh fish and shellfish the same day purchased is recommended."
+                                                            ],
+                                                            "Leftovers": [
+                                                                  "Cover leftovers with plastic wrap or aluminum foil, or store in plastic containers with tight lids."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Storing Frozen Food": {
+                                          "Frozen Food": {
+                                                "storing": {
+                                                      "description": [
+                                                            "Check a freezer guide or a reliable cookbook for further information about preparing food for freezing or food storage times.",
+                                                            "Allow hot foods to cool at room temperature for 30 minutes, and then package and freeze. Cooling hot foods before freezing saves energy.",
+                                                            "If you are leaving home for a short period, like a short vacation, the refrigerator should be left on. Refrigerated foods that are able to be frozen will stay preserved longer if stored in the freezer.",
+                                                            "If you are leaving the refrigerator turned off for an extended period, remove all food and unplug the power cord. Clean the interior, and leave the door open to prevent fungi from growing in the refrigerator.",
+                                                            "Do not store food with high moisture content towards the top of the refrigerator. The moisture could come into direct contact with the cold air and freeze.",
+                                                            "Wash food before storing it in the refrigerator. Vegetables should be washed, and food packaging should be wiped down to prevent adjacent foods from being contaminated.",
+                                                            "If the refrigerator is kept in a hot and humid place, frequent opening of the door or storing a lot of vegetables in the refrigerator may cause condensation to form. Wipe off the condensation with a clean cloth or a paper towel.",
+                                                            "If doors are opened or closed too often, warm air may penetrate the refrigerator and raise its temperature. This can increase the running costs of the unit."
+                                                      ],
+                                                      "Freezing": [
+                                                            "Your freezer will not quickhphfreeze a large quantity of food. Do not put more unfrozen food into the freezer than will freeze within 24 hours (no more than 2 to 3 pounds of food per cubic foot of freezer space). Leave enough space in the freezer for air to circulate around packages. Be careful to leave enough room at the front so the door can close tightly.",
+                                                            "Storage times will vary according to the quality and type of food, the type of packaging or wrap used (how airtight and moisturehphproof) and the storage temperature. Ice crystals inside a sealed package are normal. This simply means that moisture in the food and air inside the package have condensed, creating ice crystals."
+                                                      ],
+                                                      "Packaging": {
+                                                            "description": [
+                                                                  "Successful freezing depends on correct packaging. When you close and seal the package, it must not allow air or moisture in or out. If it does, you could have food odor and taste transfer throughout the refrigerator and could also dry out frozen food.",
+                                                                  "Follow package or container instructions for proper freezing methods."
+                                                            ],
+                                                            "Packaging recommendations": [
+                                                                  "Rigid plastic containers with tighthphfitting lids",
+                                                                  "Straighthphsided canning/freezing jars",
+                                                                  "Heavyhphduty aluminum foil",
+                                                                  "Plastichphcoated paper",
+                                                                  "Nonhphpermeable plastic wraps",
+                                                                  "Specified freezerhphgrade selfhphsealing plastic bags"
+                                                            ],
+                                                            "Do not use": [
+                                                                  "Bread wrappers",
+                                                                  "Nonhphpolyethylene plastic containers",
+                                                                  "Containers without tight lids",
+                                                                  "Wax paper or waxhphcoated freezer wrap",
+                                                                  "Thin, semihphpermeable wrap"
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  },
+                  "Humidity Controlled Crispers": {
+                        "using": {
+                              "description": [
+                                    "This feature is only available on some models.",
+                                    "The crispers provide fresher tasting fruit and vegetables by letting you easily control humidity inside the drawer.",
+                                    "You can control the amount of humidity in the moisturehphsealed crispers by adjusting the control to any setting between Vegetables and Fruit.",
+                                    "Vegetables keeps moist air in the crisper for best storage of fresh, leafy vegetables.",
+                                    "Fruit lets moist air out of the crisper for best storage of fruit."
+                              ]
+                        },
+                        "Removing": {
+                              "procedure": {
+                                    "steps": [
+                                          "Open the doors completely and remove the contents of the DoorhphinhphDoor case. Lift up and pull out the DoorhphinhphDoor case.",
+                                          "The DoorhphinhphDoor feature is only available on some models.",
+                                          "Pull out the crisper to full extension, lift the front up, and pull straight out.",
+                                          "Lift the front of the cover up with both hands until it detaches from the back wall of the cabinet, then pull it out.",
+                                          "To reassemble, insert the cover into the refrigerator with both hands and lower it onto the guides.",
+                                          "Slightly tilt up the front, insert the crisper into the frame and push it back into place.",
+                                          "Line up the tabs on the DoorhphinhphDoor case with the slots on the door and push down until it snaps into place.",
+                                          "The DoorhphinhphDoor feature is only available on some models."
+                                    ]
+                              }
+                        },
+                        "Assembling": {
+                              "procedure": {
+                                    "steps": [
+                                          "Open the doors completely and remove the contents of the DoorhphinhphDoor case. Lift up and pull out the DoorhphinhphDoor case.",
+                                          "The DoorhphinhphDoor feature is only available on some models.",
+                                          "Pull out the crisper to full extension, lift the front up, and pull straight out.",
+                                          "Lift the front of the cover up with both hands until it detaches from the back wall of the cabinet, then pull it out.",
+                                          "To reassemble, insert the cover into the refrigerator with both hands and lower it onto the guides.",
+                                          "Slightly tilt up the front, insert the crisper into the frame and push it back into place.",
+                                          "Line up the tabs on the DoorhphinhphDoor case with the slots on the door and push down until it snaps into place.",
+                                          "The DoorhphinhphDoor feature is only available on some models."
+                                    ]
+                              }
+                        }
+                  },
+                  "Glide\u2018N\u2019Serve": {
+                        "using": {
+                              "description": [
+                                    "This function provides storage space with a variable temperature control that can keep the compartment at a slightly different temperature than the refrigerator section. This drawer can be used for large party trays, deli items and beverages. (This drawer should not be used to store vegetables that require high humidity.)",
+                                    "Press the Select button to choose between Produce (Cold), Deli (Colder) and Meat (Coldest)."
+                              ],
+                              "caution": [
+                                    "Do not place any items on the Glide'N'Serve cover."
+                              ]
+                        },
+                        "Detaching": {
+                              "procedure": {
+                                    "steps": [
+                                          "To remove the Glide'N'Serve, pull out the drawer until it stops, lift the front up, and pull straight out.",
+                                          "To assemble, slightly tilt up the front, insert the drawer into the frame and push it back into place."
+                                    ]
+                              }
+                        },
+                        "Assembling": {
+                              "procedure": {
+                                    "steps": [
+                                          "To remove the Glide'N'Serve, pull out the drawer until it stops, lift the front up, and pull straight out.",
+                                          "To assemble, slightly tilt up the front, insert the drawer into the frame and push it back into place."
+                                    ]
+                              }
+                        }
+                  },
+                  "Refrigerator Shelves": {
+                        "summary": [
+                              "The shelves in the refrigerator are adjustable to meet individual storage needs.",
+                              "Adjusting the shelves to fit items of different heights will make finding the exact item you want easier."
+                        ],
+                        "Using the Folding Shelf": {
+                              "Folding Shelf": {
+                                    "using": {
+                                          "description": [
+                                                "This feature is only available on some models.",
+                                                "Store taller items, such as a gallon container or bottles, by pushing the front half of the shelf underneath the back half of the shelf. Pull the front of the shelf forward to return to a full shelf."
+                                          ],
+                                          "caution": [
+                                                "Glass shelves are heavy. Use special care when removing them.",
+                                                "Do not clean glass shelves with warm water while they are cold. Shelves may break if exposed to sudden temperature changes or impact."
+                                          ]
+                                    }
+                              }
+                        },
+                        "Detaching/Assembling the Shelf": {
+                              "Shelf": {
+                                    "Detaching": {
+                                          "caution": [
+                                                "Do not clean glass shelves with warm water while they are cold. Shelves may break if exposed to sudden temperature changes or impact."
+                                          ],
+                                          "procedure": {
+                                                "steps": [
+                                                      "To detach, tilt up the front of the shelf and lift the shelf straight up.",
+                                                      "Pull the shelf out.",
+                                                      "To assemble, tilt the front of the shelf up and guide the shelf hooks into the slots at a desired height.",
+                                                      "Lower the front of the shelf so that the hooks drop into the slots.",
+                                                      "Make sure that shelves are level from one side to the other. Failure to do so may result in the shelf falling or spilled food."
+                                                ]
+                                          }
+                                    },
+                                    "Assembling": {
+                                          "caution": [
+                                                "Do not clean glass shelves with warm water while they are cold. Shelves may break if exposed to sudden temperature changes or impact."
+                                          ],
+                                          "procedure": {
+                                                "steps": [
+                                                      "To detach, tilt up the front of the shelf and lift the shelf straight up.",
+                                                      "Pull the shelf out.",
+                                                      "To assemble, tilt the front of the shelf up and guide the shelf hooks into the slots at a desired height.",
+                                                      "Lower the front of the shelf so that the hooks drop into the slots.",
+                                                      "Make sure that shelves are level from one side to the other. Failure to do so may result in the shelf falling or spilled food."
+                                                ]
+                                          }
+                                    }
+                              }
+                        }
+                  },
+                  "DoorhphinhphDoor": {
+                        "summary": [
+                              "This feature is only available on some models.",
+                              "The DoorhphinhphDoor compartment allows for easy access to commonly used food items."
+                        ],
+                        "DoorhphinhphDoor Compartment": [
+                              "To access the DoorhphinhphDoor compartment, lightly press the button on the right refrigerator door handle."
+                        ],
+                        "DoorhphinhphDoor Bin": {
+                              "description": [
+                                    "The DoorhphinhphDoor inner and outer door bins are removable for easy cleaning."
+                              ],
+                              "procedure": {
+                                    "steps": [
+                                          "To remove the door bins, lift up and pull out.",
+                                          "To replace the door bins, slide the door bin in above the desired support and push down until it snaps into place."
+                                    ]
+                              }
+                        },
+                        "DoorhphinhphDoor Case": {
+                              "description": [
+                                    "To open the DoorhphinhphDoor case, press on the area marked Pull to open. The case is removable for easy cleaning and adjustment."
+                              ],
+                              "procedure": {
+                                    "steps": [
+                                          "To remove the case, lift up and pull out.",
+                                          "To replace the case, line up the tabs on the case with the slots on the door and push down until it snaps into place."
+                                    ]
+                              }
+                        }
+                  },
+                  "Door Bins": {
+                        "Detaching/Assembling the Door Bin": {
+                              "Door Bin": {
+                                    "Detaching": {
+                                          "description": [
+                                                "The door bins are removable for easy cleaning and adjustment."
+                                          ],
+                                          "procedure": {
+                                                "steps": [
+                                                      "To remove the bin, simply lift the bin up and pull straight out.",
+                                                      "To assemble the bin, slide it in above the desired support and push down until it snaps into place."
+                                                ]
+                                          },
+                                          "caution": [
+                                                "Regularly detach and wash the storage bins and shelves; they can become easily contaminated by food.",
+                                                "Do not apply excessive force while detaching or assembling the storage bins.",
+                                                "Do not use the dishwasher to clean the storage bins and shelves."
+                                          ]
+                                    },
+                                    "Assembling": {
+                                          "description": [
+                                                "The door bins are removable for easy cleaning and adjustment."
+                                          ],
+                                          "procedure": {
+                                                "steps": [
+                                                      "To remove the bin, simply lift the bin up and pull straight out.",
+                                                      "To assemble the bin, slide it in above the desired support and push down until it snaps into place."
+                                                ]
+                                          },
+                                          "caution": [
+                                                "Regularly detach and wash the storage bins and shelves; they can become easily contaminated by food.",
+                                                "Do not apply excessive force while detaching or assembling the storage bins.",
+                                                "Do not use the dishwasher to clean the storage bins and shelves."
+                                          ]
+                                    }
+                              }
+                        }
+                  },
+                  "Durabase": {
+                        "using": {
+                              "description": [
+                                    "The Durabase divider allows you to organize the Durabase area into 2 sections. It can be adjusted from side to side to accommodate items of different sizes."
+                              ],
+                              "warning": [
+                                    "If the Durabase divider is removed, there is enough open space for children or pets to crawl inside. To prevent accidental child and pet entrapment or suffocation risk, DO NOT allow children or pets to touch or go near the drawer."
+                              ]
+                        }
+                  }
+            },
+            "INSTALLATION": {
+                  "Before Installing": {
+                        "Installation Overview": {
+                              "description": [
+                                    "Please read the following installation instructions first after purchasing this product or transporting it to another location."
+                              ],
+                              "have features": [
+                                    "Unpacking the Refrigerator",
+                                    "Choosing the Proper Location",
+                                    "Disassembling/Assembling",
+                                    "Connecting the Water Line",
+                                    "Leveling and Door Alignment"
+                              ],
+                              "warning": [
+                                    "Connect to potable water supply only."
+                              ]
+                        },
+                        "Unpacking the Refrigerator": {
+                              "Refrigerator": {
+                                    "unpacking": {
+                                          "description": [
+                                                "Remove tape and any temporary labels from your refrigerator before using. Do not remove any warning labels, the model and serial number label, or the Tech Sheet that is located under the front of the refrigerator.",
+                                                "To remove any remaining tape or glue, rub the area briskly with your thumb. Tape or glue residue can also be easily removed by rubbing a small amount of liquid dish soap over the adhesive with your fingers. Wipe with warm water and dry.",
+                                                "Do not use sharp instruments, rubbing alcohol, flammable fluids, or abrasive cleaners to remove tape or glue. These products can damage the surface of your refrigerator.",
+                                                "Reinstall or adjust shelves as needed. Refrigerator shelves are installed in the shipping position. Reinstall shelves according to your individual storage needs."
+                                          ],
+                                          "warning": [
+                                                "Use two or more people to move and install the refrigerator. Failure to do so can result in back injury or other injury.",
+                                                "The refrigerator is heavy. Protect the floor when moving the refrigerator for cleaning or service. Always pull the refrigerator straight out when moving it. Do not wiggle or walk the refrigerator when trying to move it, as floor damage could occur.",
+                                                "Keep flammable materials and vapors, such as gasoline, away from the refrigerator. Failure to do so can result in fire, explosion, or death."
+                                          ]
+                                    }
+                              }
+                        }
+                  },
+                  "Choosing the Proper Location": {
+                        "Proper Location": {
+                              "choosing": {
+                                    "Water": {
+                                          "description": [
+                                                "The refrigerator must be located where a water supply can be connected for the automatic icemaker.",
+                                                "The water pressure must be 20hph120 psi or 138hph827 kPa or 1.4hph8.4 kgf/cm. If the refrigerator is installed in an area with low water pressure (below 20 psi or 138 kPa or 1.4 kgf/cm), you can install a booster pump to compensate for the low pressure."
+                                          ]
+                                    },
+                                    "Electricity": {
+                                          "description": [
+                                                "Use an individual, grounded outlet115 Volts, 60 Hz, AC, 15 amps minimum."
+                                          ],
+                                          "warning": [
+                                                "Do not overload house wiring and cause a fire hazard by plugging in multiple appliances in the same outlet with the refrigerator.",
+                                                "To reduce the risk of electric shock, do not install the refrigerator in a wet or damp area."
+                                          ]
+                                    },
+                                    "Flooring": {
+                                          "description": [
+                                                "To avoid noise and vibration, the unit must be installed and leveled on a solidly constructed floor. If required, adjust the leveling legs to compensate for the unevenness of the floor.",
+                                                "Installing on carpeting, soft tile surfaces, a platform or weakly supported structure is not recommended."
+                                          ]
+                                    },
+                                    "Ambient Temperature": [
+                                          "Install this appliance in an area where the temperature is between 55 \u00b0F (13 \u00b0C) and 110 \u00b0F (43 \u00b0C).",
+                                          "If the temperature around the appliance is too low or high, cooling ability may be adversely affected."
+                                    ],
+                                    "Dimensions and Clearances": [
+                                          "Check the dimensions of the appliance and the installation path to ensure there is sufficient room to move the refrigerator through doors or narrow openings.",
+                                          "If an opening is too narrow to fit the refrigerator through, remove the refrigerator doors. See Removing/Assembling the Doors and Drawers in this manual.",
+                                          "The installation location chosen for the refrigerator should allow space behind the unit for connections and airflow and space in front to open the doors and drawers.",
+                                          "Too small of a distance from adjacent items may result in lowered freezing capability and increased electricity consumption charges. Allow at least 24 inches (610 mm) in front of the refrigerator to open the doors, and at least 2 inches (50.8 mm) between the back of the refrigerator and the wall."
+                                    ]
+                              }
+                        }
+                  },
+                  "Removing/Assembling Handles": {
+                        "Handles": {
+                              "Removing": {
+                                    "summary": {
+                                          "description": [
+                                                "When moving the refrigerator through a narrow opening, removing the doors is preferred. If you must remove the handles, be very careful not to scratch the doors.",
+                                                "The appearance of the handles may vary from what is shown."
+                                          ],
+                                          "prerequisites": {
+                                                "caution": [
+                                                      "When assembling or disassembling the refrigerator handles, grasp the handle firmly to avoid dropping it.",
+                                                      "Do not swing the handle into nearby people or animals.",
+                                                      "Make sure that the set screws are in place and the handle footprints at the ends of the handles are aligned correctly over the mounting fasteners on the doors. The set screws should be loose enough to allow the handle footprints to slide down into place over the mounting fasteners on the door.",
+                                                      "Make sure that there is not a gap between the door and handle after assembling the handle."
+                                                ]
+                                          },
+                                          "Tools Needed": [
+                                                "3/32 in. Allen wrench",
+                                                "1/8 in. Allen wrench",
+                                                "1/4 in. Allen wrench"
+                                          ]
+                                    },
+                                    "Removing Refrigerator Handles": {
+                                          "Refrigerator Handles": {
+                                                "removing": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Loosen the set screws a with a 3/32 in. Allen wrench and remove the handle.",
+                                                                  "If needed, loosen the mounting fasteners b that connect the refrigerator door and handle using a 1/4 in. Allen wrench, and remove the mounting fasteners."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling Refrigerator Handles": {
+                                          "Refrigerator Handles": {
+                                                "assembling": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "If needed, reassemble the mounting fasteners a on the door with a 1/4 in. Allen wrench.",
+                                                                  "Place the handle on the door by fitting the handle footprints over the mounting fasteners and tightening the set screws b with a 3/32 in. Allen wrench."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Removing Freezer Drawer Handles": {
+                                          "Freezer Drawer Handles": {
+                                                "removing": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Loosen the set screws a located on the lower side of the handle with a 1/8 in. Allen wrench and remove the handle.",
+                                                                  "Loosen the mounting fasteners b with a 1/4 in. Allen wrench, and remove the mounting fasteners."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling Freezer Drawer Handles": {
+                                          "Freezer Drawer Handles": {
+                                                "assembling": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Assemble the mounting fasteners a at both ends of the handle with a 1/4 in. Allen wrench.",
+                                                                  "Place the handle on the door by fitting the handle footprints over the mounting fasteners and tightening the set screws b with a 1/8 in. Allen wrench."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    }
+                              },
+                              "Assembling": {
+                                    "summary": {
+                                          "description": [
+                                                "When moving the refrigerator through a narrow opening, removing the doors is preferred. If you must remove the handles, be very careful not to scratch the doors.",
+                                                "The appearance of the handles may vary from what is shown."
+                                          ],
+                                          "prerequisites": {
+                                                "caution": [
+                                                      "When assembling or disassembling the refrigerator handles, grasp the handle firmly to avoid dropping it.",
+                                                      "Do not swing the handle into nearby people or animals.",
+                                                      "Make sure that the set screws are in place and the handle footprints at the ends of the handles are aligned correctly over the mounting fasteners on the doors. The set screws should be loose enough to allow the handle footprints to slide down into place over the mounting fasteners on the door.",
+                                                      "Make sure that there is not a gap between the door and handle after assembling the handle."
+                                                ]
+                                          },
+                                          "Tools Needed": [
+                                                "3/32 in. Allen wrench",
+                                                "1/8 in. Allen wrench",
+                                                "1/4 in. Allen wrench"
+                                          ]
+                                    },
+                                    "Removing Refrigerator Handles": {
+                                          "Refrigerator Handles": {
+                                                "removing": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Loosen the set screws a with a 3/32 in. Allen wrench and remove the handle.",
+                                                                  "If needed, loosen the mounting fasteners b that connect the refrigerator door and handle using a 1/4 in. Allen wrench, and remove the mounting fasteners."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling Refrigerator Handles": {
+                                          "Refrigerator Handles": {
+                                                "assembling": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "If needed, reassemble the mounting fasteners a on the door with a 1/4 in. Allen wrench.",
+                                                                  "Place the handle on the door by fitting the handle footprints over the mounting fasteners and tightening the set screws b with a 3/32 in. Allen wrench."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Removing Freezer Drawer Handles": {
+                                          "Freezer Drawer Handles": {
+                                                "removing": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Loosen the set screws a located on the lower side of the handle with a 1/8 in. Allen wrench and remove the handle.",
+                                                                  "Loosen the mounting fasteners b with a 1/4 in. Allen wrench, and remove the mounting fasteners."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling Freezer Drawer Handles": {
+                                          "Freezer Drawer Handles": {
+                                                "assembling": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Assemble the mounting fasteners a at both ends of the handle with a 1/4 in. Allen wrench.",
+                                                                  "Place the handle on the door by fitting the handle footprints over the mounting fasteners and tightening the set screws b with a 1/8 in. Allen wrench."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  },
+                  "Removing/Assembling Doors and Drawers": {
+                        "Doors and Drawers": {
+                              "Removing": {
+                                    "summary": {
+                                          "description": [
+                                                "If the entrance door is too narrow for the refrigerator to pass through, remove the refrigerator doors and move the refrigerator sideways through the doorway."
+                                          ],
+                                          "prerequisites": {
+                                                "warning": [
+                                                      "Use two or more people to remove and install the refrigerator doors and freezer drawer.",
+                                                      "Disconnect the electrical supply to the refrigerator before installing.",
+                                                      "Do not put hands, feet or other objects into the air vents or bottom of the refrigerator.",
+                                                      "Be careful when handling the hinge and hinge lever.",
+                                                      "Remove food and bins before detaching the doors and drawer.",
+                                                      "Do not hold the handle when removing or replacing the doors and drawer as the handle may come off."
+                                                ]
+                                          },
+                                          "Tools Needed": [
+                                                "3/32 in. Allen wrench",
+                                                "1/8 in. Allen wrench",
+                                                "1/4 in. Allen wrench"
+                                          ]
+                                    },
+                                    "Removing the Left Refrigerator Door": {
+                                          "Left Refrigerator Door": {
+                                                "removing": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Disassembling/Assembling the Water Lines",
+                                                                  "b Collet c Tube d Insert line e Clip",
+                                                                  "The water supply is connected to the upper right part of the rear surface of the refrigerator. Remove the clip in the joint area. Hold the water supply connection and gently push the collet a to detach the water supply line as shown.",
+                                                                  "Connections may vary by model.",
+                                                                  "Remove the screw f from the hinge cover at the top of the refrigerator. Lift the hook (not visible), located at the bottom of the front side of the cover g with a flathphhead screwdriver.",
+                                                                  "Remove the cover and pull out the tube h. Disconnect all wire harnesses i. Unscrew the ground wire j.",
+                                                                  "The number of wire harnesses may vary depending on the model.",
+                                                                  "Rotate the hinge lever k counterclockwise. Lift the top hinge l free of the hinge lever latch m.",
+                                                                  "When lifting the hinge free of the latch, be careful that the door does not fall forward.",
+                                                                  "Lift the door from the middle hinge pin and remove the door.",
+                                                                  "Place the door, inside facing up, on a nonscratching surface."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Removing the Right Refrigerator Door": {
+                                          "Right Refrigerator Door": {
+                                                "removing": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Remove the top hinge cover screw a. Lift the hook (not visible), located at the bottom of the front side of the cover b, with a flathphhead screwdriver.",
+                                                                  "Detach all the wire harnesses c.",
+                                                                  "The number of wire harnesses may vary depending on the model.",
+                                                                  "Rotate the hinge lever d clockwise. Lift the top hinge e free of the hinge lever latch f.",
+                                                                  "When lifting the hinge free of the latch, be careful that the door does not fall forward.",
+                                                                  "Lift the door from the middle hinge pin and remove the door.",
+                                                                  "Place the door, inside facing up, on a nonscratching surface."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling the Right Refrigerator Door": {
+                                          "Right Refrigerator Door": {
+                                                "assembling": {
+                                                      "caution": [
+                                                            "Install the righthphside door first."
+                                                      ],
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Make sure that the plastic sleeve is inserted in the bottom of the door. Lower the door onto the middle hinge pin as shown in the figure.",
+                                                                  "Fit the hinge a over the hinge lever latch b and slot it into place. Rotate the lever c counterclockwise to secure the hinge.",
+                                                                  "Connect the wire harnesses d.",
+                                                                  "The number of wire harnesses may vary depending on the model.",
+                                                                  "Set the hinge cover e in place. Insert and tighten the cover screw f ."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling the Left Refrigerator Door": {
+                                          "Left Refrigerator Door": {
+                                                "assembling": {
+                                                      "caution": [
+                                                            "Install the left refrigerator door after the right door is installed."
+                                                      ],
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Make sure that the plastic sleeve is inserted in the bottom of the door. Install the refrigerator door onto the middle hinge.",
+                                                                  "Fit the hinge a over the hinge lever latch b and slot it into place. Rotate the lever c clockwise and fasten the hinge.",
+                                                                  "Connect all the wire harnesses and the ground screw.",
+                                                                  "The number of wire harnesses may vary depending on the model.",
+                                                                  "Push the water supply tube into the hole on the top case and pull it through the backplate.",
+                                                                  "Hold the water supply connection and gently push in the collet d to connect the water supply line as shown. Insert the tube at least 5/8 inch (15 mm) into the connector. Insert the clip on the joint to fasten the tube in place.",
+                                                                  "Disassembling/Assembling the Water Lines",
+                                                                  "e Collet f Tube g Insert line h Clip",
+                                                                  "Gently press the collet and insert the tube until only one line shows on the tube.",
+                                                                  "Set the cover i in place. Insert and tighten the cover screw j."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Removing the Freezer Drawer": {
+                                          "Freezer Drawer": {
+                                                "removing": {
+                                                      "description": [
+                                                            "For models with two freezer drawers, remove the second freezer drawer in the same way."
+                                                      ],
+                                                      "warning": [
+                                                            "Use two or more people to remove and install the refrigerator doors and freezer drawer.",
+                                                            "Be careful of sharp hinges on both sides of the drawer.",
+                                                            "When you lay the drawer down, be careful not to damage the floor.",
+                                                            "Do not sit or stand on the freezer drawer.",
+                                                            "To prevent accidents, keep children and pets away from the drawer. Do not leave the drawer open. If the Durabase storage bin is removed from the freezer drawer, there is sufficient space for a small child or pet to crawl inside."
+                                                      ],
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Pull the drawer open to full extension.",
+                                                                  "Gently lift and pull out the ice bin.",
+                                                                  "Lift the front of the drawer up, then pull it straight out.",
+                                                                  "Remove the Durabase basket from the rails. Remove the screws from the rails at both ends.",
+                                                                  "Grip both sides of the drawer and pull it up to remove it from the rails.",
+                                                                  "Do not hold the handle when removing or replacing the drawer. The handle may come off, causing personal injury.",
+                                                                  "Hold both rails and push them in simultaneously."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling the Freezer Drawer": {
+                                          "Freezer Drawer": {
+                                                "assembling": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Pull out both rails simultaneously, until they are fully extended.",
+                                                                  "Grasp the drawer on each side and hook the drawer supports into the rail tabs located on both sides.",
+                                                                  "Do not hold the handle when removing or replacing the drawer. The handle may come off, causing personal injury.",
+                                                                  "Lower the door into its final position and insert the screws in the rails on both sides.",
+                                                                  "Insert the drawer into the frame, and push the drawer back until it clicks into place.",
+                                                                  "Replace the ice bin in the drawer. Insert the Durabase basket in the rail assembly."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    }
+                              },
+                              "Assembling": {
+                                    "summary": {
+                                          "description": [
+                                                "If the entrance door is too narrow for the refrigerator to pass through, remove the refrigerator doors and move the refrigerator sideways through the doorway."
+                                          ],
+                                          "prerequisites": {
+                                                "warning": [
+                                                      "Use two or more people to remove and install the refrigerator doors and freezer drawer.",
+                                                      "Disconnect the electrical supply to the refrigerator before installing.",
+                                                      "Do not put hands, feet or other objects into the air vents or bottom of the refrigerator.",
+                                                      "Be careful when handling the hinge and hinge lever.",
+                                                      "Remove food and bins before detaching the doors and drawer.",
+                                                      "Do not hold the handle when removing or replacing the doors and drawer as the handle may come off."
+                                                ]
+                                          },
+                                          "Tools Needed": [
+                                                "3/32 in. Allen wrench",
+                                                "1/8 in. Allen wrench",
+                                                "1/4 in. Allen wrench"
+                                          ]
+                                    },
+                                    "Removing the Left Refrigerator Door": {
+                                          "Left Refrigerator Door": {
+                                                "removing": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Disassembling/Assembling the Water Lines",
+                                                                  "b Collet c Tube d Insert line e Clip",
+                                                                  "The water supply is connected to the upper right part of the rear surface of the refrigerator. Remove the clip in the joint area. Hold the water supply connection and gently push the collet a to detach the water supply line as shown.",
+                                                                  "Connections may vary by model.",
+                                                                  "Remove the screw f from the hinge cover at the top of the refrigerator. Lift the hook (not visible), located at the bottom of the front side of the cover g with a flathphhead screwdriver.",
+                                                                  "Remove the cover and pull out the tube h. Disconnect all wire harnesses i. Unscrew the ground wire j.",
+                                                                  "The number of wire harnesses may vary depending on the model.",
+                                                                  "Rotate the hinge lever k counterclockwise. Lift the top hinge l free of the hinge lever latch m.",
+                                                                  "When lifting the hinge free of the latch, be careful that the door does not fall forward.",
+                                                                  "Lift the door from the middle hinge pin and remove the door.",
+                                                                  "Place the door, inside facing up, on a nonscratching surface."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Removing the Right Refrigerator Door": {
+                                          "Right Refrigerator Door": {
+                                                "removing": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Remove the top hinge cover screw a. Lift the hook (not visible), located at the bottom of the front side of the cover b, with a flathphhead screwdriver.",
+                                                                  "Detach all the wire harnesses c.",
+                                                                  "The number of wire harnesses may vary depending on the model.",
+                                                                  "Rotate the hinge lever d clockwise. Lift the top hinge e free of the hinge lever latch f.",
+                                                                  "When lifting the hinge free of the latch, be careful that the door does not fall forward.",
+                                                                  "Lift the door from the middle hinge pin and remove the door.",
+                                                                  "Place the door, inside facing up, on a nonscratching surface."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling the Right Refrigerator Door": {
+                                          "Right Refrigerator Door": {
+                                                "assembling": {
+                                                      "caution": [
+                                                            "Install the righthphside door first."
+                                                      ],
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Make sure that the plastic sleeve is inserted in the bottom of the door. Lower the door onto the middle hinge pin as shown in the figure.",
+                                                                  "Fit the hinge a over the hinge lever latch b and slot it into place. Rotate the lever c counterclockwise to secure the hinge.",
+                                                                  "Connect the wire harnesses d.",
+                                                                  "The number of wire harnesses may vary depending on the model.",
+                                                                  "Set the hinge cover e in place. Insert and tighten the cover screw f ."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling the Left Refrigerator Door": {
+                                          "Left Refrigerator Door": {
+                                                "assembling": {
+                                                      "caution": [
+                                                            "Install the left refrigerator door after the right door is installed."
+                                                      ],
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Make sure that the plastic sleeve is inserted in the bottom of the door. Install the refrigerator door onto the middle hinge.",
+                                                                  "Fit the hinge a over the hinge lever latch b and slot it into place. Rotate the lever c clockwise and fasten the hinge.",
+                                                                  "Connect all the wire harnesses and the ground screw.",
+                                                                  "The number of wire harnesses may vary depending on the model.",
+                                                                  "Push the water supply tube into the hole on the top case and pull it through the backplate.",
+                                                                  "Hold the water supply connection and gently push in the collet d to connect the water supply line as shown. Insert the tube at least 5/8 inch (15 mm) into the connector. Insert the clip on the joint to fasten the tube in place.",
+                                                                  "Disassembling/Assembling the Water Lines",
+                                                                  "e Collet f Tube g Insert line h Clip",
+                                                                  "Gently press the collet and insert the tube until only one line shows on the tube.",
+                                                                  "Set the cover i in place. Insert and tighten the cover screw j."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Removing the Freezer Drawer": {
+                                          "Freezer Drawer": {
+                                                "removing": {
+                                                      "description": [
+                                                            "For models with two freezer drawers, remove the second freezer drawer in the same way."
+                                                      ],
+                                                      "warning": [
+                                                            "Use two or more people to remove and install the refrigerator doors and freezer drawer.",
+                                                            "Be careful of sharp hinges on both sides of the drawer.",
+                                                            "When you lay the drawer down, be careful not to damage the floor.",
+                                                            "Do not sit or stand on the freezer drawer.",
+                                                            "To prevent accidents, keep children and pets away from the drawer. Do not leave the drawer open. If the Durabase storage bin is removed from the freezer drawer, there is sufficient space for a small child or pet to crawl inside."
+                                                      ],
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Pull the drawer open to full extension.",
+                                                                  "Gently lift and pull out the ice bin.",
+                                                                  "Lift the front of the drawer up, then pull it straight out.",
+                                                                  "Remove the Durabase basket from the rails. Remove the screws from the rails at both ends.",
+                                                                  "Grip both sides of the drawer and pull it up to remove it from the rails.",
+                                                                  "Do not hold the handle when removing or replacing the drawer. The handle may come off, causing personal injury.",
+                                                                  "Hold both rails and push them in simultaneously."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    },
+                                    "Assembling the Freezer Drawer": {
+                                          "Freezer Drawer": {
+                                                "assembling": {
+                                                      "procedure": {
+                                                            "steps": [
+                                                                  "Pull out both rails simultaneously, until they are fully extended.",
+                                                                  "Grasp the drawer on each side and hook the drawer supports into the rail tabs located on both sides.",
+                                                                  "Do not hold the handle when removing or replacing the drawer. The handle may come off, causing personal injury.",
+                                                                  "Lower the door into its final position and insert the screws in the rails on both sides.",
+                                                                  "Insert the drawer into the frame, and push the drawer back until it clicks into place.",
+                                                                  "Replace the ice bin in the drawer. Insert the Durabase basket in the rail assembly."
+                                                            ]
+                                                      }
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  },
+                  "Connecting the Water Line": {
+                        "Water Line": {
+                              "connecting": {
+                                    "Before Beginning": {
+                                          "description": [
+                                                "This water line installation is not covered by the refrigerator warranty. Follow these instructions carefully to minimize the risk of expensive water damage.",
+                                                "If necessary, call a qualified plumber to correct water hammer before installing the water supply line to the refrigerator. Water banging in the pipes (water hammer) in residential plumbing can cause damage to refrigerator parts and lead to water leakage or flooding.",
+                                                "Turn the icemaker OFF if the refrigerator will be used before the water line is connected.",
+                                                "Do not install the icemaker tubing in areas where the ambient temperatures fall below freezing."
+                                          ],
+                                          "warning": [
+                                                "Connect to potable water supply only."
+                                          ],
+                                          "caution": [
+                                                "To prevent burns and product damage, only connect the refrigerator water line to a cold water supply.",
+                                                "Wear eye protection during installation to prevent injury."
+                                          ]
+                                    },
+                                    "Water Pressure": {
+                                          "description": [
+                                                "You will need a cold water supply.",
+                                                "If the water pressure from the reverse osmosis system is less than 20 psi or 138 kPa or 1.4 kgf/cm (takes more than 4 seconds to fill a cup of 7 oz or 198 cc capacity)",
+                                                "Check to see if the sediment filter in the reverse osmosis system is blocked. Replace the filter if necessary.",
+                                                "Allow the storage tank on the reverse osmosis system to refill after heavy usage.",
+                                                "If the water pressure remains low, call a licensed, qualified plumber.",
+                                                "All installations must be in accordance with local plumbing code requirements."
+                                          ],
+                                          "Water Pressure": {
+                                                "Models with water filter": [
+                                                      "20hph120 psi (138hph827 kPa)"
+                                                ],
+                                                "description": [
+                                                      "Where reverse osmosis water filtration system is connected to a cold water supply",
+                                                      "40hph60 psi minimum to reverse osmosis system (2.8 kgf/cmhph4.2 kgf/cm, or less than 2hph3 seconds to fill a cup of 7 oz capacity)"
+                                                ]
+                                          }
+                                    },
+                                    "Supplies Needed": {
+                                          "description": [
+                                                "Copper or PEX Tubing, \u00bc in. outer diameter, to connect the refrigerator to the water supply. Be sure both ends of the tubing are cut square. To determine how much tubing you need, measure the distance from the water valve on the back of the refrigerator to the water supply pipe. Then, add 8 feet (2.4 m). Be sure there is sufficient extra tubing (about 8 feet [2.4 m] coiled into 3 turns of about 10 in. [25 cm] diameter) to allow the refrigerator to move out from the wall after installation.",
+                                                "Power drill.",
+                                                "\u00bd in. or adjustable wrench."
+                                          ],
+                                          "Flathphblade and Phillips screwdrivers": {
+                                                "description": [
+                                                      "Two \u00bc in. outer diameter compression nuts and 2 ferrules (sleeves) to connect the copper tubing to the shutoff valve and the refrigerator water valve.",
+                                                      "If your existing copper water line has a flared fitting at the end, purchase an adapter (available at plumbing supply stores) to connect the water line to the refrigerator OR cut off the flared fitting with a tube cutter and use a compression fitting.",
+                                                      "Shutoff valve to connect to the cold water line. The shutoff valve should have a water inlet with a minimum inside diameter of 5/32 in. at the point of connection to the COLD WATER LINE. Saddlehphtype shutoff valves are included in many water supply kits. Before purchasing, make sure a saddlehphtype valve complies with your local plumbing codes.",
+                                                      "A selfhphpiercing saddle type water valve should not be used."
+                                                ]
+                                          }
+                                    },
+                                    "Water Line Installation Instructions": {
+                                          "description": [
+                                                "Install the shutoff valve on the nearest frequently used drinking water line."
+                                          ],
+                                          "warning": [
+                                                "When using any electrical device (such as a power drill) during installation, be sure the device is batteryhphpowered, doublehphinsulated or grounded in a manner that will prevent the hazard of electric shock."
+                                          ],
+                                          "procedure": {
+                                                "steps": {
+                                                      "Shut off the main water supply.": [
+                                                            "Turn on the nearest faucet to relieve the pressure on the line."
+                                                      ],
+                                                      "Choose the valve location.": [
+                                                            "Choose a location for the valve that is easily accessible. It is best to connect into the side of a vertical water pipe. When it is necessary to connect into a horizontal water pipe, make the connection to the top or side, rather than at the bottom, to avoid drawing off any sediment from the water pipe."
+                                                      ],
+                                                      "Drill the hole for the valve.": {
+                                                            "description": [
+                                                                  "Drill a \u00bc in. hole in the water pipe using a sharp bit. Remove any burrs resulting from drilling the hole in the pipe. Be careful not to allow water to drain into the drill. Failure to drill a \u00bc in. hole may result in reduced ice production or smaller cubes.",
+                                                                  "The hookup line cannot be white, plastic tubing. Licensed plumbers must use only copper tubing (NDA tubing #49595 or #49599) or Cross Link Polyethylene (PEX) tubing."
+                                                            ]
+                                                      },
+                                                      "description": [
+                                                            "Be sure there is sufficient extra tubing (about 8 ft. coiled into three turns of about 10 in. diameter) to allow the refrigerator to move out from the wall after installation."
+                                                      ],
+                                                      "Fasten the shutoff valve.": [
+                                                            "Fasten the shutoff valve to the cold water pipe with the pipe clamp."
+                                                      ],
+                                                      "have features": [
+                                                            "SaddlehphType Shutoff Valve",
+                                                            "Compression Nut",
+                                                            "Packing Nut",
+                                                            "Outlet Valve",
+                                                            "Ferrule (sleeve)"
+                                                      ],
+                                                      "Tighten the pipe clamp.": [
+                                                            "Tighten the clamp screws until the sealing washer begins to swell."
+                                                      ],
+                                                      "Route the tubing.": [
+                                                            "Route the tubing between the cold water line and the refrigerator. Route the tubing through a hole drilled in the wall or floor (behind the refrigerator or adjacent base cabinet) as close to the wall as possible."
+                                                      ],
+                                                      "Connect the tubing to the valve.": [
+                                                            "Place the compression nut and ferrule (sleeve) for copper tubing onto the end of the tubing and connect it to the shutoff valve. Make sure the tubing is fully inserted into the valve. Tighten the compression nut securely."
+                                                      ],
+                                                      "Flush out the tubing.": [
+                                                            "Turn the main water supply on and flush out the tubing until the water is clear. Shut the water off at the water valve after about one quart of water has been flushed through the tubing."
+                                                      ],
+                                                      "Before making the connection to the refrigerator, be sure that the refrigerator power cord is not plugged into the wall outlet.": [
+                                                            "Before making the connection to the refrigerator, be sure that the refrigerator power cord is not plugged into the wall outlet.",
+                                                            "Remove the flexible plastic cap from the water valve.",
+                                                            "Place the compression nut and ferrule (sleeve) onto the end of the tubing as shown.",
+                                                            "Insert the end of the copper tubing into the connection as far as possible. While holding the tubing, tighten the fitting."
+                                                      ],
+                                                      "Turn the water on at the shutoff valve.": [
+                                                            "Tighten any connections that leak."
+                                                      ],
+                                                      "caution": [
+                                                            "Check to see if leaks occur at the water line connections."
+                                                      ]
+                                                }
+                                          }
+                                    }
+                              }
+                        }
+                  },
+                  "Leveling and Door Alignment": {
+                        "Leveling": {
+                              "description": [
+                                    "The refrigerator has two front leveling legs. Adjust the legs to alter the tilt from fronthphtohphback or sidehphto side. If the refrigerator seems unsteady, or the doors do not close easily, adjust the refrigerator\u2019s tilt using the instructions below"
+                              ],
+                              "procedure": {
+                                    "steps": [
+                                          "Turn the leveling leg to the left to raise that side of the refrigerator or to the right to lower it. It may take several turns of the leveling leg to adjust the tilt of the refrigerator.",
+                                          "A flare nut wrench works best, but an openhphend wrench will suffice. Do not overhphtighten.",
+                                          "Open both doors and check to make sure that they close easily. If the doors do not close easily, tilt the refrigerator slightly more to the rear by turning both leveling legs to the left. It may take several more turns, and be sure to turn both leveling legs the same amount."
+                                    ]
+                              }
+                        },
+                        "Door Alignment (Standard Door Model)": [
+                              "Both the left and right refrigerator doors have an adjustable nut, located on the bottom hinge, to raise and lower them to align properly.",
+                              "If the space between the doors is uneven even after the door bins are filled, follow the instructions below to align the doors evenly",
+                              "Use the wrench (included with the owner's manual) to turn the nut in the door hinge to adjust the height. Turn the nut to the right to raise the door or to the left to lower it."
+                        ],
+                        "Door Alignment (DoorhphinhphDoor Model)": {
+                              "Left Refrigerator Door": [
+                                    "The left refrigerator door has an adjustable nut, located on the bottom hinge, to raise and lower the door for proper alignment.",
+                                    "If the space between the doors is uneven, follow the instructions below to align the left door",
+                                    "Use the wrench (included with the owner's manual) to turn the nut in the door hinge to adjust the height. Turn the nut to the right to raise the door or to the left to lower it."
+                              ],
+                              "Right Refrigerator Door": {
+                                    "description": [
+                                          "The right refrigerator door does not have an adjustable nut.",
+                                          "If the space between the doors is uneven, follow the instructions below to align the right door"
+                                    ],
+                                    "procedure": {
+                                          "steps": [
+                                                "With one hand, lift up both the inner and outer door sections of the right door to raise them at the middle hinge. (It may be easier to lift it with the doors open.)",
+                                                "With the other hand, use pliers to insert the snap ring on the middle hinge of the inner door section as shown. Do not insert the ring on the hinge of the outer door section.",
+                                                "Insert additional snap rings until the right door is aligned. (Two snap rings are provided with the unit.)"
+                                          ]
+                                    }
+                              }
+                        }
+                  },
+                  "Turning on the Power": {
+                        "Power": {
+                              "Turning On": {
+                                    "summary": {
+                                          "description": [
+                                                "After installing, plug the refrigerator\u2019s power cord into a 3hphprong grounded outlet and push the refrigerator into the final position."
+                                          ],
+                                          "prerequisites": {
+                                                "caution": [
+                                                      "Connect to a rated power outlet.",
+                                                      "Have a certified electrician check the wall outlet and wiring for proper grounding.",
+                                                      "Do not damage or cut off the ground terminal of the power plug."
+                                                ]
+                                          }
+                                    },
+                                    "Position the Refrigerator": [
+                                          "Arrange the coil of tubing so that it does not vibrate against the back of the refrigerator or against the wall. Push the refrigerator back to the wall."
+                                    ],
+                                    "Start the Icemaker": [
+                                          "If the water line is connected, set the icemaker power switch to the ON position.",
+                                          "The icemaker will not begin to operate until it reaches its operating temperature of 15 \u00b0F (\u20139 \u00b0C) or below. It will then begin operation automatically if the icemaker power switch is in the ON (I) position."
+                                    ]
+                              }
+                        }
+                  }
+            },
+            "MAINTENANCE": {
+                  "cleaning": {
+                        "summary": {
+                              "prerequisites": {
+                                    "warning": [
+                                          "Use nonhphflammable cleaner. Failure to do so can result in fire, explosion, or death."
+                                    ],
+                                    "caution": [
+                                          "Do not use an abrasive cloth or sponge when cleaning the interior and exterior of the refrigerator.",
+                                          "Do not place your hand on the bottom surface of the refrigerator when opening and closing the doors."
+                                    ]
+                              }
+                        },
+                        "General Cleaning Tips": [
+                              "Both the refrigerator and freezer sections defrost automatically; however, clean both sections once a month to prevent odors.",
+                              "Wipe up spills immediately.",
+                              "Unplug the refrigerator or disconnect power before cleaning.",
+                              "Remove all removable parts, such as shelves.",
+                              "Use a clean sponge or soft cloth and a mild detergent in warm water. Do not use abrasive or harsh cleaners.",
+                              "Hand wash, rinse and dry all surfaces thoroughly."
+                        ],
+                        "Exterior": [
+                              "For products with black stainless steel exterior, spray glass cleaner on a clean microfiber cloth and rub in direction of grain. Do not spray glass cleaner directly at the display panel. Do not use harsh or abrasive cleaners.",
+                              "For products with a standard stainless steel exterior, use a damp microfiber cloth and rub in the direction of the grain. Dry with a paper towel to avoid streaks. For stubborn stains and fingerprints, use a few drops of liquid dish soap in water, and rinse with hot water before drying. Do not use abrasive or harsh cleaners."
+                        ],
+                        "Inside Walls": [
+                              "Allow freezer to warm up so the cloth will not stick.",
+                              "To help remove odors, wash the inside of the refrigerator with a mixture of baking soda and warm water. Mix 2 tablespoons of baking soda to 1 quart of water (26 g soda to 1 liter water.) Be sure the baking soda is completely dissolved so it does not scratch the surfaces of the refrigerator."
+                        ],
+                        "Door Liners and Gaskets": [
+                              "Use a clean sponge or soft cloth and a mild detergent in warm water. Do not use cleaning waxes, concentrated detergents, bleaches, or cleaners containing petroleum on plastic refrigerator parts."
+                        ],
+                        "Plastic Parts (Covers and Panels)": [
+                              "Use a clean sponge or soft cloth and a mild detergent in warm water. Do not use glass cleaners, abrasive cleansers, or flammable fluids. These can scratch or damage the material."
+                        ],
+                        "Condenser Coils": [
+                              "Use a vacuum cleaner with a brush or crevice attachment to clean the condenser cover and vents. Do not remove the panel covering the condenser coil area."
+                        ]
+                  },
+                  "Air Filter": {
+                        "Replacing the Fresh Air Filter": {
+                              "Fresh Air Filter": {
+                                    "replacing": {
+                                          "Replace the Fresh Air Filter": [
+                                                "Approximately every six months.",
+                                                "When the Replace Filter g icon turns on.",
+                                                "Use replacement air filter LT120F"
+                                          ],
+                                          "procedure": {
+                                                "steps": [
+                                                      "Rotate the filter cover counterclockwise to release the tabs, and remove the cover.",
+                                                      "Remove the filter from the inside of the cover by pressing the side of the filter in and pulling the center out.",
+                                                      "Place the new filter inside of the cover with the side that says FRONT facing outward.",
+                                                      "Align tabs a on the filter cover with hooks b on the refrigerator wall.",
+                                                      "Rotate the air filter cover clockwise until the hooks engage and the cover locks in place.",
+                                                      "Press and hold the Fresh Air Filter button on the control panel for 3 seconds to reset the filter sensor."
+                                                ]
+                                          }
+                                    }
+                              }
+                        }
+                  },
+                  "Water Filter": {
+                        "Before Replacing": {
+                              "warning": [
+                                    "To reduce the risk associated with choking, do not allow children under 3 years of age to have access to small parts during the installation of this product.",
+                                    "To reduce the risk associated with the ingestion of contaminants, do not use with water that is microbiologically unsafe or of unknown quality without adequate disinfection before or after the system. Systems certified for cyst reduction may be used on disinfected water that may contain filterable cysts.",
+                                    "Use of unauthorized water filters may result in product malfunction, water leakage or water quality issues, which will not be covered under the product warranty."
+                              ],
+                              "caution": [
+                                    "Read and follow Use Instructions before installation and use of this system.",
+                                    "Installation and use MUST comply with all state and local plumbing codes.",
+                                    "Do not install if water pressure exceeds 120 psi (827 kPa). If your water pressure exceeds 80 psi, you must install a pressure limiting valve. Contact a plumber if uncertain how to check your water pressure.",
+                                    "Do not install where water hammer conditions may occur. If water hammer conditions exist you must install a water hammer arrester. Contact a plumbing professional if you are uncertain how to check for this condition.",
+                                    "Do not install on hot water supply lines. The maximum operating water temperature of this filter system is 100 \u00b0F (37.8 \u00b0C).",
+                                    "Protect filter from freezing. Drain filter when temperatures drop below 40 \u00b0F (4.4 \u00b0C).",
+                                    "The disposable filter cartridge MUST be replaced every 6 months, at the rated capacity or if a noticeable reduction in flow rate occurs.",
+                                    "To protect it from freezing, remove filter cartridge when temperatures are expected to drop below 33\u00b0 F.",
+                                    "Do not install systems in areas where ambient temperatures may go above 110\u00b0 F (43.3\u00b0 C).",
+                                    "Where a backflow prevention device is installed on a water system, a device for controlling pressure due to thermal expansion must be installed.",
+                                    "Ensure all tubing and fittings are secure and free from leaks."
+                              ]
+                        },
+                        "replacing": {
+                              "Replace the water filter": [
+                                    "Approximately every six months.",
+                                    "When the Replace Filter h icon turns on.",
+                                    "When the water dispenser output decreases."
+                              ],
+                              "To purchase a replacement water filter": {
+                                    "replacement water filter": {
+                                          "purchasing": [
+                                                "Visit your local dealer or distributor",
+                                                "Search using \"water filter\" on lg.com",
+                                                "Use replacement cartridge LT1000P, LT1000PC, LT1000PCS or ADQ747935"
+                                          ]
+                                    }
+                              },
+                              "procedure": {
+                                    "steps": {
+                                          "If the top shelf, located below the water filter, is in the highest position, it will need to be removed prior to replacing the water filter.": [
+                                                "If the top shelf, located below the water filter, is in the highest position, it will need to be removed prior to replacing the water filter.",
+                                                "To remove any shelf, tilt up the front of the shelf and lift it. Pull the shelf out.",
+                                                "Pinch the sides to open the water filter cover."
+                                          ],
+                                          "Pull the water filter downward and turn it counterclockwise before pulling it out.": {
+                                                "description": [
+                                                      "Make sure to rotate the filter down completely before pulling it out of the manifold hole.",
+                                                      "Replacing the water filter causes a small amount of water (around 1 oz. or 25 cc) to drain.",
+                                                      "Wrap a cloth around the front end of the water filter cover to collect any leaking water. Hold the water filter upright, once it is removed, to prevent any remaining water from spilling out of the water filter."
+                                                ]
+                                          },
+                                          "Replace with a new water filter.": [
+                                                "Take the new water filter out of its packing and remove the protective cover from the ohphrings. With the water filter tabs in the horizontal position, push the new water filter into the manifold hole and turn it clockwise until it stops."
+                                          ],
+                                          "Close the water filter cover. The cover will click when closed correctly.": [
+                                                "Close the water filter cover. The cover will click when closed correctly."
+                                          ],
+                                          "After the water filter is replaced, dispense 2.5 gallons of water (flush for approximately 5 minutes) to remove trapped air and contaminants from the system.": [
+                                                "After the water filter is replaced, dispense 2.5 gallons of water (flush for approximately 5 minutes) to remove trapped air and contaminants from the system.",
+                                                "Do not dispense the entire 2.5 gallon amount continuously. Press and release the dispenser pad for cycles of 30 seconds ON and 60 seconds OFF."
+                                          ],
+                                          "After changing the filter, press and hold the Water Filter button for three seconds to reset the indicator light.": [
+                                                "After changing the filter, press and hold the Water Filter button for three seconds to reset the indicator light."
+                                          ]
+                                    }
+                              },
+                              "caution": [
+                                    "LG strongly recommends that you use LGhphauthorized water filters to prevent water quality issues, water leakage and appliance malfunction."
+                              ],
+                              "For further assistance, call": [
+                                    "1hph800hph243hph0000 (USA)",
+                                    "1hph888hph542hph2623 (Canada)"
+                              ]
+                        },
+                        "Performance Data Sheet": {
+                              "description": [
+                                    "Model LT1000P, LT1000PC, LT1000PCS",
+                                    "NSF System Trade Name Code MDJ64844601",
+                                    "The concentration of the indicated substances in water entering the system was reduced to a concentration less than or equal to the permissible limit for water leaving the system as specified in NSF/ANSI Standard 42, Standard 53 and Standard 401.",
+                                    "* Based on the use of Cryptosporidium parvum oocysts.",
+                                    "It is essential that the manufacturer\u2019s recommended installation, maintenance and filter replacement requirements be carried out for the product to perform as advertised.",
+                                    "For replacement filters, visit your local dealer or distributor or search under \"water filters\" on the lg.com website.",
+                                    "For further assistance, contact the LG Electronics Customer Information Center.",
+                                    "USA 1hph800hph243hph0000",
+                                    "Canada 1hph888hph542hph2623",
+                                    "While the testing was performed under standard laboratory conditions, actual performance may vary."
+                              ],
+                              "Replacement Cartridge LT1000P, LT1000PC, LT1000PCS or ADQ747935": [
+                                    "LG is a trademark of LG Corp.",
+                                    "NSF is a trademark of NSF International.",
+                                    "Manufactured by LG Electronics, INC",
+                                    "170, Sungsanpaechoungro, Seongsanhphgu, Gyeongsangnamhphdo, THE REPUBLIC OF KOREA"
+                              ]
+                        }
+                  }
+            }
+      }
+}

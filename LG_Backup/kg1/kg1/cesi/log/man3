@@ -1,0 +1,80 @@
+2021-03-09 20:26:23,834 - man3 - [INFO] - Running man3
+2021-03-09 20:26:23,834 - man3 - [INFO] - Reading Triples
+2021-03-09 20:26:23,837 - man3 - [INFO] - data_path ./data/manual/manual_test
+2021-03-09 20:26:25,926 - man3 - [INFO] - 	Cached triples
+2021-03-09 20:26:25,931 - man3 - [INFO] - Side Information Acquisition
+2021-03-09 20:26:26,059 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-09 20:26:26,064 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 6068
+2021-03-09 20:26:26,082 - man3 - [INFO] - 	Entity Linking Side info
+2021-03-09 20:26:26,083 - man3 - [INFO] - 	PPDB Side info
+2021-03-09 20:26:26,086 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-09 20:26:26,091 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 6068
+2021-03-09 20:26:26,094 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-09 20:26:26,097 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 1370
+2021-03-09 20:26:26,099 - man3 - [INFO] - 	Word Sense Disamb Side info
+2021-03-09 20:26:27,925 - man3 - [INFO] - 	Morphological Normalization Side info
+2021-03-09 20:26:27,931 - man3 - [INFO] - 	Token Overlap Side info
+2021-03-09 20:26:28,152 - man3 - [INFO] - 	AMIE Side info
+2021-03-09 20:26:28,158 - man3 - [INFO] - 	KBP Side info
+2021-03-09 20:26:28,184 - man3 - [INFO] - 	Cached Side Information
+2021-03-09 20:26:28,184 - man3 - [INFO] - Embedding NP and relation phrases
+2021-03-09 20:26:28,185 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-03-09 20:26:28,185 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-03-09 20:28:06,028 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-03-09 20:28:10,848 - man3 - [INFO] - 	Epochs: 1
+2021-03-09 20:28:15,355 - man3 - [INFO] - 	Epochs: 2
+2021-03-09 20:28:19,813 - man3 - [INFO] - 	Epochs: 3
+2021-03-09 20:28:24,282 - man3 - [INFO] - 	Epochs: 4
+2021-03-09 20:28:28,766 - man3 - [INFO] - 	Epochs: 5
+2021-03-09 20:28:33,214 - man3 - [INFO] - 	Epochs: 6
+2021-03-09 20:28:37,687 - man3 - [INFO] - 	Epochs: 7
+2021-03-09 20:28:42,144 - man3 - [INFO] - 	Epochs: 8
+2021-03-09 20:28:46,599 - man3 - [INFO] - 	Epochs: 9
+2021-03-09 20:28:51,058 - man3 - [INFO] - 	Epochs: 10
+2021-03-09 20:28:51,065 - man3 - [INFO] - Clustering NPs and relation phrases
+2021-03-15 15:27:52,042 - man3 - [INFO] - Running man3
+2021-03-15 15:27:52,043 - man3 - [INFO] - Reading Triples
+2021-03-15 15:27:52,043 - man3 - [INFO] - input_file ./data/manual/manual_test
+2021-03-15 15:29:20,822 - man3 - [INFO] - Running man3
+2021-03-15 15:29:20,822 - man3 - [INFO] - Reading Triples
+2021-03-15 15:29:20,822 - man3 - [INFO] - input_file ./data/manual/manual_test
+2021-03-15 15:29:21,067 - man3 - [INFO] - 	Cached triples
+2021-03-15 15:29:21,073 - man3 - [INFO] - Side Information Acquisition
+2021-03-15 15:29:21,205 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-15 15:29:21,212 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 6386
+2021-03-15 15:29:21,238 - man3 - [INFO] - 	Entity Linking Side info
+2021-03-15 15:29:21,239 - man3 - [INFO] - 	PPDB Side info
+2021-03-15 15:29:21,241 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-15 15:29:21,246 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 6370
+2021-03-15 15:29:21,249 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-15 15:29:21,251 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 1487
+2021-03-15 15:29:21,253 - man3 - [INFO] - 	Word Sense Disamb Side info
+2021-03-15 15:29:23,135 - man3 - [INFO] - 	Morphological Normalization Side info
+2021-03-15 15:29:23,142 - man3 - [INFO] - 	Token Overlap Side info
+2021-03-15 15:29:23,426 - man3 - [INFO] - 	AMIE Side info
+2021-03-15 15:29:23,434 - man3 - [INFO] - 	KBP Side info
+2021-03-15 15:29:23,468 - man3 - [INFO] - 	Cached Side Information
+2021-03-15 15:29:23,469 - man3 - [INFO] - Embedding NP and relation phrases
+2021-03-15 15:29:23,469 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-03-15 15:29:23,470 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-03-15 15:31:04,770 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-03-15 15:31:10,393 - man3 - [INFO] - 	Epochs: 1
+2021-03-15 15:31:15,688 - man3 - [INFO] - 	Epochs: 2
+2021-03-15 15:31:21,009 - man3 - [INFO] - 	Epochs: 3
+2021-03-15 15:31:26,334 - man3 - [INFO] - 	Epochs: 4
+2021-03-15 15:31:31,685 - man3 - [INFO] - 	Epochs: 5
+2021-03-15 15:31:37,002 - man3 - [INFO] - 	Epochs: 6
+2021-03-15 15:31:42,329 - man3 - [INFO] - 	Epochs: 7
+2021-03-15 15:31:47,625 - man3 - [INFO] - 	Epochs: 8
+2021-03-15 15:31:52,947 - man3 - [INFO] - 	Epochs: 9
+2021-03-15 15:31:58,353 - man3 - [INFO] - 	Epochs: 10
+2021-03-15 15:31:58,361 - man3 - [INFO] - Clustering NPs and relation phrases
+2021-03-15 15:32:43,068 - man3 - [INFO] - Running man3
+2021-03-15 15:32:43,068 - man3 - [INFO] - Reading Triples
+2021-03-15 15:32:43,068 - man3 - [INFO] - 	Loading cached triples
+2021-03-15 15:32:43,091 - man3 - [INFO] - Side Information Acquisition
+2021-03-15 15:32:43,091 - man3 - [INFO] - 	Loading cached Side Information
+2021-03-15 15:32:43,110 - man3 - [INFO] - Embedding NP and relation phrases
+2021-03-15 15:32:43,110 - man3 - [INFO] - 	Loading cached Embeddings
+2021-03-15 15:32:43,114 - man3 - [INFO] - Clustering NPs and relation phrases
+2021-03-15 15:32:43,114 - man3 - [INFO] - 	Loading cached Clustering

@@ -1,0 +1,132 @@
+2021-05-27 20:13:08,890 - out_new - [INFO] - Running out_new
+2021-05-27 20:13:08,891 - out_new - [INFO] - Reading Triples
+2021-05-27 20:13:08,891 - out_new - [INFO] - input_file ./data/manual/manual_test
+2021-05-27 20:13:09,181 - out_new - [INFO] - 	Cached triples
+2021-05-27 20:13:09,188 - out_new - [INFO] - Side Information Acquisition
+2021-05-27 20:13:09,320 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-27 20:13:09,326 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 7052
+2021-05-27 20:13:09,356 - out_new - [INFO] - 	Entity Linking Side info
+2021-05-27 20:13:09,357 - out_new - [INFO] - 	PPDB Side info
+2021-05-27 20:13:09,359 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-27 20:13:09,363 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 7001
+2021-05-27 20:13:09,367 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-27 20:13:09,370 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 1711
+2021-05-27 20:13:09,372 - out_new - [INFO] - 	Word Sense Disamb Side info
+2021-05-27 20:13:11,239 - out_new - [INFO] - 	Morphological Normalization Side info
+2021-05-27 20:13:11,245 - out_new - [INFO] - 	Token Overlap Side info
+2021-05-27 20:13:11,499 - out_new - [INFO] - 	AMIE Side info
+2021-05-27 20:13:11,508 - out_new - [INFO] - 	KBP Side info
+2021-05-27 20:13:11,541 - out_new - [INFO] - 	Cached Side Information
+2021-05-27 20:13:11,541 - out_new - [INFO] - Embedding NP and relation phrases
+2021-05-27 20:13:11,542 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-05-27 20:13:11,542 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-05-27 20:14:48,467 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-05-27 20:14:53,836 - out_new - [INFO] - 	Epochs: 1
+2021-05-27 20:14:58,856 - out_new - [INFO] - 	Epochs: 2
+2021-05-27 20:15:03,875 - out_new - [INFO] - 	Epochs: 3
+2021-05-27 20:15:08,882 - out_new - [INFO] - 	Epochs: 4
+2021-05-27 20:15:13,897 - out_new - [INFO] - 	Epochs: 5
+2021-05-27 20:15:18,930 - out_new - [INFO] - 	Epochs: 6
+2021-05-27 20:15:23,929 - out_new - [INFO] - 	Epochs: 7
+2021-05-27 20:15:28,952 - out_new - [INFO] - 	Epochs: 8
+2021-05-27 20:15:33,992 - out_new - [INFO] - 	Epochs: 9
+2021-05-27 20:15:39,077 - out_new - [INFO] - 	Epochs: 10
+2021-05-27 20:15:39,086 - out_new - [INFO] - Clustering NPs and relation phrases
+2021-05-27 20:31:40,539 - out_new - [INFO] - Running out_new
+2021-05-27 20:31:40,540 - out_new - [INFO] - Reading Triples
+2021-05-27 20:31:40,540 - out_new - [INFO] - input_file ./data/manual/data_out
+2021-05-27 20:31:40,832 - out_new - [INFO] - 	Cached triples
+2021-05-27 20:31:40,838 - out_new - [INFO] - Side Information Acquisition
+2021-05-27 20:31:40,969 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-27 20:31:40,975 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 7052
+2021-05-27 20:31:41,004 - out_new - [INFO] - 	Entity Linking Side info
+2021-05-27 20:31:41,005 - out_new - [INFO] - 	PPDB Side info
+2021-05-27 20:31:41,007 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-27 20:31:41,012 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 7010
+2021-05-27 20:31:41,015 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-27 20:31:41,019 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 1711
+2021-05-27 20:31:41,020 - out_new - [INFO] - 	Word Sense Disamb Side info
+2021-05-27 20:31:42,884 - out_new - [INFO] - 	Morphological Normalization Side info
+2021-05-27 20:31:42,891 - out_new - [INFO] - 	Token Overlap Side info
+2021-05-27 20:31:43,127 - out_new - [INFO] - 	AMIE Side info
+2021-05-27 20:31:43,136 - out_new - [INFO] - 	KBP Side info
+2021-05-27 20:31:43,168 - out_new - [INFO] - 	Cached Side Information
+2021-05-27 20:31:43,168 - out_new - [INFO] - Embedding NP and relation phrases
+2021-05-27 20:31:43,169 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-05-27 20:31:43,169 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-05-27 20:33:22,179 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-05-27 20:33:27,588 - out_new - [INFO] - 	Epochs: 1
+2021-05-27 20:33:32,565 - out_new - [INFO] - 	Epochs: 2
+2021-05-27 20:33:37,559 - out_new - [INFO] - 	Epochs: 3
+2021-05-27 20:33:42,548 - out_new - [INFO] - 	Epochs: 4
+2021-05-27 20:33:47,532 - out_new - [INFO] - 	Epochs: 5
+2021-05-27 20:33:52,511 - out_new - [INFO] - 	Epochs: 6
+2021-05-27 20:33:57,503 - out_new - [INFO] - 	Epochs: 7
+2021-05-27 20:34:02,465 - out_new - [INFO] - 	Epochs: 8
+2021-05-27 20:34:07,437 - out_new - [INFO] - 	Epochs: 9
+2021-05-27 20:34:12,433 - out_new - [INFO] - 	Epochs: 10
+2021-05-27 20:34:12,442 - out_new - [INFO] - Clustering NPs and relation phrases
+2021-05-28 16:50:19,208 - out_new - [INFO] - Running out_new
+2021-05-28 16:50:19,209 - out_new - [INFO] - Reading Triples
+2021-05-28 16:50:19,209 - out_new - [INFO] - input_file ./data/manual/data_out
+2021-05-28 16:50:19,498 - out_new - [INFO] - 	Cached triples
+2021-05-28 16:50:19,505 - out_new - [INFO] - Side Information Acquisition
+2021-05-28 16:50:19,515 - out_new - [INFO] - 	Entity Linking Side info
+2021-05-28 16:50:19,516 - out_new - [INFO] - 	PPDB Side info
+2021-05-28 16:50:19,519 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-28 16:50:19,538 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 7052
+2021-05-28 16:50:19,542 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-28 16:50:19,546 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 1711
+2021-05-28 16:50:19,548 - out_new - [INFO] - 	Word Sense Disamb Side info
+2021-05-28 16:50:21,531 - out_new - [INFO] - 	Morphological Normalization Side info
+2021-05-28 16:50:21,538 - out_new - [INFO] - 	Token Overlap Side info
+2021-05-28 16:50:21,762 - out_new - [INFO] - 	AMIE Side info
+2021-05-28 16:50:21,773 - out_new - [INFO] - 	KBP Side info
+2021-05-28 16:50:21,807 - out_new - [INFO] - 	Cached Side Information
+2021-05-28 16:50:21,808 - out_new - [INFO] - Embedding NP and relation phrases
+2021-05-28 16:50:21,808 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-05-28 16:50:21,809 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-05-28 16:51:59,254 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-05-28 16:52:04,483 - out_new - [INFO] - 	Epochs: 1
+2021-05-28 16:52:09,319 - out_new - [INFO] - 	Epochs: 2
+2021-05-28 16:52:14,161 - out_new - [INFO] - 	Epochs: 3
+2021-05-28 16:52:19,075 - out_new - [INFO] - 	Epochs: 4
+2021-05-28 16:52:23,991 - out_new - [INFO] - 	Epochs: 5
+2021-05-28 16:52:28,883 - out_new - [INFO] - 	Epochs: 6
+2021-05-28 16:52:33,794 - out_new - [INFO] - 	Epochs: 7
+2021-05-28 16:52:38,683 - out_new - [INFO] - 	Epochs: 8
+2021-05-28 16:52:43,600 - out_new - [INFO] - 	Epochs: 9
+2021-05-28 16:52:48,496 - out_new - [INFO] - 	Epochs: 10
+2021-05-28 16:52:48,505 - out_new - [INFO] - Clustering NPs and relation phrases
+2021-05-28 19:05:28,222 - out_new - [INFO] - Running out_new
+2021-05-28 19:05:28,223 - out_new - [INFO] - Reading Triples
+2021-05-28 19:05:28,223 - out_new - [INFO] - input_file ./data/manual/data_out
+2021-05-28 19:05:28,520 - out_new - [INFO] - 	Cached triples
+2021-05-28 19:05:28,527 - out_new - [INFO] - Side Information Acquisition
+2021-05-28 19:05:28,537 - out_new - [INFO] - 	Entity Linking Side info
+2021-05-28 19:05:28,538 - out_new - [INFO] - 	PPDB Side info
+2021-05-28 19:05:28,541 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-28 19:05:28,549 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 7052
+2021-05-28 19:05:28,553 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-28 19:05:28,556 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 1705
+2021-05-28 19:05:28,558 - out_new - [INFO] - 	Word Sense Disamb Side info
+2021-05-28 19:05:30,541 - out_new - [INFO] - 	Morphological Normalization Side info
+2021-05-28 19:05:30,548 - out_new - [INFO] - 	Token Overlap Side info
+2021-05-28 19:05:30,762 - out_new - [INFO] - 	AMIE Side info
+2021-05-28 19:05:30,775 - out_new - [INFO] - 	KBP Side info
+2021-05-28 19:05:30,813 - out_new - [INFO] - 	Cached Side Information
+2021-05-28 19:05:30,813 - out_new - [INFO] - Embedding NP and relation phrases
+2021-05-28 19:05:30,814 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-05-28 19:05:30,815 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-05-28 19:07:18,000 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-05-28 19:07:24,179 - out_new - [INFO] - 	Epochs: 1
+2021-05-28 19:07:29,943 - out_new - [INFO] - 	Epochs: 2
+2021-05-28 19:07:35,723 - out_new - [INFO] - 	Epochs: 3
+2021-05-28 19:07:41,491 - out_new - [INFO] - 	Epochs: 4
+2021-05-28 19:07:47,257 - out_new - [INFO] - 	Epochs: 5
+2021-05-28 19:07:53,011 - out_new - [INFO] - 	Epochs: 6
+2021-05-28 19:07:58,773 - out_new - [INFO] - 	Epochs: 7
+2021-05-28 19:08:04,514 - out_new - [INFO] - 	Epochs: 8
+2021-05-28 19:08:10,280 - out_new - [INFO] - 	Epochs: 9
+2021-05-28 19:08:16,043 - out_new - [INFO] - 	Epochs: 10
+2021-05-28 19:08:16,053 - out_new - [INFO] - Clustering NPs and relation phrases

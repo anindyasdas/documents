@@ -1,0 +1,32 @@
+2021-05-28 15:11:11,925 - out_new11 - [INFO] - Running out_new11
+2021-05-28 15:11:11,925 - out_new11 - [INFO] - Reading Triples
+2021-05-28 15:11:11,925 - out_new11 - [INFO] - input_file ./data/manual/data_out
+2021-05-28 15:11:12,221 - out_new11 - [INFO] - 	Cached triples
+2021-05-28 15:11:12,228 - out_new11 - [INFO] - Side Information Acquisition
+2021-05-28 15:11:12,238 - out_new11 - [INFO] - 	Entity Linking Side info
+2021-05-28 15:11:12,239 - out_new11 - [INFO] - 	PPDB Side info
+2021-05-28 15:11:12,243 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-28 15:11:12,250 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 7052
+2021-05-28 15:11:12,254 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-05-28 15:11:12,257 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 1711
+2021-05-28 15:11:12,259 - out_new11 - [INFO] - 	Word Sense Disamb Side info
+2021-05-28 15:11:14,312 - out_new11 - [INFO] - 	Morphological Normalization Side info
+2021-05-28 15:11:14,319 - out_new11 - [INFO] - 	Token Overlap Side info
+2021-05-28 15:11:14,552 - out_new11 - [INFO] - 	AMIE Side info
+2021-05-28 15:11:14,566 - out_new11 - [INFO] - 	KBP Side info
+2021-05-28 15:11:14,603 - out_new11 - [INFO] - 	Cached Side Information
+2021-05-28 15:11:14,603 - out_new11 - [INFO] - Embedding NP and relation phrases
+2021-05-28 15:11:14,604 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-05-28 15:11:14,605 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-05-28 15:12:53,897 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-05-28 15:12:59,043 - out_new11 - [INFO] - 	Epochs: 1
+2021-05-28 15:13:03,876 - out_new11 - [INFO] - 	Epochs: 2
+2021-05-28 15:13:08,720 - out_new11 - [INFO] - 	Epochs: 3
+2021-05-28 15:13:13,528 - out_new11 - [INFO] - 	Epochs: 4
+2021-05-28 15:13:18,351 - out_new11 - [INFO] - 	Epochs: 5
+2021-05-28 15:13:23,186 - out_new11 - [INFO] - 	Epochs: 6
+2021-05-28 15:13:27,974 - out_new11 - [INFO] - 	Epochs: 7
+2021-05-28 15:13:32,770 - out_new11 - [INFO] - 	Epochs: 8
+2021-05-28 15:13:37,581 - out_new11 - [INFO] - 	Epochs: 9
+2021-05-28 15:13:42,388 - out_new11 - [INFO] - 	Epochs: 10
+2021-05-28 15:13:42,397 - out_new11 - [INFO] - Clustering NPs and relation phrases

@@ -1,0 +1,222 @@
+OPERATION 	 description 	 steps before use
+OPERATION 	 description 	 a loud noise after initial operation
+OPERATION 	 description 	 Control Panel
+OPERATION 	 description 	 Sabbath Mode
+OPERATION 	 description 	 Ice and Water Dispenser
+OPERATION 	 description 	 Ice Compartment
+OPERATION 	 description 	 Automatic Icemaker
+OPERATION 	 description 	 Food
+OPERATION 	 description 	 Butter
+OPERATION 	 description 	 Margarine
+OPERATION 	 description 	 Cheese
+OPERATION 	 description 	 Milk
+OPERATION 	 description 	 Eggs
+OPERATION 	 description 	 Fruit
+OPERATION 	 description 	 Leafy Vegetables
+OPERATION 	 description 	 Vegetables with skins
+OPERATION 	 description 	 carrots
+OPERATION 	 description 	 peppers
+OPERATION 	 description 	 Fish
+OPERATION 	 description 	 Leftovers
+OPERATION 	 description 	 Frozen Food
+OPERATION 	 description 	 Humidity Controlled Crispers
+OPERATION 	 description 	 Glide'N'Serve
+OPERATION 	 description 	 Refrigerator Shelves
+OPERATION 	 description 	 Door-in-Door
+OPERATION 	 description 	 Door Bins
+OPERATION 	 description 	 Durabase
+steps before use 	 description 	 Clean the refrigerator
+steps before use 	 description 	 Open refrigerator doors and freezer drawers to ventilate the interior
+steps before use 	 description 	 Connect the power supply
+steps before use 	 description 	 Turn off the icemaker
+steps before use 	 description 	 Wait for the refrigerator to cool
+Clean the refrigerator 	 description 	 ['Clean the refrigerator thoroughly and wipe off all dust that accumulated during shipping.']
+Clean the refrigerator 	 follow_precaution 	 ['Do not scratch the refrigerator with a sharp object or use a detergent that contains alcohol, a flammable liquid or an abrasive when removing any tape or adhesive from the refrigerator. Remove adhesive residue by wiping it off with your thumb or dish detergent.', 'Do not peel off the model or serial number label or the technical information on the rear surface of the refrigerator.']
+Open refrigerator doors and freezer drawers to ventilate the interior 	 description 	 ['The inside of the refrigerator may smell like plastic at first. Remove any adhesive tape from inside the refrigerator and open the refrigerator doors and the freezer drawers for ventilation.']
+Connect the power supply 	 description 	 ['Check if the power supply is connected before use.']
+Turn off the icemaker 	 description 	 ['Turn off the icemaker if the refrigerator is not yet connected to the water supply.']
+Turn off the icemaker 	 Note 	 ['The icemaker water valve may buzz if the icemaker is turned on while the refrigerator is not connected to the water supply.']
+Wait for the refrigerator to cool 	 description 	 ['Allow the refrigerator to run for at least two to three hours before putting food in it. Check the flow of cold air in the freezer compartment to ensure proper cooling.']
+Wait for the refrigerator to cool 	 follow_precaution 	 ['Putting food in the refrigerator before it has cooled could cause the food to spoil, or a bad odor to remain inside the refrigerator.']
+a loud noise after initial operation 	 description 	 ['This is normal. The volume will decrease as the temperature decreases.']
+Control Panel 	 have 	 Ice Plus
+Control Panel 	 have 	 Smart Grid
+Control Panel 	 have 	 Freezer
+Control Panel 	 have 	 Refrigerator
+Control Panel 	 have 	 Fresh Air Filter
+Control Panel 	 have 	 Lock
+Control Panel 	 have 	 Water Filter
+Control Panel 	 have 	 Wi-Fi
+Control Panel 	 have 	 Water and Ice Type
+Control Panel 	 have 	 Craft Ice Mode
+Control Panel 	 have 	 Display Mode
+Ice Plus 	 description 	 ['This function increases both ice making and freezing capabilities.']
+Ice Plus 	 use 	 ['Press the Ice Plus button to illuminate the icon and activate the function for 24 hours. The function automatically shuts off after 24 hours. Stop the function manually by pressing the button once more.']
+Ice Plus 	 start 	 ['Press the Ice Plus button to illuminate the icon and activate the function for 24 hours.']
+Ice Plus 	 stop 	 ['The function automatically shuts off after 24 hours. Stop the function manually by pressing the button once more.']
+Smart Grid 	 description 	 ['Press the Smart Grid button to turn the function On/Off. When the function is on, the icon illuminates. The function automatically turns on when the refrigerator is connected to the Wi-Fi network.', 'When the refrigerator is responding to a Demand Response (DR) message from the electric company, the Grid text illuminates.']
+Smart Grid 	 use 	 ['Press the Smart Grid button to turn the function On/Off. When the function is on, the icon illuminates.']
+Smart Grid 	 start 	 ['Press the Smart Grid button to turn the function On/Off.']
+Smart Grid 	 stop 	 ['Press the Smart Grid button to turn the function On/Off.']
+Freezer 	 description 	 ['Indicates the set temperature of the freezer compartment in Celsius (°C) or Fahrenheit (°F). ). The default freezer temperature is 0°F (-18 °C).']
+Freezer 	 use 	 ['Type A -Press the Freezer button repeatedly to select a new set temperature from -6 °F to 8 °F (-21 °C to -13°C).', 'Type B -Press the Freezer button repeatedly to select a new set temperature from -7 °F to 5 °F (-23 °C to -15°C).']
+Freezer 	 has default temperature 	 ['0°F (-18 °C)']
+Freezer 	 change mode 	 ['To change the temperature mode from °F to °C (or vice versa) press and hold the Refrigerator and Freezer buttons simultaneously for approximately five seconds. The temperature indicator on the display window switches between Celsius and Fahrenheit. The displayed temperature is the target temperature, and not the actual temperature of the refrigerator. The actual refrigerator temperature depends on the food inside the refrigerator.']
+Refrigerator 	 description 	 ['Indicates the set temperature of the refrigerator compartment in Celsius (°C) or Fahrenheit (°F). The default refrigerator temperature is 37 °F (3 °C).']
+Refrigerator 	 use 	 ['Type A-\tPress the Refrigerator button repeatedly to select a new set temperature from 33 °F to 46 °F (1 °C to 8 °C).', 'Type B-\tPress the Refrigerator button repeatedly to select a new set temperature from 33 °F to 43 °F (1 °C to 7 °C).']
+Refrigerator 	 has default temperature 	 ['37 °F (3 °C)']
+Refrigerator 	 change mode 	 ['To change the temperature mode from °F to °C (or vice versa) press and hold the Refrigerator and Freezer buttons simultaneously for approximately five seconds. The temperature indicator on the display window switches between Celsius and Fahrenheit. The displayed temperature is the target temperature, and not the actual temperature of the refrigerator. The actual refrigerator temperature depends on the food inside the refrigerator.']
+Fresh Air Filter 	 description 	 ['The Fresh Air Filter helps remove odors from the refrigerator. The Fresh Air Filter has two settings, Auto and Power. In Auto mode, the Fresh Air Filter cycles on and off in increments of ten minutes on and 110 minutes off. If set to the Power mode, the Fresh Air Filter stays on continuously for four hours, cycling on and off in increments of ten minutes on and five minutes off. After four hours, the Fresh Air Filter switches back to Auto mode']
+Fresh Air Filter 	 has mode 	 Auto Mode
+Fresh Air Filter 	 has mode 	 Power Mode
+Auto Mode 	 description 	 ['In Auto mode, the Fresh Air Filter cycles on and off in increments of ten minutes on and 110 minutes off.']
+Auto Mode 	 change mode 	 ['Press the Fresh Air Filter button repeatedly to toggle between Power mode and Auto mode.']
+Power Mode 	 description 	 ['If set to the Power mode, the Fresh Air Filter stays on continuously for four hours, cycling on and off in increments of ten minutes on and five minutes off. After four hours, the Fresh Air Filter switches back to Auto mode.']
+Power Mode 	 change mode 	 ['Press the Fresh Air Filter button repeatedly to toggle between Power mode and Auto mode.']
+Fresh Air Filter 	 replacement information 	 ['Replace the air filter when the g icon turns on. After replacing the air filter, press and hold the Fresh Air Filter button for three seconds to turn the icon light off. Replace the air filter approximately every six months.']
+Fresh Air Filter 	 replacement period 	 ['Replace the air filter approximately every six months.']
+Lock 	 description 	 ['The lock function disables every other button on the display.', 'When power is initially connected to the refrigerator, the lock function is off.']
+Lock 	 use 	 ['To lock the control panel buttons, press and hold the Lock button until the k icon appears in the display and the function is activated.']
+Lock 	 disable information 	 ['To disable the function, press and hold the Lock button for approximately three seconds.']
+Water Filter 	 replacement information 	 ['Replace the water filter when the h icon turns on. After replacing the water filter, press and hold the Water Filter button for three seconds to turn the icon light off. Replace the water filter approximately every six months.']
+Water Filter 	 replacement period 	 ['Replace the water filter approximately every six months.']
+Wi-Fi 	 description 	 ['The Wi-Fi button, when used with the LG ThinQ app, allows the refrigerator to connect to a home Wi-Fi network. Refer to Smart Functions for information on the initial setup of the application.', "The f icon shows the status of the refrigerator's network connection. The icon illuminates when the refrigerator is connected to the Wi-Fi network."]
+Wi-Fi 	 use 	 ['Press and hold the Wi-Fi button for 3 seconds to connect to the network. The icon blinks while the connection is being made, then turns on once the connection is successfully made.']
+Water and Ice Type 	 description 	 ['Select the desired dispenser mode from the buttons on the dispenser control panel.']
+Water and Ice Type 	 use 	 [' Press the dispenser switch with a glass or other container to dispense cubed ice, water or crushed ice.']
+Craft Ice Mode 	 description 	 ['This feature is only available on some models.', 'The Freezer button can also be used to set the Craft Ice mode to either 3 ICE or 6 ICE. The default mode is 3 ICE.', 'For more ice, select the 6 ICE mode. For clearer ice, select the 3 ICE mode.']
+Craft Ice Mode 	 has default mode 	 ['The default mode is 3 ICE.']
+Craft Ice Mode 	 use 	 ['Touch any button on the control panel to activate it.', 'Press and hold the Freezer button for 3 seconds until the control panel beeps and the current ice mode appears.', 'Press the Freezer button repeatedly to toggle between the 3 ICE and 6 ICE modes. After 5 seconds of idle time, the last mode set will be saved, and the display will return to normal.']
+Display Mode 	 description 	 ['The Display Mode disables all cooling in the refrigerator and freezer sections to conserve energy while on display in a retail store. When activated, OFF is displayed on the control panel and the display remains on for 20 seconds.']
+Display Mode 	 use 	 ['With either refrigerator door opened, press and hold the Refrigerator and Ice Plus buttons at the same time for 5 seconds. The control panel beeps and the temperature settings display to confirm that Display Mode is deactivated. Use the same procedure to activate Display Mode.']
+Display Mode 	 start or activate 	 ['With either refrigerator door opened, press and hold the Refrigerator and Ice Plus buttons at the same time for 5 seconds. The control panel beeps and the temperature settings display to confirm that Display Mode is deactivated. Use the same procedure to activate Display Mode.']
+Display Mode 	 stop or deactivate 	 ['With either refrigerator door opened, press and hold the Refrigerator and Ice Plus buttons at the same time for 5 seconds. The control panel beeps and the temperature settings display to confirm that Display Mode is deactivated. Use the same procedure to activate Display Mode.']
+Sabbath Mode 	 description 	 ['Sabbath mode is used on the Jewish Sabbath and holidays.', 'Sabbath mode automatically turns off after 96 hours.', 'Once turned on, Sabbath mode is maintained even after a power outage.', 'Selecting Sabbath mode automatically turns off the alarm functions.', 'The dispenser and InstaView are disabled in Sabbath mode, on applicable models.', 'ice from jamming in the ice chute. A container with a very small opening should be held as close to the dispenser as possible to avoid spilling.']
+Sabbath Mode 	 start or activate 	 ['To turn Sabbath mode on, touch the display to activate it, then press and hold the Freezer and Wi-Fi buttons for 3 seconds until sb appears in the display.']
+Sabbath Mode 	 stop or deactivate 	 ['To turn Sabbath mode off manually, press and hold the Freezer and Wi-Fi buttons for 3 seconds.']
+Ice and Water Dispenser 	 Precaution 	 ['Keep children away from the dispenser. Children may play with or damage the controls.', 'Throw away the first bin full of ice (about 140- 160 cubes) after installation. The first ice and water dispensed may include particles or odor from the water supply line or the water tank. This is also necessary if the refrigerator has not been used for a long time.', 'Dispense and throw away 2.5 gallons of water (flush for approximately 5 minutes) after installation. Do not dispense the entire 2.5 gallon amount continuously. Press and release the dispenser pad for cycles of 30 seconds ON and 60 seconds OFF. This is also necessary if the refrigerator has not been used for a long time.', 'If ice or water dispenses unexpectedly, turn off the water supply and contact an LG Electronics Customer Information Center.', 'Never use a glass that is exceptionally narrow or deep. Ice may jam in the ice passage and refrigerator performance may be affected.', 'When dispensing ice from the dispenser, do not use a fragile container.', 'The dispenser will not operate when either of the refrigerator doors is open.', 'If discolored ice is dispensed, check the water filter and water supply. If the problem continues, contact an LG Electronics Customer Information Center. Do not use the water or ice until the problem is corrected.Dispense ice into a glass before filling it with water or other beverages. Splashing may occur if ice is dispensed into a glass that already contains liquid.', 'Some dripping may occur after dispensing. Hold the cup beneath the dispenser for a few seconds after dispensing to catch all of the drops.', 'Keep containers at an appropriate distance from the dispensers. Tall, narrow glasses should be held far enough from the ice outlet to prevent']
+Ice and Water Dispenser 	 use 	 ['Press the button for the desired dispenser mode on the dispenser control panel. The LED lights up when the mode is selected.', 'Press the dispenser paddle a with a glass or other container to dispense cubed ice, water or crushed ice.']
+Ice and Water Dispenser 	 lock information 	 ['Press and hold the Lock button for three seconds to lock the dispenser and all the control panel functions. Follow the same instructions to unlock.']
+Ice and Water Dispenser 	 Clean information 	 Ice and Water Outlet
+Ice and Water Dispenser 	 Clean information 	 Dispenser Tray
+Ice and Water Outlet 	 Clean information 	 ['Wipe the water outlet a or ice outlet b frequently with a clean, lint free cloth as it may get dirty easily.']
+Dispenser Tray 	 Clean information 	 ['Wipe the entire area with a damp cloth. The dispenser tray may become wet easily due to spilled ice or water.']
+Ice Compartment 	 Precaution 	 ['Keep hands and tools out of the ice compartment door and dispenser chute. Failure to do so may result in damage or personal injury.', 'Keep the ice compartment door closed tightly. If the ice compartment door is not closed tightly, the cold air in the ice bin will freeze food in the refrigerator compartment. This could also cause the icemaker to stop producing ice.']
+Ice Compartment 	 has 	 In-Door Ice Bin
+In-Door Ice Bin 	 description 	 ['The icemaker stops producing ice when the indoor ice bin is full. To make room for additional ice, empty the ice bin into an extra ice bin in the freezer compartment. During use, the ice may stack unevenly in the bin, causing the icemaker to misread the number of ice cubes and stop producing ice. Shaking the ice bin to level the ice within it can reduce this problem.', 'If the icemaker is turned OFF for an extended period of time, the ice compartment will gradually warm up to the temperature of the refrigerator compartment. To prevent ice cubes from melting and leaking from the dispenser, ALWAYS empty the ice bin when the icemaker is turned OFF for more than a few hours.']
+In-Door Ice Bin 	 precaution 	 ['When handling the ice bin, keep hands away from the icemaker tray area to avoid personal injury.', 'Storing cans or other items in the ice bin will damage the icemaker.', 'Never use thin crystal glasses or containers to collect ice. Such containers may chip or break resulting in glass fragments in the ice.']
+In-Door Ice Bin 	 Detaching 	 ['Only qualified service personnel from an LG Electronics service center should disassemble or repair the icemaker.', 'Gently pull the handle to open the ice compartment.', 'To remove the in-door ice bin, grip the front handle, slightly lift the bottom, and slowly pull out the bin as shown.']
+In-Door Ice Bin 	 Assembling 	 ['When handling the ice bin, keep hands away from the icemaker tray area to avoid personal injury.', 'Avoid touching the auto shutoff (feeler arm) when replacing the ice bin. See the label on the ice compartment door for details.', 'Carefully insert the in-door ice bin, slanting the top slightly to fit it under the icemaker.', 'Gently push the handle to close the ice compartment.']
+Automatic Icemaker 	 Precaution 	 ['DO NOT place fingers in the automatic icemaker when the refrigerator is plugged in.', 'Avoid contact with any moving parts of the ejector mechanism or with the heater that releases the ice cubes.']
+Automatic Icemaker 	 has 	 In-Door Icemaker
+Automatic Icemaker 	 has 	 Freezer Icemaker
+In-Door Icemaker 	 description 	 ['Ice is made in the automatic in-door icemaker and sent to the dispenser. The icemaker produces 70 - 182 cubes in a 24-hour period, depending on freezer compartment temperature, room temperature, number of door openings and other operating conditions.', 'It takes about 12 to 24 hours for a newly installed refrigerator to begin making ice.', 'Ice-making stops when the in-door ice bin is full. When full, the in-door ice bin holds approximately 6 to 8 (12-16 oz.) glasses of ice.', 'Foreign substances or frost on the ice-detecting sensor can interrupt ice production. Make sure the sensor area is clean at all times for proper operation.', 'To increase ice production, use the Ice Plus function. The function increases both ice making and freezing capabilities.']
+In-Door Icemaker 	 has 	 Icemaker
+In-Door Icemaker 	 has 	 Power Switch
+In-Door Icemaker 	 has 	 Ice-detecting Sensor
+In-Door Icemaker 	 has 	 Auto Shutoff (feeler arm)
+Freezer Icemaker 	 description 	 ['Throw away the first bin full of ice after installation. This is also necessary if the refrigerator has not been used for a long time.The icemaker begins producing ice approximately 48 hours after the appliance is initially installed.', 'The sound of ice dropping into the ice bin is normal.', 'If the ice bin is completely filled with ice, ice production will stop.', 'The amount and shape of ice may vary according to the environment (ambient temperature around the appliance, frequency of the door being opened, amount of food stored in the appliance, water pressure, etc.).', 'In the event of a power outage, throw away the ice stored in the ice bin.', 'This automatic freezer icemaker produces 12 cubes at a time, 50-110 pieces within a 24 hour period if conditions are favorable. This amount may vary according to the environment (ambient temperature around the appliance, frequency of the door being opened, amount of food stored in the appliance, etc.).', 'Ice cubes which are stored in the ice bin for a long time may clump together and be difficult to separate. If this happens, empty the ice bin completely and clean it before reinstalling it.', 'The icemaker begins producing ice approximately 48 hours after the appliance is initially installed. The first batches of ice may not be round and clear.', 'Following installation or water filter replacement, the first few batches of ice may be semicircular or contain air bubbles.', 'If the water pressure is less than 20 psi (138 kPa) or a reverse osmosis system is used, the shape of the ice may vary.', 'The ice may look cloudy depending on the water quality in the installation location and the operating conditions.', 'Throw away any shards of ice you may find in the ice bin, as they may stick to the ice stored in the ice bin.', 'After a short term power outage, it will take longer to make the first batch of ice, and the ice may not be round. If the power will be out for a longer period, throw away the ice stored in the ice bin.', 'The Craft Ice icemaker produces 1 batch of round ice (3 pieces) at a time.', 'In 3 ICE mode (default setting), the Craft Ice icemaker produces 1 batch of round ice (3 pieces) about every 24 hours. In 6 ICE mode, the Craft Ice icemaker produces 2 batches of round ice (6 pieces total) in the same period.', 'For more ice, select the 6 ICE mode. For clearer ice, select the 3 ICE mode.', 'The time needed to make ice may vary according to operating conditions.', 'The ice bin stores 20 - 30 pieces of round ice.']
+Freezer Icemaker 	 has 	 Feeler Arm
+Freezer Icemaker 	 has 	 Power Switch
+Freezer Icemaker 	 Precaution 	 ['Do not insert round ice into the in-door ice bin, as it can damage the ice and water dispenser.']
+Automatic Icemaker 	 start or activate 	 ['To turn the automatic icemaker On/Off, press the power switch on the icemaker to the ON ( | ) or OFF (O) position.']
+Automatic Icemaker 	 stop or deactivate 	 ['To turn the automatic icemaker On/Off, press the power switch on the icemaker to the ON ( | ) or OFF (O) position.']
+Automatic Icemaker 	 make sound 	 ['Keeping the power turned on to the icemaker before the water line is connected can damage the icemaker.', 'The icemaker water valve buzzes as the icemaker fills with water. If the icemaker power button is in the ON position, it will buzz even if it has not yet been hooked up to water. To stop the buzzing, press the icemaker power button to turn it off.', 'You will hear the sound of ice dropping into the bin and water running in the pipes as the icemaker refills.']
+Automatic Icemaker 	 during vacation 	 ['Set the icemaker power button to OFF and shut off the water supply to the refrigerator.', 'The ice bin should be emptied any time the icemaker power button is turned to the OFF position.', 'If the ambient temperature will drop below freezing, have a qualified technician drain the water supply system to prevent serious property damage due to flooding caused by ruptured water lines or connections.']
+Food 	 storage method 	 ['Wrap or store food in the refrigerator in airtight and moisture-proof material unless otherwise noted. This prevents food odor and taste transfer throughout the refrigerator. For dated products, check date code to ensure freshness.']
+Food 	 Precaution 	 ['Do not overfill or pack items too tightly into door bins. Doing so may cause damage to the bin or personal injury if items are removed with excessive force.', 'Do not store glass containers in the freezer. Contents may expand when frozen, break the container and cause injury.']
+Food 	 Freezing 	 ['Your freezer will not quick-freeze a large quantity of food. Do not put more unfrozen food into the freezer than will freeze within 24 hours (no more than 2 to 3 pounds of food per cubic foot of freezer space). Leave enough space in the freezer for air to circulate around packages. Be careful to leave enough room at the front so the door can close tightly.', 'Storage times will vary according to the quality and type of food, the type of packaging or wrap used (how airtight and moisture-proof) and the storage temperature. Ice crystals inside a sealed package are normal. This simply means that moisture in the food and air inside the package have condensed, creating ice crystals', 'Allow hot foods to cool at room temperature for 30 minutes, and then package and freeze. Cooling hot foods before freezing saves energy.']
+Food 	 Packaging 	 ['Successful freezing depends on correct packaging. When you close and seal the package, it must not allow air or moisture in or out. If it does, you could have food odor and taste transfer throughout the refrigerator and could also dry out frozen food.', 'Packaging recommendations are Rigid plastic containers with tight-fitting lids, Straight-sided canning/freezing jars, Heavy-duty aluminum foil, Plastic-coated paper, Non-permeable plastic wraps, Specified freezer-grade self-sealing plastic bags.', 'Follow package or container instructions for proper freezing methods.', 'Do not use Bread wrappers, Non-polyethylene plastic containers, Containers without tight lids, Wax paper or wax-coated freezer wrap, Thin, semi-permeable wrap.']
+Food 	 Miscellaneous information 	 ['If you are leaving home for a short period, like a short vacation, the refrigerator should be left on. Refrigerated foods that are able to be frozen will stay preserved longer if stored in the freezer.', 'If you are leaving the refrigerator turned off for an extended period, remove all food and unplug the power cord. Clean the interior, and leave the door open to prevent fungi from growing in the refrigerator.', 'Do not store food with high moisture content towards the top of the refrigerator. The moisture could come into direct contact with the cold air and freeze.', 'Wash food before storing it in the refrigerator. Vegetables should be washed, and food packaging should be wiped down to prevent adjacent foods from being contaminated.', 'If the refrigerator is kept in a hot and humid place, frequent opening of the door or storing a lot of vegetables in the refrigerator may cause condensation to form. Wipe off the condensation with a clean cloth or a paper towel.', 'If doors are opened or closed too often, warm air may penetrate the refrigerator and raise its temperature. This can increase the running costs of the unit.']
+Butter 	 storage method 	 ['Keep opened butter in covered dish or closed compartment. When storing an extra supply, wrap in freezer packaging and freeze.']
+Margarine 	 storage method 	 ['Keep opened butter in covered dish or closed compartment. When storing an extra supply, wrap in freezer packaging and freeze.']
+Cheese 	 storage method 	 ['Store in original wrapping until used. Once opened, rewrap tightly in plastic wrap or aluminum foil.']
+Milk 	 storage method 	 ['Wipe milk cartons. For coldest milk, place containers on an interior shelf.']
+Eggs 	 storage method 	 ['Store in original carton on interior shelf, not on door shelf.']
+Fruit 	 storage method 	 ['Do not wash or hull fruit until it is ready to be used. Sort and keep fruit in original container in a crisper, or store in completely closed paper bag on refrigerator shelf.']
+Leafy Vegetables 	 storage method 	 ['Remove store wrapping, trim or tear off bruised and discolored areas, wash in cold water, and drain. Place in plastic bag or plastic container and store in crisper.']
+Vegetables with skins 	 storage method 	 ['Place in plastic bags or plastic container and store in crisper.']
+carrots 	 storage method 	 ['Place in plastic bags or plastic container and store in crisper.']
+peppers 	 storage method 	 ['Place in plastic bags or plastic container and store in crisper.']
+Fish 	 storage method 	 ['Freeze fresh fish and shellfish if they are not being eaten the same day purchased. Eating fresh fish and shellfish the same day purchased is recommended.']
+Leftovers 	 storage method 	 ['Cover leftovers with plastic wrap or aluminum foil, or store in plastic containers with tight lids.']
+Frozen Food 	 storage method 	 ['Check a freezer guide or a reliable cookbook for further information about preparing food for freezing or food storage times.']
+Humidity Controlled Crispers 	 use 	 ['The crispers provide fresher tasting fruit and vegetables by letting you easily control humidity inside the drawer.', 'You can control the amount of humidity in the moisture-sealed crispers by adjusting the control to any setting between Vegetables and Fruit.', 'Vegetables keeps moist air in the crisper for best storage of fresh, leafy vegetables.', 'Fruit lets moist air out of the crisper for best storage of fruit.']
+Humidity Controlled Crispers 	 Assembling 	 ['Open the doors completely and remove the contents of the Door-in-Door case. Lift up and pull out the Door-in-Door case.', 'Pull out the crisper to full extension, lift the front up, and pull straight out.', 'Lift the front of the cover up with both hands until it detaches from the back wall of the cabinet, then pull it out', 'To reassemble, insert the cover into the refrigerator with both hands and lower it onto the guides.', 'Slightly tilt up the front, insert the crisper into the frame and push it back into place.', 'Line up the tabs on the Door-in-Door case with the slots on the door and push down until it snaps into place.']
+Humidity Controlled Crispers 	 Removing 	 ['Open the doors completely and remove the contents of the Door-in-Door case. Lift up and pull out the Door-in-Door case.', 'Pull out the crisper to full extension, lift the front up, and pull straight out.', 'Lift the front of the cover up with both hands until it detaches from the back wall of the cabinet, then pull it out', 'To reassemble, insert the cover into the refrigerator with both hands and lower it onto the guides.', 'Slightly tilt up the front, insert the crisper into the frame and push it back into place.', 'Line up the tabs on the Door-in-Door case with the slots on the door and push down until it snaps into place.']
+Glide'N'Serve 	 use 	 ['This drawer can be used for large party trays, deli items and beverages. This drawer should not be used to store vegetables that require high humidity.']
+Glide'N'Serve 	 Precaution 	 ['Do not place any items on the Glide‘N’Serve cover.']
+Glide'N'Serve 	 has 	 Variable Temperature Control
+Variable Temperature Control 	 use 	 ['This feature is only available on some models.', 'This feature provides storage space with a variable temperature control that can keep the compartment at a slightly different temperature than the refrigerator section.', 'Press the Select button to choose between', 'Produce (Cold), Deli (Colder) and Meat (Coldest).']
+Glide'N'Serve 	 Assembling 	 ["To remove the Glide'N'Serve, pull out the drawer until it stops, lift the front up, and pull straight out.", 'To assemble, slightly tilt up the front, insert the drawer into the frame and push it back into place.']
+Glide'N'Serve 	 Detaching 	 ["To remove the Glide'N'Serve, pull out the drawer until it stops, lift the front up, and pull straight out.", 'To assemble, slightly tilt up the front, insert the drawer into the frame and push it back into place.']
+Refrigerator Shelves 	 description 	 ['The shelves in the refrigerator are adjustable to meet individual storage needs.', 'Adjusting the shelves to fit items of different heights will make finding the exact item you want easier.']
+Refrigerator Shelves 	 Precaution 	 ['Glass shelves are heavy. Use special care when removing them.', 'Do not clean glass shelves with warm water while they are cold. Shelves may break if exposed to sudden temperature changes or impact.', 'Make sure that shelves are level from one side to the other. Failure to do so may result in the shelf falling or spilled food.']
+Refrigerator Shelves 	 Assembling 	 ['To detach, tilt up the front of the shelf and lift the shelf straight up.', 'Pull the shelf out.', 'To assemble, tilt the front of the shelf up and guide the shelf hooks into the slots at a desired height.', 'Lower the front of the shelf so that the hooks drop into the slots.']
+Refrigerator Shelves 	 Detaching 	 ['To detach, tilt up the front of the shelf and lift the shelf straight up.', 'Pull the shelf out.', 'To assemble, tilt the front of the shelf up and guide the shelf hooks into the slots at a desired height.', 'Lower the front of the shelf so that the hooks drop into the slots.']
+Door-in-Door 	 description 	 ['This feature is only available on some models.', 'The Door-in-Door compartment allows for easy access to commonly used food items.']
+Door-in-Door 	 has 	 Door-in-Door Compartment
+Door-in-Door 	 has 	 Door-in-Door Bin
+Door-in-Door 	 has 	 Door-in-Door Case
+Door-in-Door Compartment 	 use 	 ['To access the Door-in-Door compartment, lightly press the button on the right refrigerator door handle.']
+Door-in-Door Bin 	 description 	 ['The Door-in-Door inner and outer door bins are removable for easy cleaning.']
+Door-in-Door Bin 	 remove 	 ['To remove the door bins, lift up and pull out.']
+Door-in-Door Bin 	 replace 	 ['To replace the door bins, slide the door bin in above the desired support and push down until it snaps into place.']
+Door-in-Door Case 	 description 	 ['To open the Door-in-Door case, press on the area marked Pull to open. The case is removable for easy cleaning and adjustment.']
+Door-in-Door Case 	 remove 	 ['To remove the case, lift up and pull out.']
+Door-in-Door Case 	 replace 	 ['To replace the case, line up the tabs on the case with the slots on the door and push down until it snaps into place.']
+Door Bins 	 Precaution 	 ['Regularly detach and wash the storage bins and shelves; they can become easily contaminated by food.', 'Do not apply excessive force while detaching or assembling the storage bins.', 'Do not use the dishwasher to clean the storage bins and shelves.']
+Door Bins 	 Assembling 	 ['The door bins are removable for easy cleaning and adjustment', 'To remove the bin, simply lift the bin up and pull straight out.', 'To assemble the bin, slide it in above the desired support and push down until it snaps into place.']
+Durabase 	 use 	 ['The Durabase divider allows you to organize the Durabase area into 2 sections. It can be adjusted from side to side to accommodate items of different sizes.']
+Durabase 	 Precaution 	 ['If the Durabase divider is removed, there is enough open space for children or pets to crawl inside. To prevent accidental child and pet entrapment or suffocation risk, DO NOT allow children or pets to touch or go near the drawer.']
+the icemaker is turned on while the refrigerator is not connected to the water supply 	 Action 	 The icemaker water valve may buzz .
+the icemaker power button is in the ON position 	 Action 	 it will buzz even if it has not yet been hooked up to water .
+ice or water dispenses unexpectedly 	 Action 	 turn off the water supply and contact an LG Electronics Customer Information Center .
+the refrigerator is connected to the Wi - Fi network 	 Action 	 The icon illuminates .
+exposed to sudden temperature changes or impact 	 Action 	 Shelves may break .
+the g icon turns on 	 Action 	 Replace the air filter .
+they are not being eaten the same day purchased 	 Action 	 Freeze fresh fish and shellfish .
+the indoor ice bin is full 	 Action 	 The icemaker stops producing ice .
+the refrigerator has not been used for a long time 	 Action 	 This is also necessary .
+discolored ice is dispensed 	 Action 	 check the water filter and water supply .
+the power will be out for a longer period 	 Action 	 throw away the ice stored in the ice bin .
+the ice compartment door is not closed tightly 	 Action 	 the cold air in the ice bin will freeze food in the refrigerator compartment .
+either of the refrigerator doors is open 	 Action 	 The dispenser will not operate .
+replacing the ice bin 	 Action 	 Avoid touching the auto shutoff feeler arm .
+the refrigerator is responding to a Demand Response DR message from the electric company 	 Action 	 the Grid text illuminates .
+dispensing ice from the dispenser 	 Action 	 do not use a fragile container .
+power is initially connected to the refrigerator 	 Action 	 the lock function is off .
+items are removed with excessive force 	 Action 	 Doing so may cause damage to the bin or personal injury .
+doors are opened or closed too often 	 Action 	 warm air may penetrate the refrigerator and raise its temperature .
+removing them 	 Action 	 Use special care .
+conditions are favorable 	 Action 	 This automatic freezer icemaker produces 12 cubes at a time , 50-110 pieces within a 24 hour period .
+the refrigerator has not been used for a long time . The icemaker begins producing ice approximately 48 hours after the appliance is initially installed 	 Action 	 This is also necessary .
+storing an extra supply 	 Action 	 wrap in freezer packaging and freeze .
+the water pressure is less than 20 psi 138 kPa or a reverse osmosis system is used 	 Action 	 the shape of the ice may vary .
+you close and seal the package 	 Action 	 it must not allow air or moisture in or out .
+this happens 	 Action 	 empty the ice bin completely and clean it before reinstalling it .
+that contains alcohol , a flammable liquid or an abrasive removing any tape or adhesive from the refrigerator 	 Action 	 Do not scratch the refrigerator with a sharp object or use a detergent .
+the refrigerator is not yet connected to the water supply 	 Action 	 Turn off the icemaker .
+you are leaving the refrigerator turned off for an extended period 	 Action 	 remove all food and unplug the power cord .
+the refrigerator is plugged in 	 Action 	 DO NOT place fingers in the automatic icemaker .
+the in - door ice bin is full 	 Action 	 Ice-making stops .
+activated 	 Action 	 OFF is displayed on the control panel and the display remains on for 20 seconds .
+ice is dispensed into a glass that already contains liquid 	 Action 	 Splashing may occur .
+the mode is selected 	 Action 	 The LED lights up .
+the icemaker is turned OFF for more than a few hours 	 Action 	 To prevent ice cubes from melting and leaking from the dispenser , ALWAYS empty the ice bin .
+the icemaker is turned OFF for an extended period of time 	 Action 	 the ice compartment will gradually warm up to the temperature of the refrigerator compartment .
+frozen 	 Action 	 Contents may expand , break the container and cause injury .
+the refrigerator is connected to the Wi - Fi network 	 Action 	 The function automatically turns on .
+the Durabase divider is removed 	 Action 	 there is enough open space for children or pets to crawl inside .
+used with the LG ThinQ app 	 Action 	 The Wi-Fi button , , allows the refrigerator to connect to a home Wi-Fi network .
+the ambient temperature will drop below freezing 	 Action 	 have a qualified technician drain the water supply system to prevent serious property damage due to flooding caused by ruptured water lines or connections .
+the ice bin is completely filled with ice 	 Action 	 ice production will stop .
+the refrigerator is kept in a hot and humid place 	 Action 	 frequent opening of the door or storing a lot of vegetables in the refrigerator may cause condensation to form .
+full 	 Action 	 the in-door ice bin holds approximately 6 to 8 12-16 oz .
+the problem continues 	 Action 	 contact an LG Electronics Customer Information Center .
+the h icon turns on 	 Action 	 Replace the water filter .
+the function is on 	 Action 	 the icon illuminates .
+it does 	 Action 	 you could have food odor and taste transfer throughout the refrigerator and could also dry out frozen food .
+handling the ice bin 	 Action 	 keep hands away from the icemaker tray area to avoid personal injury .
+set to the Power mode 	 Action 	 the Fresh Air Filter stays on continuously for four hours , cycling on and off in increments of ten minutes on and five minutes off .
+the power supply is connected before use 	 Action 	 Check .

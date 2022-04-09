@@ -1,0 +1,32 @@
+2021-07-09 17:54:52,937 - out_new_all - [INFO] - Running out_new_all
+2021-07-09 17:54:52,937 - out_new_all - [INFO] - Reading Triples
+2021-07-09 17:54:52,938 - out_new_all - [INFO] - input_file ./data/man_all/data_out
+2021-07-09 17:54:53,379 - out_new_all - [INFO] - 	Cached triples
+2021-07-09 17:54:53,399 - out_new_all - [INFO] - Side Information Acquisition
+2021-07-09 17:54:53,427 - out_new_all - [INFO] - 	Entity Linking Side info
+2021-07-09 17:54:53,429 - out_new_all - [INFO] - 	PPDB Side info
+2021-07-09 17:54:53,434 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-07-09 17:54:53,445 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 16008
+2021-07-09 17:54:53,448 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-07-09 17:54:53,452 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 4991
+2021-07-09 17:54:53,455 - out_new_all - [INFO] - 	Word Sense Disamb Side info
+2021-07-09 17:54:59,004 - out_new_all - [INFO] - 	Morphological Normalization Side info
+2021-07-09 17:54:59,027 - out_new_all - [INFO] - 	Token Overlap Side info
+2021-07-09 17:54:59,665 - out_new_all - [INFO] - 	AMIE Side info
+2021-07-09 17:54:59,906 - out_new_all - [INFO] - 	KBP Side info
+2021-07-09 17:54:59,988 - out_new_all - [INFO] - 	Cached Side Information
+2021-07-09 17:54:59,988 - out_new_all - [INFO] - Embedding NP and relation phrases
+2021-07-09 17:54:59,989 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-07-09 17:54:59,990 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-07-09 17:56:41,783 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-07-09 17:56:54,940 - out_new_all - [INFO] - 	Epochs: 1
+2021-07-09 17:57:07,437 - out_new_all - [INFO] - 	Epochs: 2
+2021-07-09 17:57:19,995 - out_new_all - [INFO] - 	Epochs: 3
+2021-07-09 17:57:32,558 - out_new_all - [INFO] - 	Epochs: 4
+2021-07-09 17:57:45,111 - out_new_all - [INFO] - 	Epochs: 5
+2021-07-09 17:57:57,765 - out_new_all - [INFO] - 	Epochs: 6
+2021-07-09 17:58:10,294 - out_new_all - [INFO] - 	Epochs: 7
+2021-07-09 17:58:22,899 - out_new_all - [INFO] - 	Epochs: 8
+2021-07-09 17:58:35,529 - out_new_all - [INFO] - 	Epochs: 9
+2021-07-09 17:58:48,175 - out_new_all - [INFO] - 	Epochs: 10
+2021-07-09 17:58:48,197 - out_new_all - [INFO] - Clustering NPs and relation phrases

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title%} Query Page {% endblock %}
+{% block content %}
+<form action="{{url_for ('answer1_data')}}" method="POST">
+    <!-- <p>You have selected Model No. {{modelno}}</p> -->
+    <p>Question:</p>
+    <output type ="text" name="question">{{question}}</output>
+    <p>Answer: </p><br>
+    <p>{{answer|safe}}</p>
+    <br>
+    <input type="radio" name="options" id="option_1" value="option_1">
+    <label for="option_1">Problem Solved </label>
+    <br>
+    <input type="radio" name="options" id="option_2" value="option_2">
+    <label for="option_2">Problem Not Solved </label>
+    <br>
+    <input type="radio" name="options" id="option_3" value="option_3">
+    <label for="option_3">Need more specific answer </label>
+    <br>
+  <button type="submit" >Submit</button>
+</form>
+{% endblock %}

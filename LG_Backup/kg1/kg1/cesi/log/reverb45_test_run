@@ -1,0 +1,127 @@
+2021-02-02 17:31:55,901 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-02-02 17:31:55,901 - reverb45_test_run - [INFO] - Reading Triples
+2021-02-02 17:32:19,182 - reverb45_test_run - [INFO] - 	Cached triples
+2021-02-02 17:32:19,415 - reverb45_test_run - [INFO] - Side Information Acquisition
+2021-02-02 17:32:27,126 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-02-02 17:32:27,163 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 156953
+2021-02-02 17:32:27,464 - reverb45_test_run - [INFO] - 	Entity Linking Side info
+2021-02-02 17:32:27,571 - reverb45_test_run - [INFO] - 	PPDB Side info
+2021-02-02 17:32:27,581 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-02-02 17:32:27,612 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 150755
+2021-02-02 17:32:27,630 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-02-02 17:32:27,655 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 103445
+2021-02-02 17:32:27,821 - reverb45_test_run - [INFO] - 	Word Sense Disamb Side info
+2021-02-02 17:32:36,212 - reverb45_test_run - [INFO] - 	Morphological Normalization Side info
+2021-02-02 17:32:40,088 - reverb45_test_run - [INFO] - 	Token Overlap Side info
+2021-02-02 17:32:54,223 - reverb45_test_run - [INFO] - 	AMIE Side info
+2021-02-02 17:33:31,665 - reverb45_test_run - [INFO] - 	KBP Side info
+2021-02-02 17:33:36,222 - reverb45_test_run - [INFO] - 	Cached Side Information
+2021-02-02 17:33:36,222 - reverb45_test_run - [INFO] - Embedding NP and relation phrases
+2021-02-02 17:33:36,237 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-02-02 17:33:36,238 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-02-02 17:35:10,321 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-02-02 17:36:55,815 - reverb45_test_run - [INFO] - 	Epochs: 1
+2021-02-02 17:38:36,173 - reverb45_test_run - [INFO] - 	Epochs: 2
+2021-02-02 17:40:16,314 - reverb45_test_run - [INFO] - 	Epochs: 3
+2021-02-02 17:41:56,101 - reverb45_test_run - [INFO] - 	Epochs: 4
+2021-02-02 17:43:36,483 - reverb45_test_run - [INFO] - 	Epochs: 5
+2021-02-02 17:45:16,341 - reverb45_test_run - [INFO] - 	Epochs: 6
+2021-02-02 17:46:56,118 - reverb45_test_run - [INFO] - 	Epochs: 7
+2021-02-02 17:48:35,891 - reverb45_test_run - [INFO] - 	Epochs: 8
+2021-02-02 17:50:16,180 - reverb45_test_run - [INFO] - 	Epochs: 9
+2021-02-02 17:51:55,807 - reverb45_test_run - [INFO] - 	Epochs: 10
+2021-02-02 17:51:56,183 - reverb45_test_run - [INFO] - Clustering NPs and relation phrases
+2021-02-02 17:52:48,983 - reverb45_test_run - [INFO] - NP Canonicalizing Evaluation
+2021-02-02 17:52:49,534 - reverb45_test_run - [INFO] - Macro F1: 0.6252, Micro F1: 0.844, Pairwise F1: 0.8204
+2021-02-02 17:52:49,535 - reverb45_test_run - [INFO] - CESI: #Clusters: 6234, #Singletons 1776
+2021-02-02 17:52:49,536 - reverb45_test_run - [INFO] - Gold: #Clusters: 6039, #Singletons 186 
+
+2021-03-08 18:51:01,676 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-03-08 18:51:01,677 - reverb45_test_run - [INFO] - Reading Triples
+2021-03-08 18:59:32,026 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-03-08 18:59:32,026 - reverb45_test_run - [INFO] - Reading Triples
+2021-03-08 18:59:54,858 - reverb45_test_run - [INFO] - 	Cached triples
+2021-03-08 18:59:54,980 - reverb45_test_run - [INFO] - Side Information Acquisition
+2021-03-08 19:02:04,195 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-03-08 19:02:04,195 - reverb45_test_run - [INFO] - Reading Triples
+2021-03-08 19:02:04,195 - reverb45_test_run - [INFO] - 	Loading cached triples
+2021-03-08 19:02:05,311 - reverb45_test_run - [INFO] - Side Information Acquisition
+2021-03-08 19:02:12,314 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-08 19:04:26,092 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-03-08 19:04:26,092 - reverb45_test_run - [INFO] - Reading Triples
+2021-03-08 19:04:26,092 - reverb45_test_run - [INFO] - 	Loading cached triples
+2021-03-08 19:04:27,205 - reverb45_test_run - [INFO] - Side Information Acquisition
+2021-03-08 19:04:34,190 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-08 19:04:34,219 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 156953
+2021-03-08 19:04:34,522 - reverb45_test_run - [INFO] - 	Entity Linking Side info
+2021-03-08 19:04:34,638 - reverb45_test_run - [INFO] - 	PPDB Side info
+2021-03-08 19:04:34,649 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-08 19:04:34,673 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 152914
+2021-03-08 19:04:34,696 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-03-08 19:04:34,718 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 103445
+2021-03-08 19:04:34,884 - reverb45_test_run - [INFO] - 	Word Sense Disamb Side info
+2021-03-08 19:04:42,605 - reverb45_test_run - [INFO] - 	Morphological Normalization Side info
+2021-03-08 19:04:46,901 - reverb45_test_run - [INFO] - 	Token Overlap Side info
+2021-03-08 19:05:00,411 - reverb45_test_run - [INFO] - 	AMIE Side info
+2021-03-08 19:05:38,312 - reverb45_test_run - [INFO] - 	KBP Side info
+2021-03-08 19:05:42,221 - reverb45_test_run - [INFO] - 	Cached Side Information
+2021-03-08 19:05:42,222 - reverb45_test_run - [INFO] - Embedding NP and relation phrases
+2021-03-08 19:05:42,231 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-03-08 19:05:42,231 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-03-08 19:26:55,230 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-03-08 19:26:55,231 - reverb45_test_run - [INFO] - Reading Triples
+2021-03-08 19:26:55,231 - reverb45_test_run - [INFO] - 	Loading cached triples
+2021-03-08 19:26:56,356 - reverb45_test_run - [INFO] - Side Information Acquisition
+2021-03-08 19:26:56,357 - reverb45_test_run - [INFO] - 	Loading cached Side Information
+2021-03-08 19:26:58,027 - reverb45_test_run - [INFO] - Embedding NP and relation phrases
+2021-03-08 19:26:58,036 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-03-08 19:26:58,036 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-03-08 19:28:15,645 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-03-08 19:29:59,700 - reverb45_test_run - [INFO] - 	Epochs: 1
+2021-03-08 19:31:38,516 - reverb45_test_run - [INFO] - 	Epochs: 2
+2021-03-08 19:33:16,880 - reverb45_test_run - [INFO] - 	Epochs: 3
+2021-03-08 19:34:55,045 - reverb45_test_run - [INFO] - 	Epochs: 4
+2021-03-08 19:36:34,204 - reverb45_test_run - [INFO] - 	Epochs: 5
+2021-03-08 19:38:12,804 - reverb45_test_run - [INFO] - 	Epochs: 6
+2021-03-08 19:39:51,087 - reverb45_test_run - [INFO] - 	Epochs: 7
+2021-03-08 19:41:29,408 - reverb45_test_run - [INFO] - 	Epochs: 8
+2021-03-08 19:43:07,871 - reverb45_test_run - [INFO] - 	Epochs: 9
+2021-03-08 19:44:46,383 - reverb45_test_run - [INFO] - 	Epochs: 10
+2021-03-08 19:44:46,694 - reverb45_test_run - [INFO] - Clustering NPs and relation phrases
+2021-03-08 19:45:39,410 - reverb45_test_run - [INFO] - NP Canonicalizing Evaluation
+2021-03-08 19:45:40,086 - reverb45_test_run - [INFO] - Macro F1: 0.6163, Micro F1: 0.843, Pairwise F1: 0.8284
+2021-03-08 19:45:40,087 - reverb45_test_run - [INFO] - CESI: #Clusters: 6373, #Singletons 1832
+2021-03-08 19:45:40,088 - reverb45_test_run - [INFO] - Gold: #Clusters: 6039, #Singletons 186 
+
+2021-05-27 19:49:59,973 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-05-27 19:49:59,973 - reverb45_test_run - [INFO] - Reading Triples
+2021-05-27 19:49:59,973 - reverb45_test_run - [INFO] - 	Loading cached triples
+2021-05-27 19:50:01,169 - reverb45_test_run - [INFO] - Side Information Acquisition
+2021-05-27 19:50:01,170 - reverb45_test_run - [INFO] - 	Loading cached Side Information
+2021-05-27 19:50:02,914 - reverb45_test_run - [INFO] - Embedding NP and relation phrases
+2021-05-27 19:50:02,914 - reverb45_test_run - [INFO] - 	Loading cached Embeddings
+2021-05-27 19:50:03,067 - reverb45_test_run - [INFO] - Clustering NPs and relation phrases
+2021-05-27 19:50:03,067 - reverb45_test_run - [INFO] - 	Loading cached Clustering
+2021-05-27 19:50:03,094 - reverb45_test_run - [INFO] - NP Canonicalizing Evaluation
+2021-05-27 19:50:03,831 - reverb45_test_run - [INFO] - Macro F1: 0.6163, Micro F1: 0.843, Pairwise F1: 0.8284
+2021-05-27 19:50:03,832 - reverb45_test_run - [INFO] - CESI: #Clusters: 6373, #Singletons 1832
+2021-05-27 19:50:03,833 - reverb45_test_run - [INFO] - Gold: #Clusters: 6039, #Singletons 186 
+
+2021-05-27 19:52:42,593 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-05-27 19:52:42,593 - reverb45_test_run - [INFO] - Reading Triples
+2021-05-27 19:52:42,593 - reverb45_test_run - [INFO] - 	Loading cached triples
+2021-05-27 19:52:43,545 - reverb45_test_run - [INFO] - Side Information Acquisition
+2021-05-27 19:52:43,545 - reverb45_test_run - [INFO] - 	Loading cached Side Information
+2021-05-27 19:52:45,469 - reverb45_test_run - [INFO] - Embedding NP and relation phrases
+2021-05-27 19:52:45,469 - reverb45_test_run - [INFO] - 	Loading cached Embeddings
+2021-05-27 19:52:45,620 - reverb45_test_run - [INFO] - Clustering NPs and relation phrases
+2021-05-27 19:52:45,621 - reverb45_test_run - [INFO] - 	Loading cached Clustering
+2021-05-27 19:53:06,579 - reverb45_test_run - [INFO] - Running reverb45_test_run
+2021-05-27 19:53:06,579 - reverb45_test_run - [INFO] - Reading Triples
+2021-05-27 19:53:06,579 - reverb45_test_run - [INFO] - 	Loading cached triples
+2021-05-27 19:53:07,530 - reverb45_test_run - [INFO] - Side Information Acquisition
+2021-05-27 19:53:07,530 - reverb45_test_run - [INFO] - 	Loading cached Side Information
+2021-05-27 19:53:09,458 - reverb45_test_run - [INFO] - Embedding NP and relation phrases
+2021-05-27 19:53:09,458 - reverb45_test_run - [INFO] - 	Loading cached Embeddings
+2021-05-27 19:53:09,616 - reverb45_test_run - [INFO] - Clustering NPs and relation phrases
+2021-05-27 19:53:09,616 - reverb45_test_run - [INFO] - 	Loading cached Clustering

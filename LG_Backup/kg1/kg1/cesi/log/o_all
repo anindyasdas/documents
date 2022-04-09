@@ -1,0 +1,32 @@
+2021-07-12 16:37:58,935 - o_all - [INFO] - Running o_all
+2021-07-12 16:37:58,936 - o_all - [INFO] - Reading Triples
+2021-07-12 16:37:58,936 - o_all - [INFO] - input_file ./data/man_all/data_out
+2021-07-12 16:37:59,383 - o_all - [INFO] - 	Cached triples
+2021-07-12 16:37:59,402 - o_all - [INFO] - Side Information Acquisition
+2021-07-12 16:37:59,429 - o_all - [INFO] - 	Entity Linking Side info
+2021-07-12 16:37:59,431 - o_all - [INFO] - 	PPDB Side info
+2021-07-12 16:37:59,436 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-07-12 16:37:59,446 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 16283
+2021-07-12 16:37:59,451 - urllib3.connectionpool - [DEBUG] - Starting new HTTP connection (1): localhost:9997
+2021-07-12 16:37:59,456 - urllib3.connectionpool - [DEBUG] - http://localhost:9997 "POST /ppdbAll HTTP/1.1" 200 4997
+2021-07-12 16:37:59,458 - o_all - [INFO] - 	Word Sense Disamb Side info
+2021-07-12 16:38:04,186 - o_all - [INFO] - 	Morphological Normalization Side info
+2021-07-12 16:38:04,369 - o_all - [INFO] - 	Token Overlap Side info
+2021-07-12 16:38:04,995 - o_all - [INFO] - 	AMIE Side info
+2021-07-12 16:38:05,080 - o_all - [INFO] - 	KBP Side info
+2021-07-12 16:38:05,165 - o_all - [INFO] - 	Cached Side Information
+2021-07-12 16:38:05,165 - o_all - [INFO] - Embedding NP and relation phrases
+2021-07-12 16:38:05,166 - gensim.models.keyedvectors - [INFO] - loading projection weights from ./glove/glove.6B.300d_word2vec.txt
+2021-07-12 16:38:05,166 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.300d_word2vec.txt'}
+2021-07-12 16:39:44,578 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from ./glove/glove.6B.300d_word2vec.txt
+2021-07-12 16:39:57,643 - o_all - [INFO] - 	Epochs: 1
+2021-07-12 16:40:10,045 - o_all - [INFO] - 	Epochs: 2
+2021-07-12 16:40:22,416 - o_all - [INFO] - 	Epochs: 3
+2021-07-12 16:40:34,844 - o_all - [INFO] - 	Epochs: 4
+2021-07-12 16:40:47,221 - o_all - [INFO] - 	Epochs: 5
+2021-07-12 16:40:59,661 - o_all - [INFO] - 	Epochs: 6
+2021-07-12 16:41:12,022 - o_all - [INFO] - 	Epochs: 7
+2021-07-12 16:41:24,436 - o_all - [INFO] - 	Epochs: 8
+2021-07-12 16:41:36,822 - o_all - [INFO] - 	Epochs: 9
+2021-07-12 16:41:49,250 - o_all - [INFO] - 	Epochs: 10
+2021-07-12 16:41:49,273 - o_all - [INFO] - Clustering NPs and relation phrases

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title%} Query Page {% endblock %}
+{% block content %}
+<form action="#" method="POST">
+    <!-- <p>You have selected Model No. {{modelno}}</p> -->
+    <p>Question:</p>
+    <output type ="text" name="question">{{question}}</output>
+    <p>Matches: </p>
+    {% for opt in options %}
+        <input type="radio" name="options" id="option_{{loop.index0}}" value="option_{{loop.index0}}">
+        <label for="option_{{loop.index0}}">{{opt}}</label>
+        <output type="text" name="options" id="option_{{loop.index0}}" value="option_{{loop.index0}}"></output>
+        <output type ="text" name="score">({{'%0.2f'%score[loop.index0]}})</output>
+        <br>
+    {% endfor %}
+    <br>
+  <button type="submit" >Submit</button>
+</form>
+{% endblock %}

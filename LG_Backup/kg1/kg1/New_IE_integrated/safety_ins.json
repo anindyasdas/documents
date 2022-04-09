@@ -1,0 +1,119 @@
+{
+      "IMPORTANT SAFETY INSTRUCTIONS": {
+            "description": {
+                  "WARNING": {
+                        "Mean": [
+                              "You may be killed or seriously injured if you do not follow instructions."
+                        ],
+                        "is_for": {
+                              "USER": {
+                                    "follow_precaution_during_installation": [
+                                          "To reduce the risk of injury to persons, adhere to all industry recommended safety procedures including the use of long-sleeved gloves and safety glasses.",
+                                          "Never attempt to operate this appliance if it is damaged, malfunctioning, partially disassembled, or has missing or broken parts, including a damaged cord or plug.",
+                                          "Only connect this product to a dedicated grounded electrical outlet rated for use with this product (115 V, 60 Hz, AC only). It is the user\u2019s responsibility to replace a standard 2-prong wall outlet with a standard 3-prong wall outlet.",
+                                          "Do not use an outlet that can be turned off with a switch. Do not use an extension cord.",
+                                          "The appliance must be positioned for easy access to a power source.",
+                                          "When moving the refrigerator, be careful not to roll over or damage the power cord.",
+                                          "Contact an authorized service center when installing or relocating the refrigerator.",
+                                          "Do not, under any circumstances, cut or remove the third (ground) prong from the power cord.",
+                                          "Keep packing materials out of the reach of children. Packaging material can be dangerous for children. There is a risk of suffocation.Do not install the refrigerator in a damp or dusty place where insulation on electrical parts may deteriorate.",
+                                          "Do not place the refrigerator in direct sunlight or expose it to the heat from heating appliances such as stoves or heaters.",
+                                          "Do not bend or pinch the power cord excessively or place heavy objects on it."
+                                    ],
+                                    "follow_precaution_during_Operation": [
+                                          "This appliance is intended to be used in household and similar applications such as, staff kitchen areas in shops, offices and other working environments; farm houses and by clients in hotels, motels and other residential type environments; bed and breakfast type environments; catering and similar non-retail applications.",
+                                          "This product is not to be used for special purposes such as the storage of medicine or test materials or for use on ships, etc.",
+                                          "DO NOT allow children to climb, stand, or hang on the refrigerator doors or on the shelves in the refrigerator. They could damage the refrigerator and seriously injure themselves.",
+                                          "Do not allow children to climb into the refrigerator. They could be trapped and suffocated.",
+                                          "Children should be supervised to ensure that they do not play with the refrigerator.",
+                                          "Keep fingers out of pinch point areas; clearances between the doors and cabinets are necessarily small. Be careful closing doors when children are nearby.",
+                                          "Do not touch frozen food or the metal parts in the freezer compartment with wet or damp hands. Doing so may cause frostbite.",
+                                          "Do not refreeze frozen food that has thawed completely. Doing so may result in a serious health hazard.",
+                                          "Do not use an adapter plug or plug the power plug into a multi-outlet extension cord.",
+                                          "If the supply cord is damaged, it must be replaced by the manufacturer or its service agent or a similarly qualified person in order to avoid a hazard.",
+                                          "Do not operate the refrigerator or touch the power cord with wet hands.",
+                                          "Do not modify or extend the power cord.",
+                                          "Do not use an uncertified power outlet. Do not plug appliance into a damaged wall outlet.",
+                                          "Do not put hands, feet or other objects into the air vents or bottom of the refrigerator. Doing so could result in personal injury or electric shock.",
+                                          "In the event of a gas leak (propane/LPG), ensure the area is adequately ventilated and contact an authorized service center before resuming use. Do not touch the refrigerator or power cord of the refrigerator.",
+                                          "Disconnect the power cord immediately and contact an authorized service center if there is a strange noise, odor, or smoke coming from the appliance.",
+                                          "Do not use any fuse (such as copper, steel wire, etc.) other than a standard fuse.",
+                                          "Do not place or use an electrical appliance inside the refrigerator, unless it is of a type recommended by the manufacturer.",
+                                          "Do not put animals inside the appliance.",
+                                          "Do not place heavy or fragile objects, liquid filled containers, combustible substances, or flammable objects (such as candles and lamps) on the appliance.",
+                                          "If connected to a circuit protected by fuses, use time delay fuse.",
+                                          "Keep ventilation openings, in the appliance enclosure or in the built-in structure, clear of obstruction.",
+                                          "Do not use mechanical devices or other means to accelerate the defrosting process, other than those recommended by the manufacturer.",
+                                          "Do not use electrical appliances inside the food storage compartments of the appliance, unless they are of the type recommended by the manufacturer.",
+                                          "Do not store explosive substances such as aerosol cans with a flammable propellant in this appliance."
+                                    ],
+                                    "follow_precaution_during_Maintenance": [
+                                          "Do not use a hair dryer to dry the inside of the refrigerator.",
+                                          "Do not light a candle to remove odors in the refrigerator.",
+                                          "In the event of a refrigerant leak, move flammable objects away from the refrigerator. Ensure the area is adequately ventilated and contact an authorized service center.",
+                                          "Keep flammable materials and vapors, such as gasoline, away from the refrigerator.",
+                                          "This appliance is not intended for use by persons (including children) with reduced physical, sensory or mental capabilities, or lack of experience and knowledge, unless they have been given supervision or instruction concerning use of the appliance by a person responsible for their safety.",
+                                          "Unplug the power plug before cleaning or repairing the refrigerator.",
+                                          "The refrigerator and freezer compartment lights are interior LED lighting, and service should be performed by a qualified technician.",
+                                          "Unplug the power plug immediately in the event of a blackout or thunderstorm.",
+                                          "Turn the power off if water or dust penetrates into the refrigerator. Call a service agent.",
+                                          "Do not store glass containers or soda in the freezer compartment. Contents may expand when frozen, break the container and cause injury.",
+                                          "Do not store, disassemble or repair the appliance yourself or allow unqualified personnel to do so."
+                                    ],
+                                    "follow_precaution_during_Disposal": [
+                                          "Junked or abandoned refrigerators are dangerous, even if they are sitting for only a few days. When disposing of the refrigerator, remove the packing materials from the door or take off the doors but leave the shelves in place so that children may not easily climb inside.",
+                                          "If disposing of a refrigerator, make sure the refrigerant and insulation foam are removed for proper disposal by a qualified servicer. If you release the refrigerant or throw away the insulation foam, you may be fined or imprisoned in accordance with the relevant environmental law. Insulation foam contains flammable blowing gas.",
+                                          "When discarding the appliance, remove the door gasket while leaving the shelves and bins in place, and keep children away from the appliance."
+                                    ],
+                                    "follow_precaution_during_Grounding": [
+                                          "Improper connection of the equipment-grounding conductor can result in a risk of electric shock. Check with a qualified electrician or service personnel if you are in doubt whether the appliance is properly grounded. Do not modify the plug provided with the appliance; if it will not fit the outlet, have a proper outlet installed by a qualified electrician.",
+                                          "Have a certified electrician check the wall outlet and wiring for proper grounding.",
+                                          "Never unplug the appliance by pulling on the power cord. Always grip the plug firmly and pull straight out from the outlet. Failure to do so may damage the power cord, resulting in a risk of fire and electric shock."
+                                    ],
+                                    "has": {
+                                          "Risk of Fire and Flammable Materials": {
+                                                "description": [
+                                                      "This appliance contains a small amount of isobutane refrigerant (R600a), which is combustible. When transporting and installing the appliance, care should be taken to ensure that no parts of the refrigerating circuit are damaged. Refrigerant squirting out of the pipes could ignite or cause an eye injury. If a leak is detected, avoid any naked flames or potential sources of ignition and air out the room in which the appliance is standing for several minutes."
+                                                ],
+                                                "be avoided by": [
+                                                      "In order to avoid the creation of a flammable gas air mixture if a leak in the refrigerating circuit occurs, the size of the room in which the appliance may be sited depends on the amount of refrigerant used. The room must be 10.8 square feet (1 square meter) in size for every 8g of R600a refrigerant inside the appliance. The amount of refrigerant in your particular appliance is shown on the identification plate inside the appliance. Never start up an appliance showing any signs of damage. If in doubt, consult your dealer."
+                                                ]
+                                          }
+                                    }
+                              }
+                        },
+                        "purpose": [
+                              "To reduce the risk of explosion, fire, death, electric shock, scalding or injury to persons when using this product, follow basic precautions."
+                        ]
+                  },
+                  "CAUTION": {
+                        "Mean": [
+                              "You may be injured or cause damage to the product if you do not follow instructions"
+                        ],
+                        "is_for": {
+                              "USER": {
+                                    "follow_precaution_during_installation": [
+                                          "Do not install the refrigerator where there may be a danger of the unit falling.",
+                                          "The refrigerator must be properly installed in accordance with the Installation Instructions."
+                                    ],
+                                    "follow_precaution_during_Operation": [
+                                          "Do not use aerosols near the refrigerator.This appliance is intended to be used only in domestic and similar applications.",
+                                          "Do not strike or apply excessive force to any glass surface. Do not touch glass surfaces if they are cracked or broken.",
+                                          "Do not overfill or pack items too tightly into door bins. Doing so may cause damage to the bin or personal injury if items are removed with excessive force.",
+                                          "Do not hang on to or place heavy objects on the refrigerator\u2019s dispenser."
+                                    ],
+                                    "follow_precaution_during_Maintenance": [
+                                          "Do not use strong detergents like wax or thinners for cleaning. Clean with a soft cloth.",
+                                          "Remove foreign objects (such as dust and water) off the prongs of the power plug and contact areas. Do not use a wet or damp cloth when cleaning the plug.",
+                                          "Do not spray water directly on the inside or outside of the refrigerator.",
+                                          "Do not clean glass shelves or covers with warm water when they are cold. They may break if exposed to sudden temperature changes."
+                                    ]
+                              }
+                        },
+                        "purpose": [
+                              "To reduce the risk of minor or moderate injury to persons, malfunction, or damage to the product or property when using this product, follow basic precautions."
+                        ]
+                  }
+            }
+      }
+}

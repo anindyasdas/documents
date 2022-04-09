@@ -1,0 +1,1176 @@
+1175
+some models	0
+care should be taken	1
+remove adhesive residue by wiping adhesive residue off with your thumb or dish detergent	2
+freezing	3
+direct contact with cold air	4
+refrigerator is responding to demand response dr message from electric company	5
+water or ice should not be used	6
+control panel buttons	7
+extended period	8
+repeatedly to toggle between power mode and auto mode	9
+refrigerator performance	10
+avoid contact with any moving parts of ejector mechanism or with heater that releases ice cubes	11
+sentence_list_axdiuk	12
+of dispenser chute	13
+freezer guide or reliable cookbook should be checked for further information about preparing food for freezing or food storage times	14
+to open door-in-door case press on area marked pull to open	15
+( this drawer should not be used to store vegetables that require high humidity )	16
+away from home	17
+ice compartment door is not closed tightly	18
+clean lint free cloth	19
+sentence_list_f8xpb5	20
+hands and tools should be kept out of ice compartment door and dispenser chute	21
+sentence_list_8zbl24	22
+power saving mode	23
+sentence_list_g5mnaa	24
+status of refrigerator network connection	25
+to replace bin slide bin in above desired support and push down until bin snaps into place	26
+selecting sabbath mode automatically turns off alarm functions	27
+to activate display mode for store use only	28
+sentence_list_ulmzsg	29
+dispensing	30
+container with very small opening should be held as close to dispenser as possible to avoid spilling	31
+empty in-door ice bin	32
+clean refrigerator thoroughly and wipe off all dust	33
+which are stored in ice bin for long time	34
+your freezer	35
+to deactivate this function manually press and hold express frz	36
+function	37
+shaking in-door ice bin	38
+about 12 to 24 hours	39
+temperature mode	40
+such containers	41
+condensation to form	42
+slots	43
+repeatedly to select new set temperature from-6 ° f to 8 ° f-21 ° c to-13 ° c	44
+to open ice compartment	45
+12 cubes	46
+only qualified service personnel from lg electronics service center should disassemble or repair icemaker	47
+this function provides storage space with variable temperature control	48
+removing any tape or adhesive from refrigerator	49
+target temperature	50
+front of one drawer should be lifted to remove one drawer from one drawer guides and pull straight out	51
+turn this power saving mode off	52
+door is opened or button is pressed	53
+ice plus should be stopped manually by pressing ice plus button once more	54
+when function is on icon illuminates	55
+sentence_list_wqh222	56
+fingers	57
+open refrigerator doors and freezer drawers to ventilate interior	58
+stop ice plus manually by pressing ice plus button once more	59
+f icon	60
+icemaker is turned on	61
+you are away from home for few days	62
+press and hold lock button until k icon appears in display and lock function is activated	63
+food to spoil	64
+heavy-duty aluminum foil	65
+off is displayed on control panel and display remains on for 20 seconds	66
+glass should not be used	67
+control panel features	68
+packages	69
+do not scratch refrigerator with sharp object or use detergent that contains alcohol flammable liquid or abrasive when removing any tape or adhesive from refrigerator	70
+press refrigerator button repeatedly to select new set temperature from 33 ° f to 46 ° f ( 1 ° c to 8 ° c )	71
+icemaker power button will buzz even if icemaker power button has not yet been hooked up to water	72
+back half of shelf	73
+to replace door bins slide door bin in above desired support and push down until door bin snaps into place	74
+do not apply excessive force while detaching or assembling storage bins	75
+place in plastic bag or plastic container and store in crisper	76
+check flow of cold air in freezer compartment to ensure proper cooling	77
+hold cover at 45-degree angle and insert cover into refrigerator	78
+on top of glass cover	79
+sentence_list_0r493s	80
+package must not allow air or moisture in or out	81
+storage bins	82
+this function provides storage space with variable temperature control that can keep compartment at slightly different temperature than refrigerator section	83
+dispenser switch should be pressed with glass or other container to dispense cubed ice water or crushed ice	84
+sentence_list_l8ayvy	85
+led lights up on control panel	86
+from melting and leaking from dispenser always empty in-door ice bin when icemaker is turned off for more than few hours	87
+vegetables	88
+either of refrigerator doors is open	89
+led	90
+glide'n'serve cover	91
+sentence_list_ztcv11	92
+vacation	93
+led lights up	94
+default refrigerator temperature is 37 ° f ( 3 ° c )	95
+icemaker is turned off for extended period of time	96
+do not scratch refrigerator with sharp object or use detergent	97
+sentence_list_613te9	98
+sentence_list_kmxic1	99
+cooling hot foods before freezing saves energy	100
+to stop buzz press icemaker power button to turn icemaker power button off	101
+icemaker power button is in on position	102
+particles or odor from water supply line or water tank	103
+first bin full of ice about 140-160 cubes should be thrown away after installation	104
+for further information about preparing food for freezing or food storage times	105
+butter should be kept opened in covered dish or closed compartment	106
+handle should be pushed to close ice compartment	107
+this function	108
+button is pressed	109
+handling in-door ice bin	110
+dispenser switch	111
+sentence_list_r8vx7h	112
+check water filter and water supply	113
+vegetables should be washed and food packaging should be wiped down to prevent adjacent foods from being contaminated	114
+temperature indicator on display window switches between celsius and fahrenheit	115
+control panel beeps and temperature settings display to confirm	116
+sentence_list_8m19nj	117
+water outlet or ice outlet b	118
+sentence_list_c4rynj	119
+fresh fish and shellfish should be frozen	120
+power is initially connected to refrigerator	121
+continuously	122
+off with clean cloth or paper towel	123
+sentence_list_z6jjn2	124
+press freezer button repeatedly to select new set temperature from-7 ° f to 5 ° f (-23 ° c to-15 ° c )	125
+your freezer will not quick-freeze large quantity of food	126
+bad odor	127
+20 seconds	128
+preserved	129
+lower front of shelf	130
+pressing refrigerator button	131
+smart grid	132
+replacing in-door ice bin	133
+sentence_list_emsguf	134
+durabase divider	135
+as icemaker fills with water	136
+ice passage may become blocked with frost if only crushed ice is used	137
+grip front handle slightly lift bottom and slowly pull out in-door ice bin as shown	138
+towards top of refrigerator	139
+pull out crisper to full extension lift front up and pull straight out	140
+this problem	141
+you close and seal package	142
+require high humidity	143
+storage times	144
+butter	145
+to replace case line up tabs on case with slots on door and push down until case snaps into place	146
+led lights up when desired dispenser mode is selected	147
+about 24 hours	148
+set refrigerator to this power saving mode to reduce energy consumption	149
+to choose between produce cold deli colder and meat coldest	150
+press and hold wi-fi button for 3 seconds to connect to home wi-fi network	151
+connection is successfully made	152
+to turn function on/off	153
+actual temperature of refrigerator depends on food inside refrigerator	154
+this can increase running costs of refrigerator	155
+narrow glasses	156
+damage to bin or personal injury	157
+select button	158
+refrigerator is not yet connected to water supply	159
+press fresh air filter button repeatedly to toggle between power mode and auto mode	160
+shellfish	161
+sentence_list_t1n1l4	162
+removing glass cover	163
+for coldest milk place containers on interior shelf	164
+there is enough open space	165
+sentence_list_7c7gl0	166
+wet easily due to spilled ice or water	167
+sentence_list_jrv7x9	168
+lift front of cover up with both hands then pull front of cover out	169
+milk	170
+sentence_list_fhqxbj	171
+milk cartons should be wiped	172
+food odor	173
+preparing for vacation	174
+you can control amount of humidity in humidity controlled crispers by adjusting control to any setting between vegetables and fruit	175
+fresher vegetables	176
+lock function is off	177
+lg	178
+cup should be held beneath dispenser for few seconds after dispensing to catch all of drops	179
+glass shelves	180
+glass shelves should not be cleaned with warm water	181
+refrigerated foods	182
+in-door ice bin	183
+you want easier	184
+than will freeze within 24 hours no more than 2 to 3 pounds of food per cubic foot of freezer space	185
+press on area marked pull to open	186
+sentence_list_k75wd2	187
+shelves	188
+cheese	189
+ice plus button	190
+freezer icemaker	191
+freezer icemaker begins producing ice approximately 48 hours after appliance is initially installed	192
+stored in freezer	193
+off position	194
+already contains liquid	195
+sentence_list_3l6npk	196
+press vacation button to turn this power saving mode off or on	197
+before storing food in refrigerator	198
+adjusting refrigerator shelves to fit items of different heights will make finding exact item	199
+empty ice bin completely and clean ice bin before reinstalling ice bin	200
+display mode for store use	201
+information center	202
+this drawer	203
+four hours	204
+replacing fresh air filter section should be referred to for details	205
+approximately 6 to 8 12-16 oz	206
+large party trays	207
+glidenserve	208
+sound of ice dropping into ice bin is normal	209
+during use ice may stack unevenly in in-door ice bin causing icemaker to misread number of ice cubes and stop producing ice	210
+approximately 48 hours after appliance is initially installed	211
+keeping power turned on to icemaker can damage icemaker	212
+remove all food and unplug power cord	213
+function is on	214
+any time	215
+storing cans or other items in in-door ice bin	216
+never use thin crystal glasses or containers to collect ice	217
+if you are leaving home for short period like short vacation refrigerator should be left on	218
+to remove case lift up and pull out	219
+ambient temperature	220
+wi-fi button when used with lg thinq app allows refrigerator to connect to home wi-fi network	221
+dispense cubed ice water or crushed ice	222
+when activated off is displayed on control panel and display remains on for 20 seconds	223
+icemaker water valve may buzz	224
+icemaker is turned on while refrigerator is not connected to water supply	225
+glide'n'serve	226
+first bin full of ice about 140-160 cubes	227
+turned on	228
+same day purchased	229
+newly installed refrigerator begin	230
+fresh air filter helps remove odors from refrigerator	231
+taller items such as gallon container or bottles	232
+enough space	233
+ice is made in in-door icemaker and sent to dispenser	234
+sentence_list_szkdiz	235
+if doors are opened or closed too often warm air may penetrate refrigerator and raise refrigerator temperature	236
+sort and keep fruit in original container in crisper or store in completely closed paper bag on refrigerator shelf	237
+as water outlet or ice outlet b may get dirty easily	238
+tools	239
+releases ice cubes	240
+sentence_list_grveii	241
+some dripping	242
+supporting cover with one hand bring cover to horizontal position and lower cover onto guides	243
+wi-fi	244
+sentence_list_xadgar	245
+ice outlet b	246
+do not store glass containers in freezer	247
+high humidity should be required	248
+wait for refrigerator to cool	249
+refer to replacing fresh air filter section for details	250
+are able to be frozen	251
+adhesive residue	252
+to run for at least two to three hours before putting food in refrigerator	253
+few seconds	254
+paddle with glass or other container to dispense cubed ice water or crushed ice	255
+press smart grid button to turn function on/off	256
+ice passage	257
+four hours fresh air filter switches back to auto mode	258
+sentence_list_4xwba1	259
+replace water filter when h icon turns on	260
+f icon illuminates	261
+dispenser should be pressed paddle with glass or other container to dispense cubed ice water or crushed ice	262
+entire area	263
+dispenser tray may become wet easily due to spilled ice or water	264
+disabled	265
+water line is connected	266
+clean refrigerator	267
+sentence_list_86ictb	268
+icon	269
+take care when handling glass cover	270
+set icemaker power button to off and shut off water supply to refrigerator	271
+sentence_list_8tlgv0	272
+button 3 times consecutively while pressing refrigerator button	273
+prevent frost buildup	274
+ice production	275
+water outlet	276
+switch ice-detecting sensor auto shutoff	277
+icemaker power switch ice-detecting sensor auto shutoff ( feeler arm )	278
+freezer icemaker is only available on some models	279
+wrap	280
+after replacing water filter press and hold water filter button for three seconds to turn icon light off	281
+2 5 gallons of water	282
+model or serial number label or technical information on rear surface of refrigerator should not be peeled off	283
+in-door icemaker produces 70-182 cubes in 24-hour period depending on freezer compartment temperature room temperature number of door openings and other operating conditions	284
+you could have food odor and taste transfer throughout refrigerator and could also dry out frozen food	285
+tilt shelf at angle and pull shelf out	286
+wi-fi button	287
+long time	288
+instaview	289
+vacation button should be pressed to turn this power saving mode off or on	290
+in-door ice bin holds approximately 6 to 8 12-16 oz	291
+package or container instructions for proper freezing methods should be followed	292
+avoid contact with any moving parts of ejector mechanism or with heater	293
+straight out	294
+icemaker to misread number of ice cubes	295
+forward to return to full shelf	296
+label should be seen on ice compartment door for details	297
+frequently with clean lint free cloth	298
+depending on freezer compartment temperature room temperature number of other operating conditions	299
+causing icemaker to stop producing ice	300
+fresher tasting fruit	301
+appliance	302
+you are leaving home for short period like short vacation refrigerator should be left on	303
+demand response dr message from electric company	304
+there is still risk of injury if glass cover is broken even though glass cover is tempered glass	305
+depending on model some of following functions may not be available	306
+default freezer temperature is 0 ° f (-18 ° c )	307
+sentence_list_aem0jv	308
+remove items from on top of glass cover before removing glass cover	309
+refrigerator	310
+you will hear sound of ice dropping into bin and water running in pipes	311
+ice and water dispenser	312
+shelf falling or spilled food	313
+taste transfer throughout refrigerator	314
+lock function	315
+container with very small opening	316
+icemaker should be turned off	317
+sentence_list_0qkerg	318
+button should be pressed for desired dispenser mode on dispenser control panel	319
+ice crystals inside sealed package are normal	320
+to make room for additional ice empty in-door ice bin into extra ice bin in freezer compartment	321
+door bins are removable for easy cleaning and adjustment	322
+you return home	323
+running costs of refrigerator	324
+to collect ice	325
+if problem continues contact lg electronics customer information center	326
+ice bin	327
+increments of ten minutes on off	328
+food should be stored wrap or in refrigerator in airtight and moisture-proof material	329
+water outlet or ice outlet b should be wiped frequently with clean lint free cloth	330
+direct contact with cold freeze	331
+icemaker power button will buzz	332
+store taller items such as gallon container or bottles by pushing front half of shelf underneath back half of shelf	333
+desired dispenser mode is selected	334
+after replacing fresh air filter press and hold fresh air filter button for three seconds	335
+full width shelf	336
+same day	337
+return to full shelf	338
+to prevent ice cubes from melting and leaking from dispenser always empty in-door ice bin when icemaker is turned off for more than few hours	339
+foreign substances or frost on ice-detecting sensor can interrupt ice production	340
+even if icemaker power button has not yet been hooked up to water	341
+ice compartment door should be kept closed tightly	342
+to remove glide'n'serve pull out drawer until drawer stops lift front up and pull straight out	343
+with any moving parts of ejector mechanism or with heater	344
+all cooling in refrigerator sections to conserve energy	345
+short period	346
+see label on ice compartment door for details	347
+exposed to sudden temperature changes or impact	348
+display	349
+splashing may occur	350
+only crushed ice is used	351
+throw	352
+buttons	353
+ice cubes may clump together and be difficult to separate	354
+failure to do so may result in damage or personal injury	355
+keeping power turned on to icemaker before water line is connected can damage icemaker	356
+if package does you could have food odor and taste transfer throughout refrigerator and could also dry out frozen food	357
+shaking in-door ice bin to level ice within in-door ice bin can reduce this problem	358
+both freezing capabilities	359
+on display in retail store	360
+durabase divider can be adjusted from side to side to accommodate items of different sizes	361
+this power saving mode	362
+when handling in-door ice bin keep hands away from icemaker tray area to avoid personal injury	363
+f icon blinks then turns on	364
+freezer compartment	365
+causing icemaker to misread number of ice cubes	366
+repeatedly to select new set temperature from-7 ° f to 5 ° f-23 ° c to-15 ° c	367
+clean storage bins	368
+icemaker stops producing ice when in-door ice bin is full	369
+inside	370
+ice may jam in ice passage and refrigerator performance may be affected	371
+replacing fresh air filter section	372
+refrigerator is connected to home wi-fi network	373
+sabbath mode automatically turns off after 96 hours	374
+failure to do so may result in shelf falling or spilled food	375
+glass containers should not be stored in freezer	376
+sentence_list_96a0lx	377
+selecting sabbath mode	378
+time	379
+when storing extra supply wrap in freezer packaging and freeze	380
+if clump happens empty ice bin completely and clean ice bin before reinstalling ice bin	381
+fragile container should not be used	382
+successful freezing depends on correct packaging	383
+this function operates for about 24 hours then turns off automatically	384
+same procedure	385
+excessive force	386
+removable for easy cleaning	387
+more unfrozen food	388
+glass shelves are heavy	389
+taller items such as gallon containers or bottles	390
+sentence_list_ojm6vf	391
+frost should be removed by removing in-door ice bin and clearing ice passage with rubber spatula	392
+led stays lit	393
+sentence_list_xdtg8f	394
+sentence_list_nq27fd	395
+conditions are favorable	396
+keep opened butter in covered dish or closed compartment	397
+is exceptionally narrow or deep	398
+discolored ice is dispensed	399
+ice production will stop	400
+remove frost by removing in-door ice bin and clearing ice passage with rubber spatula	401
+doors	402
+)	403
+warm air may penetrate refrigerator and raise refrigerator temperature	404
+sentence_list_rv178t	405
+icemaker water valve buzzes as icemaker fills with water	406
+at least two to three hours	407
+make sure that shelves are level from one side to other	408
+water	409
+sentence_list_0d8fgb	410
+food inside refrigerator	411
+some of following functions	412
+wrap prevents food odor and taste transfer throughout refrigerator	413
+sentence_list_8jbc0w	414
+for into extra ice bin in freezer compartment	415
+storage times will vary according to quality and type of food type of packaging or wrap used and storage temperature	416
+lift up and pull out door-in-door case	417
+adhesive residue should be removed by wiping adhesive residue off with your thumb or dish detergent	418
+follow same instructions to unlock	419
+wrap or store food in refrigerator in airtight and moisture-proof material unless otherwise noted	420
+freezer icemaker ( cubed ice ) produces 12 cubes at time 50-110 pieces within 24 hour period if conditions are favorable	421
+place	422
+glass or other container	423
+wax paper or wax-coated freezer	424
+there is enough open space for children or pets to crawl inside	425
+glasses of ice	426
+with one hand and support underneath cover with other hand	427
+sentence_list_224bwb	428
+energy	429
+as icemaker refills	430
+sentence_list_fv6esd	431
+do not use dishwasher to clean storage bins and shelves	432
+humidity	433
+press icemaker power button to turn icemaker power button off	434
+tall narrow glasses should be held far enough from ice outlet to prevent ice from jamming in ice chute	435
+in freezer	436
+sentence_list_uiyeid	437
+noted	438
+do not place fingers in automatic icemaker when refrigerator is plugged in	439
+icemaker water valve buzzes	440
+back into place	441
+door-in-door	442
+refrigerator makes loud noise after initial operation	443
+repeat with second drawer	444
+do not apply excessive force	445
+children	446
+ice cubes which are stored in ice bin for long time may clump together and be difficult to separate	447
+flow of cold air should be checked in freezer compartment to ensure proper cooling	448
+refrigerator has not been used for long time	449
+refrigerator is connected to wi-fi network	450
+set to power mode	451
+problem continues	452
+ice bin should be emptied any time	453
+shelf should be pulled out	454
+items	455
+make sure	456
+flooding	457
+sentence_list_203yy6	458
+fruit	459
+cold air in ice bin will freeze food in refrigerator compartment	460
+g icon turns on	461
+simply lift bin up and pull straight out	462
+fresh air filter stays on continuously for four hours cycling on and off in increments of ten minutes on and five minutes off	463
+any items should not be placed on glide'n'serve cover	464
+fish	465
+door-in-door bin	466
+keep children away from dispenser	467
+sentence_list_056drv	468
+home	469
+sentence_list_99qqsn	470
+sentence_list_ermtt1	471
+sabbath mode is only available on some models	472
+sentence_list_dx9an0	473
+storing cans or other items in in-door ice bin will damage icemaker	474
+crispers	475
+front insert	476
+indicates set temperature of freezer compartment in celsius ( ° c ) or fahrenheit ( ° f )	477
+lift front of cover up with both hands until front of cover detaches from back wall of cabinet then pull front of cover out	478
+displayed temperature is target temperature and not actual temperature of refrigerator	479
+after four hours fresh air filter switches back to auto mode	480
+with warm water	481
+items are removed with excessive force	482
+this is also necessary	483
+every six months	484
+sentence_list_o5cfjh	485
+resulting in glass fragments in ice	486
+ice bin is completely filled with ice	487
+food packaging should be wiped down to prevent adjacent foods from being contaminated	488
+dispensing ice from dispenser	489
+door-in-door feature is only available on some models	490
+display mode (for store use only)	491
+icon illuminates	492
+depending on model	493
+refrigerator to connect to home wi-fi network	494
+leftovers	495
+door-in-door compartment allows for easy access to commonly used food items	496
+contains alcohol flammable liquid or abrasive	497
+controls	498
+do not wash or hull fruit until fruit is ready to be used	499
+this is also necessary if refrigerator has not been used for long time	500
+70-182 cubes	501
+shelves may break if exposed to sudden temperature changes or impact	502
+place in plastic bags or plastic container and store in crisper	503
+close ice compartment	504
+sentence_list_fui4jz	505
+when refrigerator is responding to demand response ( dr ) message from electric company grid text illuminates	506
+cover leftovers with plastic wrap or aluminum foil or store in plastic containers with tight lids	507
+control panel	508
+display mode for store use only disables all cooling in refrigerator and freezer sections to conserve energy	509
+do not store food with high moisture content towards top of refrigerator	510
+this drawer can be used for large party trays deli items and beverages	511
+press dispenser paddle with glass or other container to dispense cubed ice water or crushed ice	512
+press ice plus button to illuminate icon and activate ice plus for 24 hours	513
+children may play with or damage controls	514
+never use glass that is exceptionally narrow or deep	515
+sentence_list_e0s0nw	516
+when you return home remember to turn this power saving mode off to unlock other buttons on control panel and return refrigerator to refrigerator previous temperature settings	517
+inside of refrigerator may smell like plastic at first	518
+splashing may occur if ice is dispensed into glass that already contains liquid	519
+full shelf	520
+shelves are level from one side to other	521
+also	522
+dispensing cubed ice can also help prevent frost buildup	523
+clean storage shelves	524
+on glide'n'serve cover	525
+dispenser and instaview are disabled in sabbath mode on applicable models	526
+ice is dispensed into glass that already contains liquid	527
+items should be removed from on top of glass cover before removing glass cover	528
+simply lift door bin up and pull straight out	529
+gently push handle to close ice compartment	530
+press and hold lock button for three seconds to lock ice and water dispenser and all control panel functions	531
+ice-making stops when in-door ice bin is full	532
+freezer	533
+front of one drawer	534
+off manually press and hold freezer and vacation buttons for 3 seconds	535
+sentence_list_nktvuf	536
+sensor area is clean at all times for proper operation	537
+do not place any items on glide'n'serve cover	538
+sentence_list_g7b98r	539
+do not use fragile container	540
+ice plus automatically shuts off after 24 hours	541
+covered dish or closed compartment	542
+for desired dispenser mode on dispenser control panel	543
+humid place	544
+ready to be used	545
+freeze fresh fish and shellfish if fresh fish and shellfish are not being eaten same day purchased	546
+icemaker	547
+throw is also necessary	548
+handle	549
+hot place	550
+wrap or store food in refrigerator in airtight and moisture-proof material	551
+keep ice compartment door closed tightly	552
+leave enough space in your freezer	553
+fresh fish	554
+sentence_list_pdjhe7	555
+off is displayed on control panel	556
+door-in-door case snaps into place	557
+too often	558
+front half of shelf	559
+removable for easy adjustment	560
+dishwasher should not be used to clean storage bins and shelves	561
+dishwasher	562
+sentence_list_ow1srr	563
+crisper for best storage of fresh leafy vegetables	564
+moisture in food and air inside sealed package have condensed creating ice crystals	565
+clean interior and leave door open to prevent fungi from growing in refrigerator	566
+all times for proper operation	567
+freezer icemaker may vary depending on model purchased	568
+dispenser will not operate	569
+warm air	570
+pull shelf out	571
+sentence_list_gnnybz	572
+store in original wrapping until used	573
+folding shelf is only available on some models	574
+do not use water or ice	575
+for children or pets to crawl inside	576
+this function increases freezing capability	577
+express frz should be pressed	578
+do not use water or ice until problem is corrected	579
+increments of five minutes off	580
+food with high moisture content should not be stored towards top of refrigerator	581
+temperature settings display to confirm	582
+icemaker to stop producing ice	583
+door can close tightly	584
+on ice compartment door for details	585
+sentence_list_7bz2sc	586
+smart grid button should be pressed to turn function on/off	587
+appropriate distance from dispensers	588
+glass shelves are cold	589
+vegetables with skins (carrots peppers)	590
+f icon blinks while connection is being made then turns on once connection is successfully made	591
+large beverages	592
+from on top of glass cover before removing glass cover	593
+sabbath mode	594
+door-in-door case is removable for easy cleaning and adjustment	595
+frequent opening of door or storing lot of vegetables in refrigerator may cause condensation to form	596
+press power switch on automatic icemaker to on | or off o position	597
+express frz	598
+remove store wrapping trim or tear off bruised and discolored areas wash in cold water and drain	599
+ice cubes	600
+makes	601
+remove any adhesive tape from inside refrigerator and open refrigerator doors and freezer drawers for ventilation	602
+rewrap tightly in plastic wrap or aluminum foil	603
+this power saving mode is on	604
+freezer button should be pressed repeatedly to select new set temperature from-6 ° f to 8 ° f-21 ° c to-13 ° c	605
+damp cloth	606
+prevent adjacent foods from being contaminated	607
+even after power outage	608
+doing so	609
+activated	610
+water filter should be replaced	611
+power	612
+front of cover should be lifted with one hand and support underneath cover with other hand	613
+eggs	614
+pipes	615
+manually by pressing ice plus button once more	616
+removing glass shelves	617
+use special care when removing glass shelves	618
+3 times	619
+freeze fresh fish and shellfish	620
+desired dispenser mode on dispenser control panel	621
+any items	622
+refrigerator has cooled	623
+temperature of refrigerator compartment	624
+closed tightly	625
+in auto mode fresh air filter cycles on and off in increments of ten minutes on and 110 minutes off	626
+lock	627
+cup	628
+sentence_list_a0ax8y	629
+sentence_list_5t0u7k	630
+model or serial number label or technical information on rear surface of refrigerator	631
+fresh fish and shellfish are not being eaten same day purchased	632
+icemaker stops producing ice	633
+amount and shape of ice may vary according to environment ( ambient temperature around appliance frequency of door being opened amount of food stored in appliance water pressure etc	634
+sentence_list_p7gz0e	635
+sentence_list_6msmuu	636
+water & ice type	637
+large deli items	638
+to for details	639
+other buttons on control panel are locked	640
+function automatically turns on when refrigerator is connected to wi-fi network	641
+label	642
+icemaker power button	643
+only available	644
+as temperature decreases	645
+carefully insert in-door ice bin slanting top slightly to fit in-door ice bin under icemaker	646
+door-in-door compartment	647
+putting food in refrigerator could cause food to spoil or bad odor to remain inside refrigerator	648
+there is still risk of injury even though glass cover is tempered glass	649
+keeping power	650
+with damp cloth	651
+contents may expand break container and cause injury	652
+throw away first bin full of ice ( about 140-160 cubes ) after installation	653
+this could also cause icemaker to stop producing ice	654
+slide bin in above desired support and push down until bin snaps into place	655
+enough space should be leaved in your freezer	656
+press refrigerator button repeatedly to select new set temperature from 33 ° f to 43 ° f ( 1 ° c to 7 ° c )	657
+rigid plastic containers with tight-fitting lids straight-sided canning/freezing jars heavy-duty aluminum foil plastic-coated paper non-permeable plastic wraps specified freezer-grade self-sealing plastic bags	658
+desired dispenser mode should be selected from buttons on dispenser control panel	659
+ambient temperature will drop below freezing	660
+check freezer guide or reliable cookbook for further information about preparing food for freezing or food storage times	661
+sentence_list_b9ygjh	662
+remove odors from refrigerator	663
+newly installed refrigerator to begin making ice takes about 12 to 24 hours	664
+ice compartment	665
+removing in-door ice bin	666
+contact	667
+ensure freshness for dated products	668
+do not wash or hull fruit	669
+press express frz	670
+easy access to commonly used food items	671
+sentence_list_s7tkio	672
+in-door ice bin is full	673
+thin crystal glasses or containers	674
+folding shelf	675
+sentence_list_7tzuor	676
+handling glass cover	677
+sentence_list_1tfxcy	678
+sentence_list_6bnt8n	679
+line up tabs on door-in-door case with slots on door and push down	680
+refrigerator door or freezer drawer is opened or closed too often	681
+line up tabs on door-in-door case with slots on door and push down until door-in-door case snaps into place	682
+sentence_list_x4nxn6	683
+condensation	684
+removing or assembling glass cover not to catch hands between glass cover and drawers	685
+freezer button should be pressed repeatedly to select new set temperature from-7 ° f to 5 ° f-23 ° c to-15 ° c	686
+24 hours	687
+lint from cloth may adhere to ice and water outlet	688
+press freezer button repeatedly to select new set temperature from-6 ° f to 8 ° f (-21 ° c to-13 ° c )	689
+dispensing cubed ice	690
+activate ice	691
+only qualified service personnel from lg electronics service center	692
+led stays lit when this power saving mode is on	693
+make sure sensor area is clean at all times for proper operation	694
+fresh air filter should be replaced	695
+refrigerator should be set to this power saving mode to reduce energy consumption	696
+volume will decrease	697
+wrap or in refrigerator in airtight and moisture-proof material	698
+turned off for extended period	699
+inside of refrigerator	700
+storing extra supply	701
+far enough from ice outlet	702
+sentence_list_6k2rjg	703
+store in original carton on interior shelf not on door shelf	704
+grid text illuminates	705
+warm water	706
+use ice plus function	707
+depending on freezer compartment temperature room temperature number of door openings	708
+connection is being made	709
+to turn this power saving mode off or on	710
+tilt up front of one drawer and insert rollers into side guides	711
+sentence_list_ukhbo7	712
+push cover back into place	713
+crisper	714
+to remove bin simply lift bin up and pull straight out	715
+with either refrigerator door opened press and hold refrigerator and ice plus buttons at same time for 5 seconds	716
+keep containers at appropriate distance from dispensers	717
+food storage tips	718
+sensor area	719
+press and release dispenser pad for cycles of 30 seconds on and 60 seconds off	720
+have qualified technician drain water supply system to prevent serious property damage due to flooding caused by ruptured water lines or connections	721
+fresh air filter button should be pressed repeatedly to toggle between power mode and auto mode	722
+case	723
+water supply system	724
+door-in-door inner door bins	725
+out of ice compartment door and dispenser chute	726
+on display remains on for 20 seconds	727
+accidental child and pet entrapment or suffocation risk	728
+can keep compartment at slightly different temperature than refrigerator section	729
+be careful to leave enough room at front	730
+refrigerator button should be pressed repeatedly to select new set temperature from 33 ° f to 46 ° f 1 ° c to 8 ° c	731
+special care should be used	732
+storage bins and shelves can become easily contaminated by food	733
+storing food in refrigerator	734
+sentence_list_vyk05g	735
+96 hours	736
+wipe entire area with damp cloth	737
+sentence_list_zh2o8x	738
+avoid touching auto shutoff feeler arm	739
+installation	740
+refrigerator is plugged in	741
+both ice freezing capabilities	742
+taller items such as gallon container or bottles should be stored by pushing front half of shelf underneath back half of shelf	743
+remember to turn this power saving mode off to unlock other buttons on control panel and return refrigerator to refrigerator previous temperature settings	744
+same instructions to unlock should be followed	745
+refrigerator should be left on	746
+on position	747
+to lock control panel buttons press and hold lock button until k icon appears in display and lock function is activated	748
+sentence_list_vyqae4	749
+allow refrigerator to run for at least two to three hours before putting food in refrigerator	750
+hands	751
+doing so may cause damage to bin or personal injury if items are removed with excessive force	752
+set refrigerator to this power saving mode to reduce energy consumption when you are away from home for few days	753
+door-in-door feature	754
+for air to circulate around packages	755
+refrigerator shelves	756
+contact should be avoided with any moving parts of ejector mechanism or with heater	757
+store taller items such as gallon containers or bottles by pushing front half of shelf underneath back half of shelf	758
+individual storage needs	759
+cold	760
+butter or margarine	761
+turn off icemaker	762
+ice plus	763
+dirty	764
+control panel beeps	765
+thin crystal glasses or containers should not be used to collect ice	766
+prevent ice from jamming in ice chute	767
+ice bin should be emptied any time icemaker power button is turned to off position	768
+fruit is ready to be used	769
+frequent opening of door or storing lot of vegetables in refrigerator	770
+cover should be pushed back into place	771
+to close ice compartment	772
+control panel beeps and temperature settings display to confirm that display mode ( for store use only ) is deactivated	773
+even though glass cover is tempered glass	774
+fresh air filter button	775
+accumulated during shipping	776
+frozen food	777
+replace water filter approximately every six months	778
+ice passage may become blocked with frost	779
+you are leaving home for short period like short vacation	780
+sentence_list_ldyvyv	781
+water filter should be replaced approximately every six months	782
+function automatically turns on	783
+sentence_list_ksbexl	784
+heavy	785
+display remains off until door is opened or button is pressed	786
+if icemaker is turned off for extended period of time ice compartment will gradually warm up to temperature of refrigerator compartment	787
+clump happens	788
+sound of ice	789
+in freezer compartment to ensure proper cooling	790
+putting food in refrigerator	791
+entire area should be wiped with damp cloth	792
+do not clean glass shelves with warm water while glass shelves are cold	793
+to this power saving mode to reduce energy consumption	794
+if ambient temperature will drop below freezing have qualified technician drain water supply system to prevent serious property damage due to flooding caused by ruptured water lines or connections	795
+wi-fi button allows refrigerator to connect to home wi-fi network	796
+storage times will vary according to quality and type of food type of packaging or wrap used ( how airtight and moisture-proof ) and storage temperature	797
+this amount may vary according to environment ( ambient temperature around appliance frequency of door being opened amount of food stored in appliance etc	798
+toggle between power mode and auto mode	799
+sentence_list_qxt5c5	800
+2 5 gallons of water should not be dispensed continuously	801
+fingers should not be placed in automatic icemaker	802
+thin	803
+lint from cloth	804
+door-in-door is only available on some models	805
+are simply means that moisture in food and air inside sealed package have condensed creating ice crystals	806
+refrigerator shelves are adjustable to meet individual storage needs	807
+humidity controlled crispers	808
+repeatedly to select new set temperature from 33 ° f to 43 ° f 1 ° c to 7 ° c	809
+humidity controlled crispers is only available on some models	810
+if ice bin is completely filled with ice ice production will stop	811
+water filter	812
+turn off water supply and contact lg electronics customer information center	813
+frost	814
+putting food in refrigerator before refrigerator has cooled could cause food to spoil or bad odor to remain inside refrigerator	815
+refrigerator compartment	816
+food should be washed before storing food in refrigerator	817
+makes is normal	818
+sentence_list_5i7u0k	819
+to remove door bins lift up and pull out	820
+newly installed refrigerator to begin making ice	821
+sentence_list_oc2i4t	822
+once turned on sabbath mode is maintained even after power outage	823
+automatic icemaker	824
+freezer icemaker ( cubed ice ) is only available on some models	825
+display mode ( for store use only ) disables all cooling in refrigerator and freezer sections to conserve energy while on display in retail store	826
+if discolored ice is dispensed check water filter and water supply	827
+date code should be checked to ensure freshness for dated products	828
+do not put more unfrozen food into your freezer than will freeze within 24 hours ( no more than 2 to 3 pounds of food per cubic foot of freezer space )	829
+cycling off in increments of ten minutes on off	830
+front half of shelf should be pulled forward to return to full shelf	831
+when you close and seal package package must not allow air or moisture in or out	832
+line up tabs on case with slots on door and push down until case snaps into place	833
+wipe water outlet or ice outlet b frequently with clean lint free cloth	834
+refrigerator door or freezer drawer	835
+lower one drawer and push one drawer in	836
+away after installation	837
+by pushing front half of shelf underneath back half of shelf	838
+sentence_list_7mprun	839
+by wiping adhesive residue off with your thumb or dish detergent	840
+cycling off in increments of five minutes off	841
+tilt cover 45 degrees and pull cover forward to remove cover	842
+package does	843
+rigid plastic containers with tight-fitting lids	844
+containers should be kept at appropriate distance from dispensers	845
+to access door-in-door compartment lightly press button on right refrigerator door handle	846
+paper non-permeable plastic wraps specified freezer-grade self-sealing plastic bags	847
+do not allow children or pets to touch or go near drawer	848
+replace fresh air filter when g icon turns on	849
+check	850
+keep hands and tools out of ice compartment door and dispenser chute	851
+glass cover is broken	852
+eating fresh fish and shellfish same day purchased is recommended	853
+successful freezing	854
+sentence_list_q7t4r2	855
+forward	856
+you will hear sound of ice dropping into bin and water running in pipes as icemaker refills	857
+contact lg electronics customer information center	858
+sentence_list_n9c3m7	859
+indicates set temperature of refrigerator compartment in celsius ( ° c ) or fahrenheit ( ° f )	860
+to prevent accidental child and pet entrapment or suffocation risk do not allow children or pets to touch or go near drawer	861
+cooling hot foods saves energy	862
+all cooling in freezer sections to conserve energy	863
+wrap in freezer packaging and freeze	864
+sentence_list_hybiic	865
+shelves may break	866
+large quantity of food	867
+follow package or container instructions for proper freezing methods	868
+flow of cold air	869
+refrigerator is in power saving mode	870
+freezer icemaker cubed ice produces 12 cubes at time 50-110 pieces within 24 hour period	871
+bread wrappers non-polyethylene plastic containers containers without tight lids wax paper or wax-coated freezer wrap thin semi-permeable wrap	872
+there is still risk of injury	873
+volume will decrease as temperature decreases	874
+door is opened	875
+allow hot foods to cool at room temperature for 30 minutes and then package and freeze	876
+if ice or water dispenses unexpectedly turn off water supply and contact lg electronics customer information center	877
+first ice and water dispensed may include particles or odor from water supply line or water tank	878
+either of refrigerator doors	879
+food	880
+ice	881
+open doors completely and remove contents of door-in-door case	882
+freezer icemaker cubed ice	883
+icemaker power button is turned to off position	884
+press dispenser switch with glass or other container to dispense cubed ice water or crushed ice	885
+producing ice	886
+blocked with frost	887
+do not put more unfrozen food into your freezer	888
+to turn sabbath mode off manually press and hold freezer and vacation buttons for 3 seconds	889
+refer to smart functions for information on initial setup of lg thinq app	890
+door bin	891
+sentence_list_7xkqx3	892
+sentence_list_eb2gxt	893
+on touch display to activate sabbath mode then press and hold freezer and vacation buttons for 3 seconds until appears in display	894
+remove one drawer from one drawer guides	895
+excessive force should not be applied	896
+opened	897
+durabase divider is removed	898
+activate display mode for store use only	899
+you to organize durabase area into 2 sections	900
+bin	901
+leafy vegetables	902
+ruptured water lines or connections	903
+open ice compartment	904
+button	905
+serious property damage due to flooding	906
+ice plus function increases both ice making and freezing capabilities	907
+connect power supply	908
+refrigerator is not connected to water supply	909
+refrigerator should be allowed to run for at least two to three hours before putting food in refrigerator	910
+keep hands away from icemaker tray area to avoid personal injury	911
+top of refrigerator	912
+automatic icemaker on/off	913
+wipe off condensation with clean cloth or paper towel	914
+doors are opened or closed too often	915
+both ice making	916
+freezer guide or reliable cookbook	917
+dispenser tray	918
+door bins	919
+if set to power mode fresh air filter stays on continuously for four hours cycling on and off in increments of ten minutes on and five minutes off	920
+h icon turns on	921
+f icon illuminates when refrigerator is connected to home wi-fi network	922
+glass	923
+hold cup beneath dispenser for few seconds after dispensing to catch all of drops	924
+repeatedly to select new set temperature from 33 ° f to 46 ° f 1 ° c to 8 ° c	925
+to remove in-door ice bin grip front handle slightly lift bottom and slowly pull out in-door ice bin as shown	926
+clean refrigerator thoroughly and wipe off all dust that accumulated during shipping	927
+sentence_list_5pzyg6	928
+press button for desired dispenser mode on dispenser control panel	929
+are simply means	930
+slide door bin in above desired support and push down until door bin snaps into place	931
+when full in-door ice bin holds approximately 6 to 8 ( 12-16 oz )	932
+to remove one drawer from one drawer guides and pull straight out	933
+refrigerator is kept in hot and humid place	934
+normal sounds you may hear	935
+do not place fingers in automatic icemaker	936
+to turn sabbath mode on touch display to activate sabbath mode then press and hold freezer and vacation buttons for 3 seconds until appears in display	937
+ice crystals inside sealed package	938
+lift up and pull out	939
+to assemble door bin slide door bin in above desired support and push down until door bin snaps into place	940
+sentence_list_lw72qr	941
+amount of humidity in humidity controlled crispers	942
+detaching or assembling storage bins	943
+favorable	944
+ice and water outlet	945
+fresh air filter has two settings auto and power	946
+sentence_list_eq8kif	947
+away from dispenser	948
+sentence_list_80bh6h	949
+door-in-door outer door bins	950
+with glass or other container to dispense cubed ice water or crushed ice	951
+dispenser will not operate when either of refrigerator doors is open	952
+two settings	953
+dispense and throw away 2 5 gallons of water ( flush for approximately 5 minutes ) after installation	954
+once on display remains on for 20 seconds	955
+display remains on for 20 seconds	956
+sabbath mode is maintained even after power outage	957
+clean	958
+manually press and hold express frz	959
+door-in-door case	960
+select button should be pressed to choose between produce cold deli colder and meat coldest	961
+lower front of shelf so that shelf hooks drop into slots	962
+contents may expand when frozen break container and cause injury	963
+to turn sabbath mode on touch display to activate sabbath mode then press and hold freezer and wi-fi buttons for 3 seconds until appears in display	964
+cold air in ice bin	965
+easier	966
+pull front half of shelf forward to return to full shelf	967
+sentence_list_u6wki8	968
+level from one side to other	969
+to remove door bin simply lift door bin up and pull straight out	970
+pull out drawer until drawer stops lift front up and pull straight out	971
+foreign substances or frost on ice-detecting sensor	972
+replace fresh air filter	973
+first ice and water dispensed	974
+ice is dispensed into glass	975
+water filter and water supply should be checked	976
+take care	977
+conditions	978
+storage space	979
+take care when removing or assembling glass cover not to catch hands between glass cover and drawers	980
+lift front of one drawer to remove one drawer from one drawer guides and pull straight out	981
+if icemaker power button is in on position icemaker power button will buzz even if icemaker power button has not yet been hooked up to water	982
+shelf hooks drop into slots	983
+front of cover detaches from back wall of cabinet	984
+into your freezer	985
+pushing front half of shelf underneath back half of shelf	986
+replace water filter	987
+buzz	988
+glass containers	989
+avoid spilling	990
+sentence_list_bpcqoq	991
+doing so may cause damage to bin or personal injury	992
+feeler arm power switch	993
+vacation button	994
+if durabase divider is removed there is enough open space for children or pets to crawl inside	995
+cooling hot foods	996
+in your freezer	997
+sentence_list_tywj79	998
+turn function on/off	999
+be careful to leave enough room at front so door can close tightly	1000
+freezer icemaker begins producing ice	1001
+fresh air filter	1002
+food with high moisture content could come into direct contact with cold air and freeze	1003
+accommodate items of different sizes	1004
+to change temperature mode from ° f to ° c ( or vice versa ) press and hold refrigerator and freezer buttons simultaneously for approximately five seconds	1005
+how airtight and moisture-proof	1006
+food with high moisture content could come in direct contact with cold air and freeze	1007
+dispenser	1008
+alarm functions	1009
+in event of power outage throw away ice stored in ice bin	1010
+do not peel off model or serial number label or technical information on rear surface of refrigerator	1011
+few days	1012
+desired dispenser mode	1013
+ice plus increases both ice making and freezing capabilities	1014
+f icon blinks then turns on once connection is successfully made	1015
+moist air	1016
+carefully insert in-door ice bin	1017
+children or pets	1018
+lock function disables every other button on display	1019
+same procedure should be used to activate display mode for store use only	1020
+f icon shows status of refrigerator network connection	1021
+air	1022
+freezer icemaker (cubed ice)	1023
+refrigerator button	1024
+sentence_list_jotzy5	1025
+do not clean glass shelves with warm water	1026
+regularly detach and wash storage bins and shelves; storage bins and shelves can become easily contaminated by food	1027
+damage or personal injury	1028
+with either refrigerator door opened press express frz	1029
+avoid touching auto shutoff ( feeler arm ) when replacing in-door ice bin	1030
+problem is corrected	1031
+throw is also necessary if refrigerator has not been used for long time	1032
+leave enough space in your freezer for air to circulate around packages	1033
+lift front of cover with one hand and support underneath cover with other hand	1034
+approximately every six months	1035
+durabase	1036
+sentence_list_s2rbcd	1037
+extended period of time	1038
+vegetables should be washed	1039
+door-in-door inner and outer door bins are removable for easy cleaning	1040
+if you are leaving refrigerator turned off for extended period remove all food and unplug power cord	1041
+opened in covered dish or closed compartment	1042
+children should be kept away from dispenser	1043
+repeat to remove second drawer	1044
+if ice compartment door is not closed tightly cold air in ice bin will freeze food in refrigerator compartment	1045
+24-hour period	1046
+ice or water dispenses unexpectedly	1047
+normal	1048
+freezer button	1049
+cycling on	1050
+slightly tilt up front insert crisper into frame and push crisper back into place	1051
+such containers may chip or break resulting in glass fragments in ice	1052
+after replacing fresh air filter press and hold fresh air filter button for three seconds to turn icon light off	1053
+sentence_list_tw7jtj	1054
+sound of ice dropping into water	1055
+do not dispense 2 5 gallons of water continuously	1056
+refrigerated foods will stay preserved longer if stored in freezer	1057
+durabase divider allows you to organize durabase area into 2 sections	1058
+to disable lock function press and hold lock button for approximately three seconds	1059
+to clean storage bins and shelves	1060
+sentence_list_2putjk	1061
+refrigerator button should be pressed repeatedly to select new set temperature from 33 ° f to 43 ° f 1 ° c to 7 ° c	1062
+ice compartment will gradually warm up to temperature of refrigerator compartment	1063
+taller items such as gallon containers or bottles should be stored by pushing front half of shelf underneath back half of shelf	1064
+when power is initially connected to refrigerator lock function is off	1065
+front of cover	1066
+illuminate icon	1067
+smart grid button	1068
+lightly press button on right refrigerator door handle	1069
+dispense ice into glass before filling glass with water or other beverages	1070
+shelf	1071
+displayed temperature	1072
+sentence_list_0zpdk1	1073
+condensation should be wiped off with clean cloth or paper towel	1074
+from ° f to ° c or vice versa press and hold refrigerator and freezer buttons simultaneously for approximately five seconds	1075
+by removing in-door ice bin and clearing ice passage with rubber spatula	1076
+with either refrigerator door opened	1077
+store vegetables	1078
+from buttons on dispenser control panel	1079
+in automatic icemaker	1080
+sentence_list_4fbu2k	1081
+select desired dispenser mode from buttons on dispenser control panel	1082
+button 3 times consecutively	1083
+turn off icemaker if refrigerator is not yet connected to water supply	1084
+when dispensing ice from dispenser do not use fragile container	1085
+replace fresh air filter approximately every six months	1086
+frozen	1087
+further information about preparing food for freezing or food	1088
+you are leaving refrigerator turned off for extended period	1089
+humidity controlled crispers provide fresher tasting fruit and vegetables by letting you easily control humidity inside drawer	1090
+do not overfill or pack items too tightly into door bins	1091
+confirm	1092
+press and hold lock button for approximately three seconds	1093
+of ice compartment door chute	1094
+date code	1095
+sentence_list_skrpme	1096
+some dripping may occur after dispensing	1097
+ice compartment door	1098
+cover	1099
+use special care	1100
+correct packaging	1101
+button until led lights up on control panel	1102
+clean cloth or paper towel	1103
+ice within in-door ice bin	1104
+beneath dispenser for few seconds after dispensing to catch all of drops	1105
+longer	1106
+use same procedure to activate display mode ( for store use only )	1107
+horizontal position	1108
+this drawer should not be used to store vegetables	1109
+when this power saving mode is on other buttons on control panel are locked	1110
+lg electronics customer information center should be contacted	1111
+in-door icemaker	1112
+wipe water outlet or ice outlet b frequently with clean lint free cloth as water outlet or ice outlet b may get dirty easily	1113
+actual temperature of refrigerator	1114
+handle should be pulled to open ice compartment	1115
+display mode for store use only is deactivated	1116
+to turn sabbath mode off manually press and hold freezer and wi-fi buttons for 3 seconds	1117
+containers	1118
+side	1119
+crisper drawers	1120
+actual control panel may differ from model to model	1121
+off manually press and hold freezer and wi-fi buttons for 3 seconds	1122
+if refrigerator is kept in hot and humid place frequent opening of door or storing lot of vegetables in refrigerator may cause condensation to form	1123
+sound of ice dropping into bin	1124
+at appropriate distance from dispensers	1125
+regularly detach and wash storage bins and shelves	1126
+power supply is connected before use	1127
+supporting cover with one hand	1128
+to turn icon light off	1129
+icemaker water valve may buzz if icemaker is turned on while refrigerator is not connected to water supply	1130
+may be affected	1131
+sound of ice dropping into ice bin	1132
+choose between produce cold deli colder and meat coldest	1133
+pull straight out	1134
+check if power supply is connected before use	1135
+sentence_list_g5bzyo	1136
+refrigerated foods that are able to be frozen will stay preserved longer if stored in freezer	1137
+ice plus button should be pressed to illuminate icon and activate ice plus for 24 hours	1138
+adjustable to meet individual storage needs	1139
+on touch display to activate sabbath mode then press and hold freezer and wi-fi buttons for 3 seconds until appears in display	1140
+ice-making stops	1141
+sabbath mode is used on jewish sabbath and holidays	1142
+gently pull handle to open ice compartment	1143
+food packaging	1144
+to illuminate icon and activate ice plus for 24 hours	1145
+ensure proper cooling	1146
+fruit lets moist air out of crisper for best storage of fruit	1147
+lit	1148
+never use glass	1149
+to increase ice production use ice plus function	1150
+sentence_list_jbzm1q	1151
+front of shelf should be lowered	1152
+more unfrozen food should not be put into your freezer	1153
+used with lg thinq app	1154
+hands and tools	1155
+to turn automatic icemaker on/off press power switch on automatic icemaker to on ( | ) or off ( o ) position	1156
+once opened rewrap tightly in plastic wrap or aluminum foil	1157
+wipe milk cartons	1158
+sentence_list_im5s7x	1159
+vegetables keeps moist air in crisper for best storage of fresh leafy vegetables	1160
+display remains off	1161
+temperature settings	1162
+contains alcohol flammable liquid or abrasive when removing any tape or adhesive from refrigerator	1163
+sentence_list_zz27xo	1164
+food with high moisture content	1165
+wash food before storing food in refrigerator	1166
+reduce energy consumption	1167
+failure to do so	1168
+when refrigerator is in power saving mode display remains off until door is opened or button is pressed	1169
+fresh air filter should be replaced approximately every six months	1170
+dispensing to catch all of drops	1171
+press select button to choose between produce ( cold ) deli ( colder ) and meat ( coldest )	1172
+if refrigerator door or freezer drawer is opened or closed too often warm air may penetrate refrigerator and raise refrigerator temperature	1173
+adjusting refrigerator shelves to fit items of different heights will make finding exact item you want easier	1174
